@@ -1,14 +1,19 @@
-Welcome and thanks for purchasing AppifyWP Pro! This is a premium WordPress theme designed for App developers to promote their apps online. If you need help you can email support@appifywp.com.
+# AppifyWP Pro
+AppifyWP Pro is a WordPress theme for creating app landing pages that supports multiple apps, team members, and more.
+
+Visit [appifywp.com](www.appifywp.com) for demos, info, and support forums.
+
+If you'd like to contribute, feel free to send a pull request.
  
  
-REQUIREMENTS
+## Requirements
 
 - Wordpress 3.5 or higher
 - Self-hosted version of WordPress (wordpress.org not wordpress.com)
 - PHP 5 or higher
 
 
-APPIFYWP PRO INSTALLATION INSTRUCTIONS
+## Installation Instructions
 
 
 1) Install WordPress
@@ -31,14 +36,13 @@ APPIFYWP PRO INSTALLATION INSTRUCTIONS
 
 5) Visit your site and follow the Getting Started guide
 
-TROUBLESHOOTING
-
+## Troubleshooting
 - If you dont see the getting started guide, go to wp-admin > Appearance > Reading, then make sure that "Your latest posts" is selected, and press save.
 
 - If your AppifyWP Pro settings aren't working, ensure you have at least WordPress 3.5 installed
 
 
-TIPS & NOTES 
+## Tips & Notes
 
 - If you're adding AppifyWP to an existing site, it's highly recommended that you always backup your WordPress site (files and database) before activating a new theme or making updates.
 
@@ -49,7 +53,7 @@ http://appifywp.com/keeping-your-wordpress-installation-secure/
 
 
 
-APPIFYWP UPGRADE INSTRUCTIONS
+## Upgrade Instructions
 
 IMPORTANT UPGRADE NOTE: If you've made any customizations to the theme source files (*.php, *.css, *.js), your changes will not be in the upgraded version. You will have to fetch your changes from the old version and bring them into the new version.
 
@@ -60,7 +64,7 @@ ALSO: It's always a good idea to backup your site and theme files before an upgr
 - All of your AppifyWP Pro settings and Apps will carry over to the new version.
 
 
-DEMO SITE IMPORT
+## Demo Site Import
 
 If you'd like to make your site look like http://prodemo.appifywp.com as a starting point, you can import the Demo XML file (!Demo_Data_AppifyWP_Prov1.xml) into your WordPress site via wp-admin > Tools > Import.
 
