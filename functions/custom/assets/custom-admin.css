@@ -1,0 +1,48 @@
+.platform-icon {
+	padding: 2px 8px;
+	background: #333;
+	color: #fff;
+	float: left;
+	letter-spacing: 1px;
+	font-weight: bold;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.icon-ipad,
+.icon-iphone {
+	background: #555;
+}
+.icon-android-phone,
+.icon-android-tablet {
+	background: #82b02b;
+}
+.icon-window-phone {
+	background: #053871;
+}
+#toplevel_page_theme_setting #adminmenu .wp-menu-image img {
+	padding: 4px 0 0 1px;
+}
+.icon32-posts-app {
+	background: url(../../assets/icons/apps_32.png) no-repeat !important;
+	opacity: 1;
+}
+
+.icon32-posts-team {
+	background: url(../../assets/icons/team_64.gif) no-repeat !important;
+	opacity: 1;
+}
+
+.icon32-posts-slide {
+	background: url(./images/slide.png) no-repeat !important;
+	opacity: 0.6;
+}
+.icon32-posts-portfolio {
+	background: url(./images/portfolio.png) no-repeat !important;
+	opacity: 0.6;
+}
+.icon32-posts-custom_sidebar {
+	background: url(./images/custom-sidebar.png) no-repeat !important;
+	opacity: 0.7;
+}

@@ -1,0 +1,138 @@
+// HEADER STYLES
+
+.navbar {
+	margin-bottom: 0;
+	position: relative;
+	z-index: 9999 !important;
+}
+
+.navbar-relative-top .navbar-inner {
+	border: 0;
+	.box-shadow(none);
+	position: relative;
+	background-image:none;
+	padding: 0;
+}
+
+
+#branding a.logo, #branding a.logo:hover {
+	text-decoration: none;
+	display: block;
+	margin-bottom: 15px;
+	line-height: 1.3em;
+	position: relative;
+	z-index: 1;
+	font-size:30px;
+	margin-top: 12px;
+}
+
+.logo {
+ img {
+   max-height: 150px;
+ }
+}
+
+#site-description {
+	margin-bottom: 15px;
+}
+
+
+// Menu
+
+#main-menu {
+	float: right;
+	margin: 0;
+	margin-top:15px;
+	margin-bottom:15px;
+	
+	li {
+		font-size: 18px;
+		margin-left: 3px;
+
+		&.current-menu-item a {
+			.opacity(1);
+		}
+	}
+
+	a {
+		padding: 26px 15px 25px 15px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		.border-radius();
+		-webkit-transition-property: opacity, 
+  		-webkit-transform;
+  		-webkit-transition-duration: 0.2s, 0.2s;
+     	-moz-transition-property: -moz-opacity, -moz-transform;
+     	-moz-transition-duration: 0.2s, 0.2s;
+     	-ms-transition-property: -ms-opacity, -ms-transform;
+      	-ms-transition-duration: 0.2s, 0.2s;
+		-o-transition-property: -o-opacity, -o-transform;
+		-o-transition-duration: 0.2s, 0.2s;
+		transition-property: opacity, transform;
+		transition-duration: 0.2s, 0.2s;
+		animation-timing-function:ease-out;
+		-moz-animation-timing-function:ease-out;
+		-webkit-animation-timing-function:ease-out;
+		-o-animation-timing-function:ease-out;
+		.opacity(0.8);
+	}
+
+	a:hover {
+		.opacity(1);
+	}
+
+	a:focus{
+		//background: rgba(0,0,0,0.1);
+	}
+
+	.dropdown-menu {
+
+		z-index: 9999;
+
+		a {
+			padding: 10px 20px;
+			
+			&:hover {
+			  background: none;
+			  .opacity(1);
+			  color: black;
+			}
+		}
+	}
+}
+
+.navbar {
+	
+	position: relative;
+	z-index: 999;
+	color: inherit;
+
+	
+	//.drop-shadow(0, 8px, 20px, 0, 0.2);
+
+	.nav > li > a {
+		text-shadow: none;
+	}
+
+	.nav > li:first-child > a {
+		padding-left: 0;
+	}
+
+	.navbar-inner {
+		.border-radius (0px);
+		background-color: #DDDDDD;
+	}
+
+}
+
+.btn-navbar {
+	z-index: 9999;
+	position: relative;
+}
+
+
+// Branding
+
+#site-title {
+	float: left;
+}

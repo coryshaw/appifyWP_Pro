@@ -1,0 +1,2432 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AppifyWP Pro\n"
+"POT-Creation-Date: 2013-10-03 14:24-0700\n"
+"PO-Revision-Date: 2013-10-03 14:24-0700\n"
+"Last-Translator: Cory Shaw <support@appifywp.com>\n"
+"Language-Team: Cory Shaw <support@appifywp.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/wp-content/themes/AppifyWP_Pro/"
+"languages/\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:15
+msgid "Page Not Found"
+msgstr "Страница не найдена"
+
+#: ../404.php:16
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr "Кажется, мы не можем найти то, что вы ищете. Возможно, поиск, или одну из ссылок ниже, может помочь."
+
+#: ../404.php:31
+msgid "Most Used Categories"
+msgstr "Наиболее часто используемые категории"
+
+#: ../archive-app.php:43 ../functions.php:433 ../functions/options/apps.php:56
+#: ../functions/types/app/register.php:8
+msgid "Apps"
+msgstr "Приложения"
+
+#: ../archive-app.php:149 ../archive-team.php:78 ../template-apps.php:134
+#: ../template-team.php:65 ../platforms/platform_loop_home.php:74
+#: ../platforms/platform_loop_home_carosel.php:74
+msgid "More Info"
+msgstr "Подробнее"
+
+#: ../archive-team.php:43 ../functions/types/team/register.php:8
+msgid "Team"
+msgstr "КОМАНДА"
+
+#: ../archive.php:25 ../archive.php:46
+msgid "Archives"
+msgstr "Архивы"
+
+#: ../author.php:39
+msgid "Author Archives"
+msgstr "Авторские архивы:"
+
+#: ../comments.php:14
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "Эта запись защищена паролем. Введите пароль для просмотра комментариев."
+
+#: ../functions.php:29
+msgid "Main Menu"
+msgstr "Главное меню"
+
+#: ../functions.php:109
+msgid "Older posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Новые сообщения <span class=\"meta-nav\"> → </span>"
+
+#: ../functions.php:113
+msgid "<span class=\"meta-nav\">&larr;</span> Newer posts"
+msgstr "<span class=\"meta-nav\"> ← </span> Старые сообщения"
+
+#: ../functions.php:141
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../functions.php:141 ../functions.php:166
+msgid "(Edit)"
+msgstr "[изменить]"
+
+#: ../functions.php:154
+#, php-format
+msgid "%s"
+msgstr "% S"
+
+#: ../functions.php:156
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: ../functions.php:195
+#, php-format
+msgid ""
+"<span class=\"sep\">Posted on </span><time class=\"entry-date\" datetime="
+"\"%3$s\" pubdate>%4$s</time><span class=\"byline\"> <span class=\"sep\"> by "
+"</span> <span class=\"label author vcard\"><a class=\"url fn n\" href=\"%5$s"
+"\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "<span class=\"sep\"> Опубликован </ span> <время класс = \ "начальная дата \" DateTime = \ " %3$s \ "PubDate> %4$s </ времени> <промежуток класс = \ "подписи автора \"> <span class=\"sep\"> на </ span> <span class=\"label автор vcard\"> <класс = \ "URL Fn N \" HREF = \ " %5$s \ "название = \" %6$s \ "отн = \" автора \ "> %7$s </ A> </ span> </ span>"
+
+#: ../functions.php:201
+#, php-format
+msgid "View all posts by %s"
+msgstr "Просмотр всех сообщений от %s"
+
+#: ../functions.php:359 ../functions/options/content.php:6
+msgid "Page"
+msgstr "страница"
+
+#: ../functions.php:424 ../functions/custom/config.php:6
+msgid "AppifyWP Pro"
+msgstr "AppifyWP Pro"
+
+#: ../functions.php:429 ../functions/admin/functions/theme-setting.php:6
+msgid "AppifyWP Pro Settings"
+msgstr "AppifyWP Pro Настройки"
+
+#: ../functions.php:438
+msgid "Team Members"
+msgstr "Члены команды"
+
+#: ../functions.php:443 ../functions/admin/admin.php:64
+msgid "Documentation"
+msgstr "Документация"
+
+#: ../header.php:28 ../functions/functions/theme-items.php:17
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: ../search.php:23
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: ../search.php:37
+msgid "No Results Found"
+msgstr "Результаты не найдены"
+
+#: ../search.php:39
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps you "
+"should try again with a different search term."
+msgstr "Кажется, мы не можем найти то, что вы ищете. Возможно, вам следует попробовать еще раз с другим термином поиска."
+
+#: ../sidebar.php:15
+#, php-format
+msgid ""
+"You can add widget to <strong>\"%s\"</strong> widget area by going to "
+"<strong>Appearance > Widget</strong>"
+msgstr "Вы можете добавить виджет <strong> \ " %s \ "</ STRONG> виджет-зону, перейдя в <strong> Внешний вид> виджетов </ STRONG>"
+
+#: ../functions/admin/admin.php:63
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../functions/admin/functions/file-uploader.php:39
+msgid "Getting content length is not supported."
+msgstr "Получение длины содержимого не поддерживается."
+
+#: ../functions/admin/functions/file-uploader.php:94
+msgid "increase post_max_size and upload_max_filesize to"
+msgstr "увеличить post_max_size и upload_max_filesize в"
+
+#: ../functions/admin/functions/file-uploader.php:114
+msgid "Server error. Upload directory isn't writable."
+msgstr "Ошибка сервера. Загрузить каталог не доступен для записи."
+
+#: ../functions/admin/functions/file-uploader.php:118
+msgid "No files were uploaded."
+msgstr "Файлы не были загружены."
+
+#: ../functions/admin/functions/file-uploader.php:124
+msgid "File is empty"
+msgstr "Файл пустой"
+
+#: ../functions/admin/functions/file-uploader.php:128
+msgid "File is too large"
+msgstr "Слишком большой файл"
+
+#: ../functions/admin/functions/file-uploader.php:138
+msgid "File has an invalid extension, it should be one of "
+msgstr "Файл имеет недопустимое расширение, он должен быть одним из "
+
+#: ../functions/admin/functions/file-uploader.php:152
+msgid ""
+"Could not save uploaded file.The upload was cancelled, or server error "
+"encountered"
+msgstr "Невозможно сохранить закачанный file.The загрузка была отменена или ошибке сервера столкнулись"
+
+#: ../functions/admin/functions/theme-document.php:20
+msgid "AppifyWP Documentation"
+msgstr "AppifyWP Документация"
+
+#: ../functions/admin/functions/theme-setting.php:45
+msgid "Settings Saved"
+msgstr "Параметры сохранены."
+
+#: ../functions/custom/config.php:25 ../functions/custom/config.php:26
+msgid "Sidebar Widget Area"
+msgstr "Боковая панель виджет-зону"
+
+#: ../functions/custom/config.php:33
+msgid "Footer 1st Column"
+msgstr "Footer 1-й столбец"
+
+#: ../functions/custom/config.php:34
+msgid "1st Footer Widget Area"
+msgstr "1-й Область нижнего колонтитула Виджет"
+
+#: ../functions/custom/config.php:40
+msgid "Footer 2nd Column"
+msgstr "Footer 2-й колонке"
+
+#: ../functions/custom/config.php:41
+msgid "2nd Footer Widget Area"
+msgstr "Область нижнего колонтитула второй Виджет"
+
+#: ../functions/custom/config.php:47
+msgid "Footer 3rd Column"
+msgstr "Footer 3-я колонка"
+
+#: ../functions/custom/config.php:48
+msgid "3rd Footer Widget Area"
+msgstr "3-й Область нижнего колонтитула Виджет"
+
+#: ../functions/custom/config.php:54
+msgid "Footer 4th Column"
+msgstr "Footer 4-й колонке"
+
+#: ../functions/custom/config.php:55
+msgid "4th Footer Widget Area"
+msgstr "4-й Область нижнего колонтитула Виджет"
+
+#: ../functions/custom/config.php:77 ../functions/options/appearance.php:210
+#: ../functions/types/portfolio/content.php:99
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: ../functions/custom/config.php:78 ../functions/options/header.php:117
+msgid "Header"
+msgstr "Шапка"
+
+#: ../functions/custom/config.php:79 ../functions/options/footer.php:7
+#: ../functions/options/footer.php:71
+msgid "Footer"
+msgstr "Подвал"
+
+#: ../functions/custom/config.php:80
+msgid "Homepage"
+msgstr "Домашняя страничка"
+
+#: ../functions/custom/config.php:81 ../functions/options/apps.php:9
+#: ../functions/types/app/content.php:257
+#: ../functions/types/app/content.php:374
+#: ../functions/types/app/content.php:504
+#: ../functions/types/app/content.php:633
+#: ../functions/types/app/content.php:757
+#: ../functions/types/app/content.php:878
+#: ../functions/types/app/content.php:999
+#: ../functions/types/app/content.php:1105
+#: ../functions/types/app/content.php:1212
+msgid "Slideshow"
+msgstr "Слайд-шоу"
+
+#: ../functions/custom/config.php:82 ../functions/options/blog.php:8
+#: ../functions/options/blog.php:38
+msgid "Blog"
+msgstr "Блог"
+
+#: ../functions/custom/config.php:83 ../functions/options/advanced.php:98
+msgid "Advanced"
+msgstr "advanced"
+
+#: ../functions/custom/config.php:88
+#: ../functions/functions/update-notifier.php:29
+msgid "Update"
+msgstr "Обновить"
+
+#: ../functions/custom/config.php:89
+msgid "Credits"
+msgstr "Зачет"
+
+#: ../functions/custom/config.php:90
+msgid "Support"
+msgstr "Поддержка"
+
+#: ../functions/custom/custom-hook.php:91
+msgid "This post is password protected. Please fill the password:"
+msgstr "Это сообщение защищено паролем. Пожалуйста, заполните Пароль:"
+
+#: ../functions/custom/custom-hook.php:93
+msgid "Password"
+msgstr "Пароль"
+
+#: ../functions/functions/resize.php:42 ../functions/functions/resize.php:171
+msgid "No image URL has been entered."
+msgstr "Нет изображения URL не был введен."
+
+#: ../functions/functions/resize.php:230
+msgid "Failed to get $file_path information using \"@getimagesize\"."
+msgstr "Не удалось получить $ file_path информации с помощью \ "@ getimagesize \"."
+
+#: ../functions/functions/resize.php:273
+msgid "Resize path invalid (GIF)"
+msgstr "Изменить размер путь недействительным (GIF)"
+
+#: ../functions/functions/resize.php:277
+msgid "Resize path invalid (PNG)."
+msgstr "Изменить размер путь недействительным (PNG)."
+
+#: ../functions/functions/resize.php:285
+msgid "Resize path invalid (JPG)."
+msgstr "Изменить размер путь недействительным (JPG)."
+
+#: ../functions/functions/resize.php:300
+msgid "Failed to get $dest_file_name (resized image) info via @getimagesize"
+msgstr "Не удалось получить $ dest_file_name (уменьшенное изображение) информации через @ getimagesize"
+
+#: ../functions/functions/theme-ajax.php:21
+msgid "Please insert email address."
+msgstr "Пожалуйста, введите адрес электронной почты."
+
+#: ../functions/functions/theme-ajax.php:26
+#: ../functions/functions/theme-ajax.php:47
+#: ../functions/functions/theme-ajax.php:57
+#: ../functions/functions/theme-ajax.php:96
+#: ../functions/functions/theme-ajax.php:107
+#: ../functions/functions/theme-ajax.php:120
+#: ../functions/functions/theme-ajax.php:155
+msgid "Failed"
+msgstr "Ошибочные "
+
+#: ../functions/functions/theme-ajax.php:26
+msgid "email address is invalid."
+msgstr "адрес электронной почты недействителен."
+
+#: ../functions/functions/theme-ajax.php:34
+msgid "Add your MailChimp API at AppifyWP > Settings > Advanced > MailChimp"
+msgstr "Добавить MailChimp API на AppifyWP> Настройки> Дополнительно> MailChimp"
+
+#: ../functions/functions/theme-ajax.php:45
+msgid "Success!"
+msgstr "success"
+
+#: ../functions/functions/theme-ajax.php:45
+msgid "Check your email to confirm sign up."
+msgstr "Проверьте свою электронную почту для подтверждения регистрации."
+
+#: ../functions/functions/theme-ajax.php:57
+#: ../functions/functions/theme-ajax.php:107
+msgid "Honey Pot!"
+msgstr "Бидон меда"
+
+#: ../functions/functions/theme-ajax.php:73
+msgid "message from"
+msgstr "Сообщение от"
+
+#: ../functions/functions/theme-ajax.php:77
+msgid "Form ID"
+msgstr "Форм ID"
+
+#: ../functions/functions/theme-ajax.php:78
+#: ../functions/shortcodes/contact.php:43
+#: ../functions/types/custom-sidebar/content.php:17
+#: ../functions/types/custom-sidebar/manage.php:8
+#: ../functions/types/slide/content.php:16
+#: ../functions/types/team/manage.php:8
+msgid "Name"
+msgstr "Имя/название"
+
+#: ../functions/functions/theme-ajax.php:79
+#: ../functions/shortcodes/contact.php:44
+#: ../functions/widgets/contact-info.php:68
+msgid "Email"
+msgstr "E-mail"
+
+#: ../functions/functions/theme-ajax.php:80
+#: ../functions/shortcodes/contact.php:45
+msgid "Message"
+msgstr ":"
+
+#: ../functions/functions/theme-ajax.php:85
+#: ../functions/functions/theme-ajax.php:145
+msgid "This message has been sent from"
+msgstr "Это сообщение было отправлено с"
+
+#: ../functions/functions/theme-ajax.php:94
+#: ../functions/functions/theme-ajax.php:153
+msgid "Success"
+msgstr "Успех"
+
+#: ../functions/functions/theme-ajax.php:94
+#: ../functions/functions/theme-ajax.php:153
+msgid "your message has been sent."
+msgstr "Ваше сообщение отправлено"
+
+#: ../functions/functions/theme-ajax.php:96
+#: ../functions/functions/theme-ajax.php:155
+msgid "some issue occur while sending your message"
+msgstr "Hrmmm"
+
+#: ../functions/functions/theme-ajax.php:120
+msgid "please fill the message."
+msgstr "Пожалуйста, заполните сообщении."
+
+#: ../functions/functions/theme-ajax.php:139 ../functions/options/home.php:46
+msgid "Application"
+msgstr "приложение"
+
+#: ../functions/functions/theme-ajax.php:140 ../functions/options/home.php:15
+msgid "Type"
+msgstr "Тип"
+
+#: ../functions/functions/theme-items.php:61
+msgid "No Comments"
+msgstr "Нет коментариев &raquo;"
+
+#: ../functions/functions/theme-items.php:61
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: ../functions/functions/theme-items.php:61
+msgid "% Comments"
+msgstr "% Комментарии"
+
+#: ../functions/functions/theme-items.php:65
+msgid "Tags: "
+msgstr "Теги: "
+
+#: ../functions/options/advanced.php:22
+msgid "Responsive"
+msgstr "Отзывчивый"
+
+#: ../functions/options/advanced.php:27
+msgid "Responsive Layout"
+msgstr "Адаптивный Макет"
+
+#: ../functions/options/advanced.php:28
+msgid ""
+"Turn off to disable responsive layout (your site will look identical on all "
+"devices)"
+msgstr "Отключить, чтобы отключить реагировать макета (сайт будет выглядеть идентично на все устройства)"
+
+#: ../functions/options/advanced.php:37
+msgid "Misc"
+msgstr "Разное"
+
+#: ../functions/options/advanced.php:43
+msgid "Sticky Sidebar"
+msgstr "Важная Sidebar"
+
+#: ../functions/options/advanced.php:44
+msgid ""
+"Turn on and the sidebar on your posts, pages, and apps will scroll with your "
+"visitors"
+msgstr "Включите и врезке на свои сообщения, страниц и приложений будет прокручиваться с посетителями"
+
+#: ../functions/options/advanced.php:52
+msgid "AppifyWP Affiliate ID"
+msgstr "AppifyWP Партнерский ID"
+
+#: ../functions/options/advanced.php:53
+#, php-format
+msgid ""
+"Make money by refering people to AppifyWP. Earn 30% of all sales referred by "
+"links containing your AppifyWP Affiliate ID<br><a target=\"_blank\" href="
+"\"http://appifywp.com/affiliate-program\">Affiliate Program Signup</a>"
+msgstr "Сделать деньги с помощью ссылки людям AppifyWP. Заработайте 30% от всех продаж, перешедшие по ссылкам содержащий AppifyWP Партнерский ID <br> <a target=\"_blank\" href=\"http://appifywp.com/affiliate-program\"> Партнерская программа Регистрация </ >"
+
+#: ../functions/options/advanced.php:66
+msgid "Custom CSS"
+msgstr "Пользовательские CSS "
+
+#: ../functions/options/advanced.php:80
+msgid "Export Options"
+msgstr "Параметры экспорта"
+
+#: ../functions/options/advanced.php:81
+msgid "copy/paste these string into blank .txt file and save it"
+msgstr "копировать / вставить эти строки в пустую. текстовый файл и сохранить его"
+
+#: ../functions/options/advanced.php:87
+msgid "Import Options"
+msgstr "Параметры импорта"
+
+#: ../functions/options/advanced.php:88
+msgid "copy string that you had saved from \"Export Option\" and paste it here"
+msgstr "Копия строку, которую спас от \ "Экспорт опцию \" и вставить его здесь"
+
+#: ../functions/options/appearance.php:15
+msgid "Favicon"
+msgstr "Favicon"
+
+#: ../functions/options/appearance.php:16
+msgid ""
+"must be \"ico\" file, you can generate it from <a href=\"http://tools."
+"dynamicdrive.com/favicon/\">here</a>"
+msgstr "должны быть \ "ICO \" файла, Вы можете создать его из <a href=\"http://tools.dynamicdrive.com/favicon/\"> здесь </ A>"
+
+#: ../functions/options/appearance.php:21
+msgid "Login Logo"
+msgstr "Войти Логотип"
+
+#: ../functions/options/appearance.php:22
+msgid "Logo to be shown on WP-Admin Login Page instead of the WordPress logo"
+msgstr "Логотип для отображения на WP-Admin странице вместо логотипа WordPress"
+
+#: ../functions/options/appearance.php:36
+#: ../functions/types/portfolio/content.php:212
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: ../functions/options/appearance.php:37
+#: ../functions/types/portfolio/content.php:213
+msgid "choose color to use as background"
+msgstr "выбрать цвет для использования в качестве фона"
+
+#: ../functions/options/appearance.php:44
+msgid "Background Texture"
+msgstr "Текстура фона"
+
+#: ../functions/options/appearance.php:45
+msgid "Choose texture to overlay on top of the background color"
+msgstr "Выберите текстуру для наложения поверх цвета фона"
+
+#: ../functions/options/appearance.php:48
+#: ../functions/types/app/content.php:78
+#: ../functions/types/portfolio/content.php:224
+#: ../functions/types/portfolio/content.php:333
+msgid "None"
+msgstr "Нет"
+
+#: ../functions/options/appearance.php:49
+msgid "Nasty Fabric"
+msgstr "Ткань Насти"
+
+#: ../functions/options/appearance.php:50
+msgid "Paper"
+msgstr "Бумага"
+
+#: ../functions/options/appearance.php:51
+msgid "Rough"
+msgstr "Черновой"
+
+#: ../functions/options/appearance.php:52
+msgid "Horizontal"
+msgstr "Горизонтальные"
+
+#: ../functions/options/appearance.php:59
+#: ../functions/types/portfolio/content.php:260
+msgid "Background Image"
+msgstr "Фоновое изображение"
+
+#: ../functions/options/appearance.php:60
+#: ../functions/types/portfolio/content.php:261
+msgid "choose image to use as background"
+msgstr "выбрать изображения для использования в качестве фона"
+
+#: ../functions/options/appearance.php:90
+msgid "Font Family"
+msgstr "Font Family "
+
+#: ../functions/options/appearance.php:91
+msgid "site wide font family"
+msgstr "Сайт широкое семейство шрифтов"
+
+#: ../functions/options/appearance.php:120 ../functions/options/header.php:49
+#: ../functions/options/header.php:94
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: ../functions/options/appearance.php:121
+msgid "site wide font size"
+msgstr "Сайт широкий размер шрифта"
+
+#: ../functions/options/appearance.php:131
+msgid "Line Height"
+msgstr "Ширина линии:"
+
+#: ../functions/options/appearance.php:132
+msgid "site wide line height"
+msgstr "Сайт широкий высоты строки"
+
+#: ../functions/options/appearance.php:142 ../functions/options/header.php:61
+msgid "Font Color"
+msgstr "Цвет шрифта"
+
+#: ../functions/options/appearance.php:149
+msgid "Link Color"
+msgstr "Цвет ссылки"
+
+#: ../functions/options/appearance.php:156
+msgid "Link Hover Color"
+msgstr "Цвет ссылки при наведении"
+
+#: ../functions/options/appearance.php:164
+msgid "Header Color"
+msgstr "Цвет заголовка"
+
+#: ../functions/options/appearance.php:172
+msgid "Heading Font Family"
+msgstr "Шрифт заголовка Семья"
+
+#: ../functions/options/appearance.php:173
+msgid "choose the font face to apply to heading text eg., H1, H2, H3, ..."
+msgstr "выбрать шрифт лицу обратиться в текст заголовка например., H1, H2, H3, ..."
+
+#: ../functions/options/appearance.php:195
+#: ../functions/types/portfolio/content.php:165
+msgid "Custom Google Web Fonts"
+msgstr "Пользовательские Google Web Fonts"
+
+#: ../functions/options/appearance.php:196
+#: ../functions/types/portfolio/content.php:166
+msgid ""
+"Enter a font name if you want to use font that's listed above. You can check "
+"full font list at <a href=\"http://www.google.com/webfonts#HomePlace:home"
+"\">Google Web Fonts</a>."
+msgstr "Ввести имя шрифта, если вы хотите использовать шрифт, который в перечисленных выше. Вы можете проверить полный список шрифтов <a href=\"http://www.google.com/webfonts#HomePlace:home\"> Google Web Fonts </ A>."
+
+#: ../functions/options/apps.php:18
+msgid "Slideshow Type"
+msgstr "Слайд-шоу типа"
+
+#: ../functions/options/apps.php:19
+msgid "Choose slide effect"
+msgstr "Выберите слайд эффектом"
+
+#: ../functions/options/apps.php:22
+msgid "Fade"
+msgstr "Затемнение"
+
+#: ../functions/options/apps.php:23
+#: ../functions/types/portfolio/content.php:117
+#: ../functions/types/slide/register.php:9
+#: ../functions/types/slide/register.php:20
+msgid "Slide"
+msgstr "Слайд"
+
+#: ../functions/options/apps.php:31
+msgid "Auto Play Slideshows"
+msgstr "Слайд-шоу Auto Play"
+
+#: ../functions/options/apps.php:32
+msgid "Animate slide shows automatically when the page loads"
+msgstr "Анимация слайд-шоу автоматически при загрузке страницы"
+
+#: ../functions/options/apps.php:39
+msgid "Pause Time"
+msgstr "Время паузы"
+
+#: ../functions/options/apps.php:40
+msgid "0.5 - 10 sec"
+msgstr "0,5 - 10 сек"
+
+#: ../functions/options/blog.php:16
+msgid "Show Featured Image"
+msgstr "Show featured image"
+
+#: ../functions/options/blog.php:17
+msgid "Turn on to use a featured image for each blog post"
+msgstr "Включите использовать признакам изображение для каждого сообщения в блоге"
+
+#: ../functions/options/blog.php:24
+msgid "Read More Text"
+msgstr "Подробнее текст"
+
+#: ../functions/options/blog.php:25
+msgid ""
+"string for \"read more\" link.<br />leave blank to disable \"read more\" "
+"link."
+msgstr "строка \ "Читать далее \" ссылка. <br /> оставить пустым, чтобы отключить \ "Читать далее \" ссылка."
+
+#: ../functions/options/content.php:12
+msgid "Default Layout"
+msgstr "Разметка по умолчанию"
+
+#: ../functions/options/content.php:13
+msgid "choose page default layout"
+msgstr "Выберите Макет страницы по умолчанию"
+
+#: ../functions/options/content.php:16
+msgid "Full Width"
+msgstr "Полная ширина"
+
+#: ../functions/options/content.php:17
+msgid "Sidebar Left"
+msgstr "Слева Sidebar"
+
+#: ../functions/options/content.php:18
+msgid "Sidebar Right"
+msgstr "Правая боковая панель"
+
+#: ../functions/options/content.php:37
+msgid "Content"
+msgstr "Содержание"
+
+#: ../functions/options/footer.php:14
+msgid "Show Footer Widgets"
+msgstr "Показать Footer Виджеты"
+
+#: ../functions/options/footer.php:15
+msgid ""
+"If you dont want to add any awesome widgets to your footer, set this to \"off"
+"\"."
+msgstr "Если вы не хотите добавлять любые потрясающие виджетов в подвал, установить это значение в \ "от \"."
+
+#: ../functions/options/footer.php:23
+msgid "Footer Widget Layout"
+msgstr "Макет Footer Виджет"
+
+#: ../functions/options/footer.php:24
+msgid ""
+"Choose how many widgets you want to appear in your footer. You can modify "
+"the content of these widgets under Appearance > Widgets"
+msgstr "Выберите, сколько виджетов, которые должны отображаться в футере. Вы можете изменить содержание этих виджетов в разделе Внешний вид> Виджеты"
+
+#: ../functions/options/footer.php:27
+msgid "1 Col"
+msgstr "1 Col"
+
+#: ../functions/options/footer.php:28
+msgid "2 Cols"
+msgstr "2 Cols"
+
+#: ../functions/options/footer.php:29
+msgid "3 Cols"
+msgstr "3 Cols"
+
+#: ../functions/options/footer.php:30
+msgid "4 Cols"
+msgstr "4 Cols"
+
+#: ../functions/options/footer.php:37
+msgid "Footer Background Color"
+msgstr "Footer background color"
+
+#: ../functions/options/footer.php:45
+msgid "Footer Text Color"
+msgstr "Цвет текста нижнего колонтитула"
+
+#: ../functions/options/footer.php:53
+msgid "Copyright Text"
+msgstr "Copyright текста"
+
+#: ../functions/options/footer.php:54
+msgid "copyright text you'd like to display in footer"
+msgstr "Copyright текст, который вы хотели бы для отображения в нижнем колонтитуле"
+
+#: ../functions/options/footer.php:61
+msgid "Show Powered By Link"
+msgstr "Показать Форум Link"
+
+#: ../functions/options/footer.php:62
+msgid ""
+"Help support hard work and love put into this theme by displaying a subtle "
+"link back to AppifyWP in your footer"
+msgstr "Помогите поддержать тяжелую работу и любят положить в эту тему, показывая тонкие ссылкой на AppifyWP в футере"
+
+#: ../functions/options/header.php:8
+msgid "Header Container"
+msgstr "Заголовок Контейнер"
+
+#: ../functions/options/header.php:14
+msgid "Header BG Color"
+msgstr "BG Цвет заголовка"
+
+#: ../functions/options/header.php:15
+msgid "background color of header section"
+msgstr "Цвет фона заголовка раздела"
+
+#: ../functions/options/header.php:24
+msgid "Logo"
+msgstr "Логотип"
+
+#: ../functions/options/header.php:31
+msgid "Logo Type"
+msgstr "Логотип типа"
+
+#: ../functions/options/header.php:35
+#: ../functions/types/portfolio/content.php:64
+msgid "Text"
+msgstr "Текст"
+
+#: ../functions/options/header.php:36 ../functions/types/slide/content.php:23
+#: ../functions/types/slide/manage.php:9
+msgid "Image"
+msgstr "Картинка"
+
+#: ../functions/options/header.php:50
+msgid "20 - 28 px"
+msgstr "20 - 28 PX"
+
+#: ../functions/options/header.php:72
+msgid "Logo Image"
+msgstr "Изображение логотипа"
+
+#: ../functions/options/header.php:73
+msgid "recommended height is 60px"
+msgstr "рекомендуемая высота 60px"
+
+#: ../functions/options/header.php:79
+msgid "Show Tagline Text"
+msgstr "Показать Слоган текста"
+
+#: ../functions/options/header.php:80
+msgid ""
+"This will display the \"tagline\" text you entered in wp-admin > Settings > "
+"General"
+msgstr "На экране появится \ "слоган \" текст, введенный в WP-администратора> Параметры> Общие"
+
+#: ../functions/options/header.php:88
+msgid "Primary Menu"
+msgstr "Первичное меню"
+
+#: ../functions/options/header.php:95
+msgid "10 - 18 px"
+msgstr "10 - 18 PX"
+
+#: ../functions/options/header.php:106
+msgid "Primary Navigation Font Color"
+msgstr "Первичный Цвет шрифта навигации"
+
+#: ../functions/options/home.php:8
+msgid "Homepage Type"
+msgstr "Домашняя страница типа"
+
+#: ../functions/options/home.php:16
+msgid "choose page type to set as home page"
+msgstr "выбрать тип страницы установить в качестве домашней страницы"
+
+#: ../functions/options/home.php:30
+msgid "Home Page"
+msgstr "Домашняя страница"
+
+#: ../functions/options/home.php:31 ../functions/options/home.php:47
+msgid "this page will be displayed as a Home Page"
+msgstr "эта страница будет отображаться в качестве домашней страницы"
+
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:43
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:206
+msgid "&laquo; First"
+msgstr "«Первая"
+
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:44
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:207
+msgid "Last &raquo;"
+msgstr "Последний"
+
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:45
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:208
+msgid "&raquo;"
+msgstr "»"
+
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:46
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:209
+msgid "&laquo;"
+msgstr "«"
+
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:47
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:48
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:210
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:211
+msgid "..."
+msgstr "..."
+
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:203
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "Страница% current_page% из%% TOTAL_PAGES"
+
+#: ../functions/shortcodes/apps.php:20
+msgid "Available on"
+msgstr "Available on"
+
+#: ../functions/shortcodes/apps.php:125
+msgid "on"
+msgstr "на"
+
+#: ../functions/shortcodes/apps.php:126
+msgid "stars"
+msgstr "звёздах."
+
+#: ../functions/shortcodes/apps.php:150
+msgid "Comment"
+msgstr "Комментарий "
+
+#: ../functions/shortcodes/apps.php:151
+msgid "Request"
+msgstr "ЗАПРОС"
+
+#: ../functions/shortcodes/apps.php:152
+msgid "Report Bug"
+msgstr "Сообщить об ошибке"
+
+#: ../functions/shortcodes/contact.php:46
+msgid "Submit"
+msgstr "Отправить"
+
+#: ../functions/shortcodes/social.php:15
+#: ../functions/types/team/content.php:52
+msgid "Email Address"
+msgstr "Адрес электронной почты"
+
+#: ../functions/shortcodes/social.php:93
+#, php-format
+msgid "about %d seconds ago"
+msgstr "о %d секунд назад"
+
+#: ../functions/shortcodes/social.php:94
+msgid "about a minute ago"
+msgstr "около минуты назад"
+
+#: ../functions/shortcodes/social.php:95
+#, php-format
+msgid "about %d minutes ago"
+msgstr "о %d минут назад"
+
+#: ../functions/shortcodes/social.php:96
+msgid "about an hour ago"
+msgstr "около часа назад"
+
+#: ../functions/shortcodes/social.php:97
+#, php-format
+msgid "about %d hours ago"
+msgstr "о %d часов назад"
+
+#: ../functions/shortcodes/social.php:98
+msgid "about a day ago"
+msgstr "пару дней назад"
+
+#: ../functions/shortcodes/social.php:99
+#, php-format
+msgid "about %d days ago"
+msgstr "о %d дней назад"
+
+#: ../functions/shortcodes/social.php:100
+msgid "view tweet on twitter"
+msgstr "Tweet просмотра на Twitter"
+
+#: ../functions/shortcodes/social.php:101
+msgid "loading tweets ..."
+msgstr "Загружаем твитты ..."
+
+#: ../functions/types/app/content.php:6
+#: ../functions/types/portfolio/content.php:4
+msgid "App Info"
+msgstr "Информация о приложении"
+
+#: ../functions/types/app/content.php:19
+msgid "App Icon"
+msgstr "Значок приложения"
+
+#: ../functions/types/app/content.php:20
+msgid "Your App Icon. "
+msgstr "Значок приложения. "
+
+#: ../functions/types/app/content.php:27
+msgid "Use an image as the title"
+msgstr "Использовать изображение в качестве названия"
+
+#: ../functions/types/app/content.php:28
+msgid "Turn \"on\" to use an image in place of your app title"
+msgstr "Включите \ "на \" использовать изображение в месте вашего приложения название"
+
+#: ../functions/types/app/content.php:35
+msgid "App Image / Logo"
+msgstr "App Изображение / Logo"
+
+#: ../functions/types/app/content.php:36
+msgid "Choose image to use as your app logo."
+msgstr "Выберите изображения для вашего приложения логотип."
+
+#: ../functions/types/app/content.php:42
+msgid "Primary App Description"
+msgstr "Первичного описания App"
+
+#: ../functions/types/app/content.php:43
+msgid "What does your app do in a sentence?"
+msgstr "Что делать ваше приложение в предложении?"
+
+#: ../functions/types/app/content.php:49
+msgid "Secondary App Description"
+msgstr "Вторичный Описание App"
+
+#: ../functions/types/app/content.php:50
+msgid "Add a sentance or two of additonal details about your app."
+msgstr "Добавить Сентансу или два вывода дополнительных сведений о вашем приложении."
+
+#: ../functions/types/app/content.php:61
+msgid "App Appearence"
+msgstr "App Внешность"
+
+#: ../functions/types/app/content.php:74
+msgid "App Showcase Background Image"
+msgstr "App Витрина фоновое изображение"
+
+#: ../functions/types/app/content.php:75
+msgid ""
+"Select a background image that you would like to appear behind your app "
+"screenshots and description"
+msgstr "Выберите фоновое изображение, которое вы хотели бы оказаться за ваши Скриншоты и описание"
+
+#: ../functions/types/app/content.php:79
+msgid "Above Water"
+msgstr "Above Water"
+
+#: ../functions/types/app/content.php:80
+msgid "Pink Sunset"
+msgstr "Розовый закат"
+
+#: ../functions/types/app/content.php:81
+msgid "Space"
+msgstr "площадок;"
+
+#: ../functions/types/app/content.php:82
+msgid "Beach Sunset"
+msgstr "Сансет-Бич"
+
+#: ../functions/types/app/content.php:83
+msgid "Under Water"
+msgstr "Под водой"
+
+#: ../functions/types/app/content.php:84
+msgid "Custom  "
+msgstr "другое  "
+
+#: ../functions/types/app/content.php:91
+msgid "Custom App Background Image"
+msgstr "Пользовательский фон App Изображение"
+
+#: ../functions/types/app/content.php:92
+msgid "Upload a custom image to use behind your app showcase."
+msgstr "Загрузить пользовательские изображения для использования в вашем приложении за витриной."
+
+#: ../functions/types/app/content.php:98
+msgid "App Showcase Background Color"
+msgstr "App Витрина Цвет фона"
+
+#: ../functions/types/app/content.php:99
+msgid ""
+"If you selected \"none\" or a semi-transparent background image, this color "
+"will show in the background"
+msgstr "Если вы выбрали \ "ни один \" или полупрозрачный фон изображения, этот цвет покажет в фоновом режиме"
+
+#: ../functions/types/app/content.php:106
+msgid "Background Parallax Effect"
+msgstr "Фон эффект параллакса"
+
+#: ../functions/types/app/content.php:107
+msgid "Hipster effect that animates the background image as you scroll."
+msgstr "Hipster эффект, который оживляет фоновое изображение при прокрутке."
+
+#: ../functions/types/app/content.php:114
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: ../functions/types/app/content.php:115
+msgid ""
+"If set to \"off\", the sidebar will be hidden from this app page and content "
+"will span the entire width."
+msgstr "Если установлено в \ "от \", боковая панель будет скрыта от этого приложения и контент страницы будет охватывать всю ширину."
+
+#: ../functions/types/app/content.php:124
+msgid "App Showcase Foreground Contrast"
+msgstr "App Витрина переднем плане контрастности"
+
+#: ../functions/types/app/content.php:125
+msgid ""
+"If your App Showcase background color or image is dark, choose light. If "
+"your App Showcase background color or image is light, choose \"Dark\""
+msgstr "Если ваше приложение Витрина цвет фона или изображение слишком темное, выбрать свет. Если ваше приложение Витрина цвет фона или изображение светлое, выберите \ "Dark \""
+
+#: ../functions/types/app/content.php:128
+msgid "Light"
+msgstr "Светлый"
+
+#: ../functions/types/app/content.php:129
+msgid "Dark"
+msgstr "Темный"
+
+#: ../functions/types/app/content.php:136
+msgid "App Showcase Text Color"
+msgstr "App Витрина Цвет текста"
+
+#: ../functions/types/app/content.php:137
+msgid ""
+"Customize the text color of the app showcase area. If no color is selected "
+"it will default to using white or black based on the Foreground Contrast "
+"above"
+msgstr "Настройка цвета текста области витрина приложения. Если цвет не выбран он по умолчанию будет использовать белый или черный основанные на переднем плане контрастности выше"
+
+#: ../functions/types/app/content.php:148
+msgid "Platforms"
+msgstr "· Платформы"
+
+#: ../functions/types/app/content.php:165
+#: ../functions/types/app/content.php:172
+msgid "iPhone"
+msgstr "iPhone"
+
+#: ../functions/types/app/content.php:181
+msgid "iPhone Orientation"
+msgstr "Ориентация iPhone"
+
+#: ../functions/types/app/content.php:182
+msgid "Choose the orientation of the iPhone"
+msgstr "Выбор ориентации iPhone"
+
+#: ../functions/types/app/content.php:185
+#: ../functions/types/app/content.php:305
+#: ../functions/types/app/content.php:424
+#: ../functions/types/app/content.php:553
+#: ../functions/types/app/content.php:688
+#: ../functions/types/app/content.php:809
+#: ../functions/types/app/content.php:930
+msgid "Portrait"
+msgstr "Портрет"
+
+#: ../functions/types/app/content.php:186
+#: ../functions/types/app/content.php:306
+#: ../functions/types/app/content.php:425
+#: ../functions/types/app/content.php:554
+#: ../functions/types/app/content.php:689
+#: ../functions/types/app/content.php:810
+#: ../functions/types/app/content.php:931
+msgid "Landscape"
+msgstr "Ландшафт"
+
+#: ../functions/types/app/content.php:199
+msgid "Make iPhone the Default Platform?"
+msgstr "Сделать iPhone платформу по умолчанию?"
+
+#: ../functions/types/app/content.php:200
+msgid ""
+"Make the iPhone App visible by default when someone visits this app page. If "
+"your visitor is browsing on a device that matches one of your other enabled "
+"platforms, the default platform is ignored."
+msgstr "Сделать iPhone App отображается по умолчанию, когда кто-то посещает это приложение странице. Если ваш посетитель просматривает на устройстве, которое совпадает с одним из других поддержкой платформ, платформой по умолчанию игнорируется."
+
+#: ../functions/types/app/content.php:208
+msgid "iPhone specific description text"
+msgstr "iPhone определенный текст описания"
+
+#: ../functions/types/app/content.php:209
+msgid "Add specific description text for the iPhone"
+msgstr "Добавить конкретный текст описания для iPhone"
+
+#: ../functions/types/app/content.php:217
+#: ../functions/types/app/content.php:333
+#: ../functions/types/app/content.php:452
+#: ../functions/types/app/content.php:581
+#: ../functions/types/app/content.php:716
+#: ../functions/types/app/content.php:837
+#: ../functions/types/app/content.php:958
+#: ../functions/types/app/content.php:1064
+#: ../functions/types/app/content.php:1171
+msgid "Coming Soon Mode"
+msgstr "Скоро режим"
+
+#: ../functions/types/app/content.php:218
+#: ../functions/types/app/content.php:334
+#: ../functions/types/app/content.php:453
+#: ../functions/types/app/content.php:582
+#: ../functions/types/app/content.php:717
+#: ../functions/types/app/content.php:838
+#: ../functions/types/app/content.php:959
+#: ../functions/types/app/content.php:1065
+#: ../functions/types/app/content.php:1172
+msgid ""
+"If \"ON\", a \"Coming Soon\" button will display in place of the app store "
+"button."
+msgstr "Если \ "On \", \ "скоро \" кнопки на дисплее вместо кнопки в App Store."
+
+#: ../functions/types/app/content.php:226
+#: ../functions/types/app/content.php:342
+#: ../functions/types/app/content.php:461
+#: ../functions/types/app/content.php:590
+#: ../functions/types/app/content.php:725
+#: ../functions/types/app/content.php:846
+#: ../functions/types/app/content.php:967
+#: ../functions/types/app/content.php:1073
+#: ../functions/types/app/content.php:1180
+msgid "Coming Soon Text"
+msgstr "Скоро текста"
+
+#: ../functions/types/app/content.php:227
+#: ../functions/types/app/content.php:343
+#: ../functions/types/app/content.php:462
+#: ../functions/types/app/content.php:591
+#: ../functions/types/app/content.php:726
+#: ../functions/types/app/content.php:847
+#: ../functions/types/app/content.php:968
+#: ../functions/types/app/content.php:1074
+#: ../functions/types/app/content.php:1181
+msgid "Text describing that your app is coming soon"
+msgstr "Текст, описывающий, что ваше приложение в ближайшее время"
+
+#: ../functions/types/app/content.php:234
+msgid "iPhone App Store URL"
+msgstr "URL iPhone в App Store"
+
+#: ../functions/types/app/content.php:235
+msgid ""
+"Enter the URL of your iPhone app in the app store. This will link your "
+"visitors to buy your app. (include http://)\n"
+"\t\t"
+msgstr "Введите адрес вашего iPhone приложения в App Store. Это позволит связать свою посетителей покупать ваше приложение. (Включая http://) \ N \ t \ t"
+
+#: ../functions/types/app/content.php:243
+#: ../functions/types/app/content.php:360
+#: ../functions/types/app/content.php:488
+#: ../functions/types/app/content.php:617
+#: ../functions/types/app/content.php:743
+#: ../functions/types/app/content.php:864
+#: ../functions/types/app/content.php:985
+#: ../functions/types/app/content.php:1091
+#: ../functions/types/app/content.php:1198
+msgid "Price"
+msgstr "Цена"
+
+#: ../functions/types/app/content.php:244
+msgid ""
+"Enter the price of your app in the app store (include currency symbol)\n"
+"\t\t"
+msgstr "Введите цену вашего приложения в магазине приложений (включая символ валюты) \ N \ t \ t"
+
+#: ../functions/types/app/content.php:253
+msgid "iPhone App Showcase Type"
+msgstr "iPhone App типа Витрина"
+
+#: ../functions/types/app/content.php:258
+#: ../functions/types/app/content.php:375
+#: ../functions/types/app/content.php:505
+#: ../functions/types/app/content.php:634
+#: ../functions/types/app/content.php:758
+#: ../functions/types/app/content.php:879
+#: ../functions/types/app/content.php:1000
+#: ../functions/types/app/content.php:1106
+#: ../functions/types/app/content.php:1213
+#: ../functions/types/portfolio/content.php:118
+msgid "Video"
+msgstr "Видео"
+
+#: ../functions/types/app/content.php:266
+msgid "Images or screenshots for iPhone slideshow"
+msgstr "Изображений и скриншотов для iPhone слайд-шоу"
+
+#: ../functions/types/app/content.php:273
+#: ../functions/types/app/content.php:393
+#: ../functions/types/app/content.php:519
+#: ../functions/types/app/content.php:648
+#: ../functions/types/app/content.php:776
+#: ../functions/types/app/content.php:897
+#: ../functions/types/app/content.php:1018
+#: ../functions/types/app/content.php:1124
+#: ../functions/types/app/content.php:1231
+#: ../functions/types/portfolio/content.php:145
+msgid "Video ID"
+msgstr "Видео ID"
+
+#: ../functions/types/app/content.php:274
+#: ../functions/types/app/content.php:394
+#: ../functions/types/app/content.php:520
+#: ../functions/types/app/content.php:649
+#: ../functions/types/app/content.php:777
+#: ../functions/types/app/content.php:898
+#: ../functions/types/app/content.php:1019
+#: ../functions/types/app/content.php:1125
+#: ../functions/types/app/content.php:1232
+msgid ""
+"YouTube Video ID (the alphanumeric code after \"v=\" in the url) or Vimeo "
+"video ID (numeric code at the end of the url)"
+msgstr "YouTube Video ID (буквенно-цифровой код после \ "V = \" в URL) или Vimeo видео ID (цифровой код в конце URL)"
+
+#: ../functions/types/app/content.php:285
+#: ../functions/types/app/content.php:292
+msgid "iPad"
+msgstr "iPad "
+
+#: ../functions/types/app/content.php:301
+msgid "iPad Orientation"
+msgstr "Ориентация Ipad"
+
+#: ../functions/types/app/content.php:302
+msgid "Choose the orientation of the iPad"
+msgstr "Выбор ориентации IPAD"
+
+#: ../functions/types/app/content.php:315
+msgid "Make iPad the Default Platform?"
+msgstr "Сделать Ipad платформу по умолчанию?"
+
+#: ../functions/types/app/content.php:316
+msgid ""
+"Make the iPad App visible by default when someone visits this app page. If "
+"your visitor is browsing on a device that matches one of your enabled "
+"platforms, the default platform is ignored."
+msgstr "Сделать IPad приложение отображается по умолчанию, когда кто-то посещает это приложение странице. Если ваш посетитель просматривает на устройстве, которое совпадает с одним из ваших поддержкой платформ, платформой по умолчанию игнорируется."
+
+#: ../functions/types/app/content.php:324
+msgid "iPad specific description text"
+msgstr "Ipad определенный текст описания"
+
+#: ../functions/types/app/content.php:325
+msgid "Add specific description text for the iPad"
+msgstr "Добавить конкретный текст описания для Ipad"
+
+#: ../functions/types/app/content.php:351
+msgid "iPad App Store URL"
+msgstr "Ipad URL в App Store"
+
+#: ../functions/types/app/content.php:352
+msgid ""
+"Enter the URL of your iPad app in the app store. This will link your "
+"visitors to buy your app. (include http://)\n"
+"\t"
+msgstr "Введите адрес вашего IPad приложение в App Store. Это позволит связать свою посетителей покупать ваше приложение. (Включая http://) \ N \ T"
+
+#: ../functions/types/app/content.php:361
+#: ../functions/types/app/content.php:489
+#: ../functions/types/app/content.php:618
+#: ../functions/types/app/content.php:744
+#: ../functions/types/app/content.php:865
+#: ../functions/types/app/content.php:986
+#: ../functions/types/app/content.php:1092
+#: ../functions/types/app/content.php:1199
+msgid ""
+"Enter the price of your app in the app store (include currency symbol)\n"
+"\t"
+msgstr "Введите цену вашего приложения в магазине приложений (включая символ валюты) \ N \ T"
+
+#: ../functions/types/app/content.php:370
+msgid "iPad App Showcase Type"
+msgstr "IPad приложение типа Витрина"
+
+#: ../functions/types/app/content.php:386
+msgid "Images or screenshots for iPad slideshow"
+msgstr "Изображений и скриншотов для Ipad слайд-шоу"
+
+#: ../functions/types/app/content.php:404
+#: ../functions/types/app/content.php:411
+msgid "Android Phone"
+msgstr "Телефоны на Androidтелефоны"
+
+#: ../functions/types/app/content.php:420
+msgid "Android Phone Orientation"
+msgstr "Ориентация Android Phone"
+
+#: ../functions/types/app/content.php:421
+msgid "Choose the orientation of the Android phone"
+msgstr "Выбор ориентации телефона программы"
+
+#: ../functions/types/app/content.php:434
+msgid "Make Android phone the Default Platform?"
+msgstr "Сделать андроид телефон Платформа по умолчанию?"
+
+#: ../functions/types/app/content.php:435
+msgid ""
+"Make the Android phone app visible by default when someone visits this app "
+"page. If your visitor is browsing on a device that matches one of your other "
+"enabled platforms, the default platform is ignored."
+msgstr "Сделать приложение Android телефона отображается по умолчанию, когда кто-то посещает это приложение странице. Если ваш посетитель просматривает на устройстве, которое совпадает с одним из других поддержкой платформ, платформой по умолчанию игнорируется."
+
+#: ../functions/types/app/content.php:443
+msgid "Android Phone App Description"
+msgstr "Телефон Android App Описание"
+
+#: ../functions/types/app/content.php:444
+#: ../functions/types/app/content.php:573
+msgid ""
+"What does your app do in a couple of sentences or less? TIP: HTML is "
+"supported."
+msgstr "Что делать ваше приложение в нескольких предложениях или меньше? СОВЕТ: HTML не поддерживается."
+
+#: ../functions/types/app/content.php:470
+msgid "Android Phone Google Play Store URL"
+msgstr "Телефон Android Google Play Store URL"
+
+#: ../functions/types/app/content.php:471
+msgid ""
+"Enter the URL of your Android phone app in the Google Play app store. This "
+"will link your visitors to get your app. (include http://)\n"
+"\t"
+msgstr "Введите адрес вашего телефона Android приложения в магазине приложений Google Play. Это позволит связать свою посетителям получить ваше приложение. (Включая http://) \ N \ T"
+
+#: ../functions/types/app/content.php:479
+msgid "Android Phone Kindle App Store URL"
+msgstr "Телефон Android Kindle App Store URL"
+
+#: ../functions/types/app/content.php:480
+msgid ""
+"Enter the URL of your Android phone app in the Kindle app store. This will "
+"link your visitors to get your app for. (include http://)\n"
+"\t"
+msgstr "Введите адрес вашего телефона Android приложения в магазине Kindle приложения. Это позволит связать свою посетителей, чтобы получить ваше приложение для. (Включая http://) \ N \ T"
+
+#: ../functions/types/app/content.php:500
+msgid "Android Phone App Showcase Type"
+msgstr "Телефон Android App витринного типа"
+
+#: ../functions/types/app/content.php:512
+msgid "Images or screenshots for Android phone slideshow"
+msgstr "Изображений и скриншотов для телефонов Android слайд-шоу"
+
+#: ../functions/types/app/content.php:533
+#: ../functions/types/app/content.php:540
+msgid "Android Tablet"
+msgstr "Планшеты на Android "
+
+#: ../functions/types/app/content.php:549
+msgid "Android Tablet Orientation"
+msgstr "Android Tablet Ориентация"
+
+#: ../functions/types/app/content.php:550
+msgid "Choose the orientation of the Android Tablet"
+msgstr "Выберите ориентацию Android Tablet"
+
+#: ../functions/types/app/content.php:563
+msgid "Make Android Tablet the Default Platform?"
+msgstr "Сделайте Android Tablet платформу по умолчанию?"
+
+#: ../functions/types/app/content.php:564
+msgid ""
+"Make the Android Tablet app visible by default when someone visits this app "
+"page. If your visitor is browsing on a device that matches one of your other "
+"enabled platforms, the default platform is ignored."
+msgstr "Сделать приложение Android Tablet отображается по умолчанию, когда кто-то посещает это приложение странице. Если ваш посетитель просматривает на устройстве, которое совпадает с одним из других поддержкой платформ, платформой по умолчанию игнорируется."
+
+#: ../functions/types/app/content.php:572
+msgid "Android Tablet App Description"
+msgstr "Android Tablet App Описание"
+
+#: ../functions/types/app/content.php:599
+msgid "Android Tablet Google Play Store URL"
+msgstr "Android Tablet Google Play Store URL"
+
+#: ../functions/types/app/content.php:600
+msgid ""
+"Enter the URL of your Android Tablet app in the Google Play app store. This "
+"will link your visitors to get your app. (include http://)\n"
+"\t"
+msgstr "Введите адрес вашего Android Tablet приложения в магазине приложений Google Play. Это позволит связать свою посетителям получить ваше приложение. (Включая http://) \ N \ T"
+
+#: ../functions/types/app/content.php:608
+msgid "Android Tablet Kindle App Store URL"
+msgstr "Android Tablet Kindle App Store URL"
+
+#: ../functions/types/app/content.php:609
+msgid ""
+"Enter the URL of your Android Tablet app in the Kindle app store. This will "
+"link your visitors to get your app for. (include http://)\n"
+"\t"
+msgstr "Введите адрес вашего Android Tablet приложения в магазине Kindle приложения. Это позволит связать свою посетителей, чтобы получить ваше приложение для. (Включая http://) \ N \ T"
+
+#: ../functions/types/app/content.php:629
+msgid "Android Tablet App Showcase Type"
+msgstr "Android Tablet App витринного типа"
+
+#: ../functions/types/app/content.php:641
+msgid "Images or screenshots for Android Tablet slideshow"
+msgstr "Изображений и скриншотов для слайд-шоу Android Tablet"
+
+#: ../functions/types/app/content.php:668
+#: ../functions/types/app/content.php:675
+msgid "Windows Phone"
+msgstr "Windows Phone"
+
+#: ../functions/types/app/content.php:684
+msgid "Windows Phone Orientation"
+msgstr "Windows Phone Ориентация"
+
+#: ../functions/types/app/content.php:685
+msgid "Choose the orientation of the Windows Phone"
+msgstr "Выбор ориентации телефон Windows"
+
+#: ../functions/types/app/content.php:698
+msgid "Make Windows Phone the Default Platform?"
+msgstr "Сделать Windows Phone платформу по умолчанию?"
+
+#: ../functions/types/app/content.php:699
+msgid ""
+"Make the Windows Phone App visible by default when someone visits this app "
+"page. If your visitor is browsing on a device that matches one of your "
+"enabled platforms, the default platform is ignored."
+msgstr "Сделать приложение Windows Phone по умолчанию отображаются, когда кто-то посещает это приложение странице. Если ваш посетитель просматривает на устройстве, которое совпадает с одним из ваших поддержкой платформ, платформой по умолчанию игнорируется."
+
+#: ../functions/types/app/content.php:707
+msgid "Windows Phone specific description text"
+msgstr "Windows Phone определенный текст описания"
+
+#: ../functions/types/app/content.php:708
+msgid "Add specific description text for the Windows Phone"
+msgstr "Добавить конкретный текст описания для Windows Phone"
+
+#: ../functions/types/app/content.php:734
+msgid "Windows Phone App Store URL"
+msgstr "Windows Phone App Store URL"
+
+#: ../functions/types/app/content.php:735
+msgid ""
+"Enter the URL of your Windows Phone app in the app store. This will link "
+"your visitors to buy your app. (include http://)\n"
+"\t"
+msgstr "Введите адрес Вашей Windows Phone приложение в App Store. Это позволит связать свою посетителей покупать ваше приложение. (Включая http://) \ N \ T"
+
+#: ../functions/types/app/content.php:753
+msgid "Windows Phone App Showcase Type"
+msgstr "Windows Phone приложение витринного типа"
+
+#: ../functions/types/app/content.php:769
+msgid "Images or screenshots for Windows Phone slideshow"
+msgstr "Изображений и скриншотов для слайд-шоу для Windows Phone"
+
+#: ../functions/types/app/content.php:789
+#: ../functions/types/app/content.php:796
+msgid "Windows Tablet"
+msgstr "Планшеты на Windows"
+
+#: ../functions/types/app/content.php:805
+msgid "Windows Tablet Orientation"
+msgstr "Windows Tablet Ориентация"
+
+#: ../functions/types/app/content.php:806
+msgid "Choose the orientation of the Windows Tablet"
+msgstr "Выбор ориентации Windows Tablet"
+
+#: ../functions/types/app/content.php:819
+msgid "Make Windows Tablet the Default Platform?"
+msgstr "Сделать Windows Tablet платформу по умолчанию?"
+
+#: ../functions/types/app/content.php:820
+msgid ""
+"Make the Windows Tablet App visible by default when someone visits this app "
+"page. If your visitor is browsing on a device that matches one of your "
+"enabled platforms, the default platform is ignored."
+msgstr "Сделать приложение Windows Tablet отображается по умолчанию, когда кто-то посещает это приложение странице. Если ваш посетитель просматривает на устройстве, которое совпадает с одним из ваших поддержкой платформ, платформой по умолчанию игнорируется."
+
+#: ../functions/types/app/content.php:828
+msgid "Windows Tablet specific description text"
+msgstr "Windows Tablet определенный текст описания"
+
+#: ../functions/types/app/content.php:829
+msgid "Add specific description text for the Windows Tablet"
+msgstr "Добавить конкретный текст описания для Windows Tablet"
+
+#: ../functions/types/app/content.php:855
+msgid "Windows Tablet App Store URL"
+msgstr "Windows Tablet App Store URL"
+
+#: ../functions/types/app/content.php:856
+msgid ""
+"Enter the URL of your Windows Tablet app in the app store. This will link "
+"your visitors to buy your app. (include http://)\n"
+"\t"
+msgstr "Введите адрес Вашей Windows Tablet приложение в App Store. Это позволит связать свою посетителей покупать ваше приложение. (Включая http://) \ N \ T"
+
+#: ../functions/types/app/content.php:874
+msgid "Windows Tablet App Showcase Type"
+msgstr "Windows Tablet App витринного типа"
+
+#: ../functions/types/app/content.php:890
+msgid "Images or screenshots for Windows Tablet slideshow"
+msgstr "Изображений и скриншотов для слайд-шоу Windows Tablet"
+
+#: ../functions/types/app/content.php:910
+#: ../functions/types/app/content.php:917
+msgid "BlackBerry"
+msgstr ""Ежевика""
+
+#: ../functions/types/app/content.php:926
+msgid "BlackBerry Orientation"
+msgstr "Ориентация BlackBerry"
+
+#: ../functions/types/app/content.php:927
+msgid "Choose the orientation of the BlackBerry"
+msgstr "Выберите ориентацию BlackBerry"
+
+#: ../functions/types/app/content.php:940
+msgid "Make BlackBerry the Default Platform?"
+msgstr "Сделать BlackBerry платформу по умолчанию?"
+
+#: ../functions/types/app/content.php:941
+msgid ""
+"Make the BlackBerry App visible by default when someone visits this app "
+"page. If your visitor is browsing on a device that matches one of your "
+"enabled platforms, the default platform is ignored."
+msgstr "Сделать приложение BlackBerry отображается по умолчанию, когда кто-то посещает это приложение странице. Если ваш посетитель просматривает на устройстве, которое совпадает с одним из ваших поддержкой платформ, платформой по умолчанию игнорируется."
+
+#: ../functions/types/app/content.php:949
+msgid "BlackBerry specific description text"
+msgstr "BlackBerry определенный текст описания"
+
+#: ../functions/types/app/content.php:950
+msgid "Add specific description text for the BlackBerry"
+msgstr "Добавить конкретный текст описания для BlackBerry"
+
+#: ../functions/types/app/content.php:976
+msgid "BlackBerry App Store URL"
+msgstr "BlackBerry App Store URL"
+
+#: ../functions/types/app/content.php:977
+msgid ""
+"Enter the URL of your BlackBerry app in the app store. This will link your "
+"visitors to buy your app. (include http://)\n"
+"\t"
+msgstr "Введите адрес вашего BlackBerry приложение в App Store. Это позволит связать свою посетителей покупать ваше приложение. (Включая http://) \ N \ T"
+
+#: ../functions/types/app/content.php:995
+msgid "BlackBerry App Showcase Type"
+msgstr "BlackBerry App витринного типа"
+
+#: ../functions/types/app/content.php:1011
+msgid "Images or screenshots for BlackBerry slideshow"
+msgstr "Изображений и скриншотов для слайд-шоу BlackBerry"
+
+#: ../functions/types/app/content.php:1029
+#: ../functions/types/app/content.php:1036
+msgid "Mac Desktop"
+msgstr "Mac Desktop"
+
+#: ../functions/types/app/content.php:1046
+msgid "Make Mac Desktop the Default Platform?"
+msgstr "Сделать Mac Desktop платформу по умолчанию?"
+
+#: ../functions/types/app/content.php:1047
+msgid ""
+"Make the Mac Desktop App visible by default when someone visits this app "
+"page. If your visitor is browsing on a device that matches one of your "
+"enabled platforms, the default platform is ignored."
+msgstr "Сделать приложение Mac видимого кусочка рабочего стола по умолчанию, когда кто-то посещает это приложение странице. Если ваш посетитель просматривает на устройстве, которое совпадает с одним из ваших поддержкой платформ, платформой по умолчанию игнорируется."
+
+#: ../functions/types/app/content.php:1055
+msgid "Mac Desktop specific description text"
+msgstr "Mac Desktop определенный текст описания"
+
+#: ../functions/types/app/content.php:1056
+msgid "Add specific description text for the Mac Desktop"
+msgstr "Добавить конкретный текст описания для Mac Desktop"
+
+#: ../functions/types/app/content.php:1082
+msgid "Mac Desktop URL"
+msgstr "Mac Desktop URL"
+
+#: ../functions/types/app/content.php:1083
+msgid ""
+"Enter the URL of your Mac Desktop app in the app store. This will link your "
+"visitors to buy your app. (include http://)\n"
+"\t"
+msgstr "Введите адрес вашего Mac настольное приложение в App Store. Это позволит связать свою посетителей покупать ваше приложение. (Включая http://) \ N \ T"
+
+#: ../functions/types/app/content.php:1101
+msgid "Mac Desktop Showcase Type"
+msgstr "Mac Desktop витринного типа"
+
+#: ../functions/types/app/content.php:1117
+msgid "Images or screenshots for Mac Desktop slideshow"
+msgstr "Изображений и скриншотов для слайд-шоу Mac Desktop"
+
+#: ../functions/types/app/content.php:1136
+#: ../functions/types/app/content.php:1143
+msgid "Windows Desktop"
+msgstr "Windows Desktop"
+
+#: ../functions/types/app/content.php:1153
+msgid "Make Windows Desktop the Default Platform?"
+msgstr "Сделать Windows Desktop платформу по умолчанию?"
+
+#: ../functions/types/app/content.php:1154
+msgid ""
+"Make the Windows Desktop App visible by default when someone visits this app "
+"page. If your visitor is browsing on a device that matches one of your "
+"enabled platforms, the default platform is ignored."
+msgstr "Сделать приложение Windows Desktop отображается по умолчанию, когда кто-то посещает это приложение странице. Если ваш посетитель просматривает на устройстве, которое совпадает с одним из ваших поддержкой платформ, платформой по умолчанию игнорируется."
+
+#: ../functions/types/app/content.php:1162
+msgid "Windows Desktop specific description text"
+msgstr "Windows Desktop определенный текст описания"
+
+#: ../functions/types/app/content.php:1163
+msgid "Add specific description text for the Windows Desktop"
+msgstr "Добавить конкретный текст описания для рабочего стола Windows"
+
+#: ../functions/types/app/content.php:1189
+msgid "Windows Desktop Download URL"
+msgstr "Windows Desktop Скачать URL"
+
+#: ../functions/types/app/content.php:1190
+msgid ""
+"Enter the URL of your Windows Desktop app in the app store. This will link "
+"your visitors to buy your app. (include http://)\n"
+"\t"
+msgstr "Введите адрес вашего рабочего стола Windows приложение в App Store. Это позволит связать свою посетителей покупать ваше приложение. (Включая http://) \ N \ T"
+
+#: ../functions/types/app/content.php:1208
+msgid "Windows Desktop Showcase Type"
+msgstr "Windows Desktop витринного типа"
+
+#: ../functions/types/app/content.php:1224
+msgid "Images or screenshots for Windows Desktop slideshow"
+msgstr "Изображений и скриншотов для слайд-шоу на рабочем столе Windows"
+
+#: ../functions/types/app/manage.php:7
+#: ../functions/types/custom-sidebar/manage.php:7
+#: ../functions/types/portfolio/manage.php:7
+#: ../functions/types/slide/manage.php:7 ../functions/types/team/manage.php:7
+msgid "Reorder"
+msgstr "Повторный заказ"
+
+#: ../functions/types/app/manage.php:8
+msgid "Icon"
+msgstr "Icon"
+
+#: ../functions/types/app/manage.php:9
+#: ../functions/types/portfolio/manage.php:9
+#: ../functions/types/slide/manage.php:8
+#: ../functions/types/team/content.php:24 ../functions/types/team/manage.php:9
+#: ../functions/widgets/contact-form.php:46
+#: ../functions/widgets/contact-info.php:59
+#: ../functions/widgets/social.php:110 ../functions/widgets/twitter.php:46
+msgid "Title"
+msgstr "Заголовок"
+
+#: ../functions/types/app/manage.php:10
+#: ../functions/types/portfolio/manage.php:11
+#: ../functions/types/slide/manage.php:11
+#: ../functions/types/team/manage.php:11
+msgid "Date"
+msgstr "Дата      "
+
+#: ../functions/types/app/register.php:9
+#: ../functions/types/app/register.php:20
+msgid "App"
+msgstr "APP"
+
+#: ../functions/types/app/register.php:10
+#: ../functions/types/custom-sidebar/register.php:10
+#: ../functions/types/portfolio/register.php:10
+#: ../functions/types/slide/register.php:10
+#: ../functions/types/team/register.php:10
+msgid "Add New"
+msgstr "Добавить"
+
+#: ../functions/types/app/register.php:11
+msgid "Add New App"
+msgstr "Добавить новое приложение"
+
+#: ../functions/types/app/register.php:12
+msgid "Edit App"
+msgstr "Редактировать приложение"
+
+#: ../functions/types/app/register.php:13
+msgid "New App"
+msgstr "Новое приложение"
+
+#: ../functions/types/app/register.php:14
+msgid "View App"
+msgstr "Посмотреть App"
+
+#: ../functions/types/app/register.php:15
+msgid "Search Apps"
+msgstr "Поиск в приложениях"
+
+#: ../functions/types/app/register.php:16
+msgid "No App found"
+msgstr "NO APP не найдено"
+
+#: ../functions/types/app/register.php:17
+msgid "No App found in Trash"
+msgstr "Нет приложение не найдено в Trash"
+
+#: ../functions/types/custom-sidebar/content.php:4
+msgid "Sidebar Info"
+msgstr "Sidebar информация"
+
+#: ../functions/types/custom-sidebar/content.php:18
+msgid "Sidebar's name"
+msgstr "Sidebar имя"
+
+#: ../functions/types/custom-sidebar/content.php:24
+#: ../functions/types/custom-sidebar/manage.php:9
+msgid "Description"
+msgstr "Описание"
+
+#: ../functions/types/custom-sidebar/content.php:25
+msgid "Sidebar's short description"
+msgstr "Короткий боковой панели описание"
+
+#: ../functions/types/custom-sidebar/register.php:8
+msgid "Custom Sidebars"
+msgstr "Пользовательские боковые панели"
+
+#: ../functions/types/custom-sidebar/register.php:9
+#: ../functions/types/custom-sidebar/register.php:20
+msgid "Custom Sidebar"
+msgstr "Пользовательские боковые панели"
+
+#: ../functions/types/custom-sidebar/register.php:11
+msgid "Add New Sidebar"
+msgstr "Добавить Sidebar"
+
+#: ../functions/types/custom-sidebar/register.php:12
+msgid "Edit Custom Sidebar"
+msgstr "Редактировать пользовательские панели"
+
+#: ../functions/types/custom-sidebar/register.php:13
+msgid "New Custom Sidebar"
+msgstr "Новые пользовательские панели"
+
+#: ../functions/types/custom-sidebar/register.php:14
+msgid "View Custom Sidebar"
+msgstr "Посмотреть пользовательские панели"
+
+#: ../functions/types/custom-sidebar/register.php:15
+msgid "Search Custom Sidebars"
+msgstr "Искать в дополнительных Sidebars"
+
+#: ../functions/types/custom-sidebar/register.php:16
+msgid "No Custom Sidebars found"
+msgstr "Нет Пользовательские Sidebars не найдено"
+
+#: ../functions/types/custom-sidebar/register.php:17
+msgid "No Custom Sidebars found in Trash"
+msgstr "Нет Пользовательские Sidebars не найдено в Trash"
+
+#: ../functions/types/portfolio/content.php:17
+msgid "Short Description"
+msgstr "Краткое описание"
+
+#: ../functions/types/portfolio/content.php:18
+msgid "Recommend 100 - 120 Alphabet"
+msgstr "Рекомендовать 100 - 120 Алфавит"
+
+#: ../functions/types/portfolio/content.php:24
+msgid "Customer"
+msgstr "клиент"
+
+#: ../functions/types/portfolio/content.php:25
+#: ../functions/types/portfolio/content.php:32
+#: ../functions/types/portfolio/content.php:39
+msgid "Leave it blank to disable this option."
+msgstr "Оставьте это поле пустым, чтобы отключить эту опцию."
+
+#: ../functions/types/portfolio/content.php:31
+msgid "Budget"
+msgstr "Бюджет  "
+
+#: ../functions/types/portfolio/content.php:38
+msgid "Create Date"
+msgstr "Дата создания"
+
+#: ../functions/types/portfolio/content.php:48
+msgid "Button #1"
+msgstr "Кнопка № 1"
+
+#: ../functions/types/portfolio/content.php:56
+msgid "Link URL"
+msgstr "Адрес ссылки"
+
+#: ../functions/types/portfolio/content.php:72
+msgid "Sub Text"
+msgstr "Sub текста"
+
+#: ../functions/types/portfolio/content.php:80
+#: ../functions/widgets/contact-form.php:52
+msgid "Button Color"
+msgstr "Цвет кнопки"
+
+#: ../functions/types/portfolio/content.php:113
+msgid "Effect"
+msgstr "эффекта. "
+
+#: ../functions/types/portfolio/content.php:119
+msgid "Magnify"
+msgstr "Увеличивать"
+
+#: ../functions/types/portfolio/content.php:131
+msgid "Image for Slide"
+msgstr "Изображения для слайдов"
+
+#: ../functions/types/portfolio/content.php:138
+msgid "Image for Retina Zoom"
+msgstr "Изображения для Retina Увеличить"
+
+#: ../functions/types/portfolio/content.php:139
+msgid "2X dimension image is recommended"
+msgstr "2X размеры изображения рекомендуется"
+
+#: ../functions/types/portfolio/content.php:146
+msgid "Video ID of \"YouTube\" or \"Vimeo\""
+msgstr "Видео Идентификатор \ "YouTube \" или \ "Vimeo \""
+
+#: ../functions/types/portfolio/content.php:151
+msgid "Title & Text"
+msgstr "Название и текст"
+
+#: ../functions/types/portfolio/content.php:173
+msgid "Use image as title"
+msgstr "Использование изображения в качестве названия"
+
+#: ../functions/types/portfolio/content.php:174
+msgid "turn \"on\" to use image as title"
+msgstr "свою очередь \ "на \", чтобы использовать изображение в качестве названия"
+
+#: ../functions/types/portfolio/content.php:180
+msgid "Title Image"
+msgstr "Название изображения"
+
+#: ../functions/types/portfolio/content.php:181
+msgid "Choose image to use as title."
+msgstr "Выберите изображения для использования в качестве названия."
+
+#: ../functions/types/portfolio/content.php:186
+msgid "Frame"
+msgstr "Frame"
+
+#: ../functions/types/portfolio/content.php:191
+msgid "Frame Border Color"
+msgstr "Цвет рамы Пограничный"
+
+#: ../functions/types/portfolio/content.php:192
+msgid "choose color for frame border"
+msgstr "выбрать цвет для границ кадра"
+
+#: ../functions/types/portfolio/content.php:204
+msgid "Override \"Background\" Global Settings"
+msgstr "Override \ "Фон \" Глобальные настройки"
+
+#: ../functions/types/portfolio/content.php:205
+msgid "Switch on to override global \"Background\" appearance setting."
+msgstr "Включите для переопределения глобальной \ "Фон \" внешний вид установки."
+
+#: ../functions/types/portfolio/content.php:220
+msgid "Background Pattern"
+msgstr "Фоновый узор"
+
+#: ../functions/types/portfolio/content.php:221
+msgid "choose pattern to overlay the background color"
+msgstr "выбрать шаблон для наложения цвета фона"
+
+#: ../functions/types/portfolio/content.php:225
+#: ../functions/types/portfolio/content.php:335
+msgid "Grain"
+msgstr "зернистость"
+
+#: ../functions/types/portfolio/content.php:226
+msgid "Diagonal #1"
+msgstr "Диагональ № 1"
+
+#: ../functions/types/portfolio/content.php:227
+msgid "Diagonal #2"
+msgstr "Диагональ № 2"
+
+#: ../functions/types/portfolio/content.php:228
+msgid "Mosaic"
+msgstr "Мозайка"
+
+#: ../functions/types/portfolio/content.php:229
+msgid "Pixcel"
+msgstr "Pixcel"
+
+#: ../functions/types/portfolio/content.php:230
+msgid "Grid Black #1"
+msgstr "Сетки Черный № 1"
+
+#: ../functions/types/portfolio/content.php:231
+msgid "Grid Black #2"
+msgstr "Сетки Черный # 2"
+
+#: ../functions/types/portfolio/content.php:232
+msgid "Grid Black #3"
+msgstr "Сетки Черный # 3"
+
+#: ../functions/types/portfolio/content.php:233
+msgid "Grid Black #4"
+msgstr "Сетки Черный # 4"
+
+#: ../functions/types/portfolio/content.php:234
+msgid "Grid White #1"
+msgstr "Сетка White # 1"
+
+#: ../functions/types/portfolio/content.php:235
+msgid "Grid White #2"
+msgstr "Сетка White # 2"
+
+#: ../functions/types/portfolio/content.php:236
+msgid "Grid White #3"
+msgstr "Сетка Белая # 3"
+
+#: ../functions/types/portfolio/content.php:237
+msgid "Grid White #4"
+msgstr "Сетка Белая # 4"
+
+#: ../functions/types/portfolio/content.php:297
+msgid "Board & Mat"
+msgstr "Совет & Mat"
+
+#: ../functions/types/portfolio/content.php:303
+msgid "Override \"Layout\" Global Settings"
+msgstr "Override \ "Layout \" Глобальные настройки"
+
+#: ../functions/types/portfolio/content.php:304
+msgid "Switch on to override global \"Layout\" appearance setting."
+msgstr "Включите для переопределения глобальной \ "Layout \" внешний вид установки."
+
+#: ../functions/types/portfolio/content.php:313
+msgid "Show Board"
+msgstr "Показать Совет"
+
+#: ../functions/types/portfolio/content.php:314
+msgid "switch off to hide the board"
+msgstr "выключить, чтобы скрыть доски"
+
+#: ../functions/types/portfolio/content.php:321
+msgid "Board Color"
+msgstr "Цвет доски"
+
+#: ../functions/types/portfolio/content.php:322
+msgid "choose board color"
+msgstr "выбрать цвет доски"
+
+#: ../functions/types/portfolio/content.php:334
+msgid "Wood"
+msgstr "Древесина"
+
+#: ../functions/types/portfolio/content.php:336
+msgid "Grunge"
+msgstr "Гранж"
+
+#: ../functions/types/portfolio/content.php:337
+msgid "Grass"
+msgstr "Трава"
+
+#: ../functions/types/portfolio/content.php:354
+msgid "Show Mat"
+msgstr "Показать Мат"
+
+#: ../functions/types/portfolio/content.php:355
+msgid "switch off to hide the mat"
+msgstr "выключить, чтобы скрыть мат"
+
+#: ../functions/types/portfolio/content.php:362
+msgid "Mat Color"
+msgstr "Цвет паспарту"
+
+#: ../functions/types/portfolio/content.php:363
+msgid "choose color of mat"
+msgstr "выбрать цвет мат"
+
+#: ../functions/types/portfolio/content.php:372
+msgid "Portfolio Info"
+msgstr "Портфолио информация"
+
+#: ../functions/types/portfolio/content.php:385
+#: ../functions/types/portfolio/manage.php:8
+msgid "Featured"
+msgstr "Продвигаемые"
+
+#: ../functions/types/portfolio/content.php:386
+msgid "featured app will be shown on the app slide dock"
+msgstr "Рекомендуемые приложения будет показан на скамье подсудимых слайд приложения"
+
+#: ../functions/types/portfolio/manage.php:10
+#: ../functions/types/portfolio/register.php:42
+#: ../functions/types/portfolio/register.php:55
+msgid "Category"
+msgstr "Категория"
+
+#: ../functions/types/portfolio/register.php:8
+msgid "Portfolios"
+msgstr "Портфолио"
+
+#: ../functions/types/portfolio/register.php:9
+#: ../functions/types/portfolio/register.php:20
+msgid "Portfolio"
+msgstr "Портфолио"
+
+#: ../functions/types/portfolio/register.php:11
+msgid "Add New Portfolio"
+msgstr "Добавить Портфолио"
+
+#: ../functions/types/portfolio/register.php:12
+msgid "Edit Portfolio"
+msgstr "Редактировать Портфолио"
+
+#: ../functions/types/portfolio/register.php:13
+msgid "New Portfolio"
+msgstr "Новое Портфолио"
+
+#: ../functions/types/portfolio/register.php:14
+msgid "View Portfolio"
+msgstr "Смотреть портфолио"
+
+#: ../functions/types/portfolio/register.php:15
+msgid "Search Portfolio"
+msgstr "Поиск портфолио"
+
+#: ../functions/types/portfolio/register.php:16
+msgid "No Portfolio found"
+msgstr "Нет Наличие портфолио не найдено"
+
+#: ../functions/types/portfolio/register.php:17
+msgid "No Portfolio found in Trash"
+msgstr "Не найдено элементов в корзине нашего видео"
+
+#: ../functions/types/portfolio/register.php:41
+msgid "Portfolio Category"
+msgstr "Категория портфолио"
+
+#: ../functions/types/portfolio/register.php:43
+msgid "Search Category"
+msgstr "Поиск Категория"
+
+#: ../functions/types/portfolio/register.php:44
+msgid "Popular Category"
+msgstr "Популярные категории"
+
+#: ../functions/types/portfolio/register.php:45
+msgid "All Category"
+msgstr "Все категории"
+
+#: ../functions/types/portfolio/register.php:48
+msgid "Edit Category"
+msgstr "Редактировать категорию"
+
+#: ../functions/types/portfolio/register.php:49
+msgid "Update Category"
+msgstr "Update Категория"
+
+#: ../functions/types/portfolio/register.php:50
+msgid "Add New Category"
+msgstr "Добавить новую категорию"
+
+#: ../functions/types/portfolio/register.php:51
+msgid "New Category Name"
+msgstr "Имя категории"
+
+#: ../functions/types/portfolio/register.php:52
+msgid "Separate Category with commas"
+msgstr "Отдельную категорию запятыми"
+
+#: ../functions/types/portfolio/register.php:53
+msgid "Add or remove Category"
+msgstr "Добавить или удалить категории"
+
+#: ../functions/types/portfolio/register.php:54
+msgid "Choose from the most used Category"
+msgstr "Выберите один из наиболее часто используемых Категория"
+
+#: ../functions/types/slide/content.php:4
+msgid "Slide Info"
+msgstr "Презентация информация"
+
+#: ../functions/types/slide/content.php:17
+msgid "Name to use in slide manage page"
+msgstr "Имя для использования в слайд управлять страницы"
+
+#: ../functions/types/slide/content.php:24
+msgid "The slide frame's width is 950px. The height is depend on your setting."
+msgstr "Ширина затворной раме является 950px. Высота зависит от ваших настроек."
+
+#: ../functions/types/slide/content.php:29
+msgid "Caption Title"
+msgstr "Тип названия"
+
+#: ../functions/types/slide/content.php:30
+#: ../functions/types/slide/content.php:53
+msgid "Leave blank to disable."
+msgstr "Оставьте пустым, чтобы отключить."
+
+#: ../functions/types/slide/content.php:52
+msgid "Caption Text"
+msgstr "Caption text"
+
+#: ../functions/types/slide/content.php:59
+msgid "Caption Position"
+msgstr "Надпись позиция"
+
+#: ../functions/types/slide/content.php:60
+msgid "Position to place the caption."
+msgstr "Позиция для помещения заголовка."
+
+#: ../functions/types/slide/content.php:70
+#: ../functions/types/slide/manage.php:10
+msgid "Link"
+msgstr "Ссылка"
+
+#: ../functions/types/slide/content.php:71
+msgid "Define url you want user to navigate to after click on the slide"
+msgstr "Определите URL вы хотите пользователю перейти к после нажмите на слайд"
+
+#: ../functions/types/slide/register.php:8
+msgid "Slides"
+msgstr "Слайды"
+
+#: ../functions/types/slide/register.php:11
+msgid "Add New Slide"
+msgstr "Добавить слайдов"
+
+#: ../functions/types/slide/register.php:12
+msgid "Edit Slide"
+msgstr "Редактирование слайдов"
+
+#: ../functions/types/slide/register.php:13
+msgid "New Slide"
+msgstr "Новый слайд"
+
+#: ../functions/types/slide/register.php:14
+msgid "View Slide"
+msgstr "Просмотр слайд-"
+
+#: ../functions/types/slide/register.php:15
+msgid "Search Slides"
+msgstr "Поиск Слайды"
+
+#: ../functions/types/slide/register.php:16
+msgid "No Slides found"
+msgstr "Нет слайдов"
+
+#: ../functions/types/slide/register.php:17
+msgid "No slides found in Trash"
+msgstr "Нет слайдов в корзине"
+
+#: ../functions/types/team/content.php:4
+msgid "Team Member Info"
+msgstr "Информация Член команды"
+
+#: ../functions/types/team/content.php:16
+msgid "Mug Shot"
+msgstr "Кружка Shot"
+
+#: ../functions/types/team/content.php:17
+msgid "Upload an image of this team member."
+msgstr "Загрузите изображение этого члена команды."
+
+#: ../functions/types/team/content.php:25
+msgid "What is this team member's job title?"
+msgstr "Что такое эта должность члена команды?"
+
+#: ../functions/types/team/content.php:32
+#: ../functions/widgets/contact-info.php:65
+msgid "Location"
+msgstr "мест"
+
+#: ../functions/types/team/content.php:33
+msgid "Be as broad or specific as you want."
+msgstr "Быть максимально широким и конкретным, как вы хотите."
+
+#: ../functions/types/team/content.php:39
+msgid "Short Bio"
+msgstr "Краткая справка"
+
+#: ../functions/types/team/content.php:40
+msgid ""
+"List what this person does or has done in a sentence or two. This text will "
+"display on the team member list page."
+msgstr "Перечислите, что этот человек делает или сделал в одно или два предложения. Этот текст будет отображаться на странице со списком членов команды."
+
+#: ../functions/types/team/content.php:53
+msgid "Entering an email address will display it publicly on the site."
+msgstr "Ввод адреса электронной почты будет отображать это публично на сайте."
+
+#: ../functions/types/team/content.php:59
+msgid "Phone Number"
+msgstr "Номер телефона   905 653 2601 "
+
+#: ../functions/types/team/content.php:60
+msgid "Entering a phone number will display it publicly on the site."
+msgstr "Ввод номера телефона будет отображаться это публично на сайте."
+
+#: ../functions/types/team/content.php:66
+msgid "Personal Website"
+msgstr "Личный сайт"
+
+#: ../functions/types/team/content.php:67
+msgid "Add a URL to a personal website for this team member"
+msgstr "Добавить URL в личный веб-сайт для этого члена команды"
+
+#: ../functions/types/team/content.php:79
+msgid "Twitter Profile URL"
+msgstr "Twitter URL профиля"
+
+#: ../functions/types/team/content.php:80
+msgid "This will add a link to their twitter profile (include http://)."
+msgstr "Это позволит добавить ссылку на свою страницу Twitter (включая http://)."
+
+#: ../functions/types/team/content.php:87
+msgid "Facebook Profile URL"
+msgstr "Facebook URL профиля"
+
+#: ../functions/types/team/content.php:88
+msgid "This will add a link to their Facebook profile (include http://)."
+msgstr "Это позволит добавить ссылку на свою страницу Facebook (включая http://)."
+
+#: ../functions/types/team/content.php:95
+msgid "LinkedIn Profile URL"
+msgstr "LinkedIn URL профиля"
+
+#: ../functions/types/team/content.php:96
+msgid "This will add a link to their LinkedIn profile (include http://)."
+msgstr "Это позволит добавить ссылку на свой профиль LinkedIn (включая http://)."
+
+#: ../functions/types/team/manage.php:10
+msgid "Mug"
+msgstr "Кружка"
+
+#: ../functions/types/team/register.php:9
+#: ../functions/types/team/register.php:20
+msgid "Team Member"
+msgstr "Член команды"
+
+#: ../functions/types/team/register.php:11
+msgid "Add New Team Member"
+msgstr "Добавить нового участника команды"
+
+#: ../functions/types/team/register.php:12
+msgid "Edit Team Member"
+msgstr "Редактировать члена команды "
+
+#: ../functions/types/team/register.php:13
+msgid "New Team Member"
+msgstr "Новый член команды"
+
+#: ../functions/types/team/register.php:14
+msgid "View Team Member"
+msgstr "Посмотреть члена команды"
+
+#: ../functions/types/team/register.php:15
+msgid "Search Team"
+msgstr "Поиск команд"
+
+#: ../functions/types/team/register.php:16
+msgid "No Team Member Found"
+msgstr "Нет Член команды не найдены"
+
+#: ../functions/types/team/register.php:17
+msgid "No team member found in Trash"
+msgstr "Ни одна команда пользователя не найдено в Trash"
+
+#: ../functions/widgets/contact-form.php:6
+msgid "Displays a email contact form."
+msgstr "Отображает форму электронной почты контакта."
+
+#: ../functions/widgets/contact-form.php:7
+msgid "Contact Form"
+msgstr "Contact Form"
+
+#: ../functions/widgets/contact-form.php:21
+#: ../functions/widgets/contact-info.php:21
+msgid "Email Us"
+msgstr "Напишите нам Email"
+
+#: ../functions/widgets/contact-form.php:49
+msgid "Your Email"
+msgstr "Ваш E-mail:"
+
+#: ../functions/widgets/contact-info.php:6
+msgid "Displays contact infos."
+msgstr "Отображается информация контакт."
+
+#: ../functions/widgets/contact-info.php:7
+msgid "Contact Info"
+msgstr "Контактная информация"
+
+#: ../functions/widgets/contact-info.php:62
+msgid "Info"
+msgstr "Информация"
+
+#: ../functions/widgets/contact-info.php:71
+msgid "Telephone"
+msgstr "Телефон:"
+
+#: ../functions/widgets/contact-info.php:74
+msgid "Mobile"
+msgstr "Подвижная"
+
+#: ../functions/widgets/contact-info.php:77
+msgid "Fax"
+msgstr "Факс:"
+
+#: ../functions/widgets/social.php:28
+msgid "Displays a list of Social Icon icons"
+msgstr "Отображает список Социальный значки"
+
+#: ../functions/widgets/social.php:29
+msgid "Social"
+msgstr "Социальный"
+
+#: ../functions/widgets/social.php:113
+msgid "Icon Package"
+msgstr "Значок пакета"
+
+#: ../functions/widgets/social.php:122
+msgid "Enable Social Icon"
+msgstr "Включение социальных Иконка"
+
+#: ../functions/widgets/social.php:131
+msgid ""
+"Note: Please input FULL URL <br/>(e.g. <code>http://www.example.com</code>)"
+msgstr "Примечание: Пожалуйста, введите полный адрес <br/> (например <code> http://www.example.com </ CODE>)"
+
+#: ../functions/widgets/social.php:137
+msgid "URL"
+msgstr "URL Русский"
+
+#: ../functions/widgets/twitter.php:6
+msgid "Displays a list of twitter feeds"
+msgstr "Displays a list of twitter feeds"
+
+#: ../functions/widgets/twitter.php:7
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../functions/widgets/twitter.php:22
+msgid "Recent Tweets"
+msgstr "Последние Tweets"
+
+#: ../functions/widgets/twitter.php:49
+msgid "Username"
+msgstr "Имя"
+
+#: ../functions/widgets/twitter.php:52
+msgid "How many tweets to display?"
+msgstr "Сколько твитов просмотров?"
+
+#: ../platforms/platform_loop.php:77 ../platforms/platform_loop_home.php:106
+#: ../platforms/platform_loop_home_carosel.php:106
+msgid "No Screenshots"
+msgstr "Нет Скриншоты"
+
+#: ../platforms/platform_loop_home.php:38
+#: ../platforms/platform_loop_home_carosel.php:38
+msgid "Available For"
+msgstr "Доступно для"
+

@@ -1,0 +1,3 @@
+<h1>Change Logs</h1>
+
+<section id="VersionHistory"><h4>v1.1 – Released on 9/25/2013</h4><ul><li>Added demo data xml file so you can start out from the point of the AppifyWP Pro Demo site</li><li>Improved documentation</li><li>Fixed display issues on landscape iphone</li><li>Added css styles and support for bbPress (forums)</li><li>Fixed primary nav dropdown menus appearing under device</li><li></li></ul><h4>v1.0 – Released on 8/1/2013</h4> </section>

@@ -1,0 +1,107 @@
+@import "mixins.less";
+@import "vars.less";
+@import "wp_core_styles.less";
+@import "app_showcase.less";
+@import "platforms.less";
+@import "header.less";
+@import "content.less";
+@import "comments.less";
+@import "team.less";
+@import "app_archive.less";
+@import "sidebar.less";
+@import "footer.less";
+@import "home.less";
+@import "bbpress.less";
+
+///////////////////////////////////////////////////////
+// APPIFYWP STYLES
+
+* {
+  .box-sizing(@type: border-box);
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   position: relative;
+   font-size: 15px;
+   line-height: 1.3em;
+   min-height: 100%;
+}
+
+
+
+h1, h2, h3 {
+	line-height: 1.2em;
+}
+
+hr {
+	background: none;
+	border-top: 1px solid rgba(255,255,255,0.2);
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+a {
+	-webkit-transition-property: all, 
+	-webkit-transform;
+	-webkit-transition-duration: 0.2s, 0.2s;
+	-moz-transition-property: all, -moz-transform;
+	-moz-transition-duration: 0.2s, 0.2s;
+	-ms-transition-property: all, -ms-transform;
+	-ms-transition-duration: 0.2s, 0.2s;
+	-o-transition-property: all, -o-transform;
+	-o-transition-duration: 0.2s, 0.2s;
+	transition-property: all, transform;
+	transition-duration: 0.2s, 0.2s;
+	animation-timing-function:ease-out;
+	-moz-animation-timing-function:ease-out;
+	-webkit-animation-timing-function:ease-out;
+	-o-animation-timing-function:ease-out;
+}
+
+a, .navbar .nav > li > a, .well.sidebar-nav ul li a {
+  color: #1589c9;
+}
+
+a:hover, .navbar .nav > li > a:hover, .well.sidebar-nav ul li a:hover {
+  color: #09567e;
+}
+
+
+// TEXTURES
+
+.texture {
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	background-position: top center;
+	.at2x('../img/textures/nasty_fabric.png',198px,200px);
+
+	&.nasty_fabric {
+		.at2x('../img/textures/nasty_fabric.png',198px,200px);
+	}
+
+	&.paper {
+		.at2x('../img/textures/paper.png',100px,100px);
+	}
+
+	&.rough_diagonal {
+		.at2x('../img/textures/rough_diagonal.png',256px,256px);
+	}
+
+	&.horizontal_lines {
+		.at2x('../img/textures/horizontal_lines.png',4px,4px);
+	}
+}
+
+
+
+
+
+
+

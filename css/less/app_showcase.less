@@ -1,0 +1,451 @@
+// App Showcase
+
+.documentation {
+	background-size: cover;
+	color: white !important;
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-image: url(../img/bgimages/wave.jpg);
+
+	h2, h3 {
+		color: white;
+	}
+
+	h3 {
+		font-size: 1em !important;
+	}
+
+	.appifywplogo {
+		background: url(../img/appifywp_pro.png) no-repeat;
+		display: block;
+		width: 321px;
+		height: 61px;
+		margin-top: 30px;
+	}
+
+	a, a:hover {
+		color: white;
+		text-decoration: underline;
+		font-weight: bold;
+	}
+
+	ol, ul {
+		margin-left: 40px;
+		margin-top: 20px;
+
+		li {
+			margin-bottom: 8px !important;
+		}
+	}
+
+	section {
+		border-bottom: 1px solid rgba(255,255,255,0.3);
+		padding-bottom: 20px;
+
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+
+
+
+
+}
+
+.app-showcase-block {
+	
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+
+	.showcase-background {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		
+		&.under_water {
+		  background-image: url(../img/bgimages/wave.jpg);
+		}
+		
+		&.above_water {
+		  background-image: url(../img/bgimages/above_water.jpg);
+		}
+		
+		&.pink_sunset {
+		  background-image: url(../img/bgimages/pinksunset.jpg);
+		}
+		
+		&.space {
+		  background-image: url(../img/bgimages/space.jpg);
+		}
+		
+		&.beach_sunset {
+		  background-image: url(../img/bgimages/beachsunset.jpg);
+		}
+		
+		
+		
+		
+	}
+
+	.container {
+		position: relative;
+	}
+
+	.platforms-nav {
+
+			a {
+				position: relative;
+
+				&:before {
+					font-family: FontAwesome;
+					font-size: 2.5em;
+					display: block;
+					position: absolute;
+				}
+			}
+
+			.iphone:before, .blackberry:before {
+				content: "\F10B";
+				top: 38px;
+				font-size: 3.7em;
+				left: 50%;
+				margin-left: -.27em;
+			}
+
+			.ipad:before {
+				content: "\F10A";
+				top: 38px;
+				font-size: 3.3em;
+				left: 50%;
+				margin-left: -.3em;
+			}
+
+			.android_phone:before, .android_tablet:before {
+				content: "\F17B";
+				top: 38px;
+				left: 50%;
+				font-size: 2.9em;
+				margin-left: -.4em;
+			}
+
+			.windowsphone:before, .windowstablet:before, .desktoppc:before {
+				content: "\f17a";
+				top: 38px;
+				left: 50%;
+				margin-left: -.5em;
+			}
+
+			.desktopmac:before {
+				content: "\F179";
+				top: 38px;
+				left: 50%;
+				margin-left: -.4em;
+			}
+	}
+
+	&.light-foreground {
+		color: white;
+		text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
+
+		h1, h2, h3, h4, h5, a {
+			color: white;
+		}
+
+		a.btn {
+			color: black;
+		}
+
+		.app-title {
+			border-bottom: 1px solid @border-light-color;
+			border-top: 1px solid @border-light-color;
+			background: rgba(255,255,255,0.1);
+		}
+
+		
+
+	}
+
+	&.dark-foreground {
+		color: black;
+		text-shadow: 1px 1px 0px rgba(255,252,255,0.3);
+
+		a {
+			color: black;
+		}
+
+		.platforms-nav {
+
+			a:hover {
+				background-color: rgba(0,0,0,0.1);
+			}
+
+			a.current {
+				background-color: rgba(0,0,0,0.2);
+			}
+		}
+
+		.app-title {
+			border-bottom: 1px solid @border-dark-color;
+			border-top: 1px solid @border-dark-color;
+			background: rgba(0,0,0,0.1);
+		}
+
+	}
+
+
+	// App Title
+	.app-title-group {
+	  img#app-icon {
+	  			display: block;
+	  			float: left;
+	  			margin-right: 15px;
+	  			width: 57px;
+	  			height: 57px;
+	  		}
+	  
+	  		h1 {
+	  			float: left;
+	  			min-width: 275px;
+	  			max-width: 600px;
+	  			font-size: 24px;
+	  			padding-top: 3px;
+	  		}
+	  		
+	}
+	
+	.app-title {
+		padding: 25px 0 24px 0;
+		margin: 0 0 30px 0;
+		position: relative;
+		min-height: 108px;
+	}
+	
+	.platforms-nav, .app-nav {
+				position: absolute;
+				right: 0;
+				top: -25px;
+	
+				a {
+	
+					-webkit-transition-property: background-color, 
+	  				-webkit-transform;
+	  				-webkit-transition-duration: 0.2s, 0.2s;
+	     			-moz-transition-property: background-color, -moz-transform;
+	     			-moz-transition-duration: 0.2s, 0.2s;
+	     			-ms-transition-property: background-color, -ms-transform;
+	      			-ms-transition-duration: 0.2s, 0.2s;
+			       	-o-transition-property: background-color, -o-transform;
+			       	-o-transition-duration: 0.2s, 0.2s;
+			        transition-property: background-color, transform;
+			        transition-duration: 0.2s, 0.2s;
+			  		animation-timing-function:ease-out;
+			  		-moz-animation-timing-function:ease-out;
+			  		-webkit-animation-timing-function:ease-out;
+			  		-o-animation-timing-function:ease-out;
+					display: block;
+					float: left;
+					width: 65px;
+					height: 106px;
+					padding-top: 68px;
+					font-size: 12px;
+					line-height: 1em;
+					background-repeat: no-repeat;
+					text-align: center;
+					background-position: center 25px;
+					
+					&:hover {
+						text-decoration: none;
+						background-color: rgba(255,255,255,0.1);
+					}
+					
+	
+					&.current {
+						background-color: rgba(255,255,255,0.2);
+					}
+	
+				}
+	}
+	
+
+
+	.content {
+
+		.description {
+			margin-bottom: 30px;
+
+			p.primary {
+				font-size: 2em;
+				line-height: 1.2em;
+				font-weight: bold;
+				margin-bottom: 20px;
+			}
+
+			p.secondary {
+				font-size: 1.3em;
+			}
+
+		} // .description
+
+		.get-app {
+			margin-bottom: 30px;
+			text-align: center;
+		}
+
+		.coming-soon, .app-price {
+			margin-bottom: 30px;
+			text-align: center;
+			font-weight: bold;
+			font-size: 1.3em;
+		
+			div {
+				display: inline-block;
+				padding: 5px; 
+				.transform(rotate(1deg) scale(1.5));
+				.opacity(0);
+				-webkit-transition: -webkit-transform .2s ease-out; 
+   				-moz-transition: -moz-transform .2s ease-out; 
+   				-o-transition: -o-transform .2s ease-out; 
+    			transition: transform .2s ease-out; 
+
+				&.show {
+					.opacity(1);
+					.transform(rotate(-2deg) scale(1));
+				}
+
+				&:hover {
+					.transform(rotate(-3deg) scale(1.2));
+				}
+			}
+
+
+		}
+
+		.app-price {
+			margin-top: -15px;
+		}
+
+
+	} // .content
+
+	#app-platforms-container {
+		min-height: 28px;
+		position: relative;
+  		transition: height 0.5s;
+		-moz-transition: height 0.5s;
+		-webkit-transition: height 0.5s;
+		-o-transition: height 0.5s;
+  		animation-timing-function: ease-out;
+  		-moz-animation-timing-function: ease-out;
+  		-webkit-animation-timing-function: ease-out;
+  		-o-animation-timing-function: ease-out;
+  		overflow: hidden;
+	}
+	
+	.platform {
+		position: absolute;
+	}
+
+	.platform.current {
+		position: relative;
+	}
+
+
+	.rightcolumn {
+		opacity: 0;
+		-webkit-transform: translate(3000px);
+     	-moz-transform: translate(3000px);
+      	-ms-transform: translate(3000px);
+       	-o-transform: translate(3000px);
+        transform: translate(3000px);
+  		-webkit-transition-property: opacity, 
+  		-webkit-transform;
+  		-webkit-transition-duration: 0.5s, 0.5s;
+     	-moz-transition-property: -moz-opacity, -moz-transform;
+     	-moz-transition-duration: 0.5s, 0.5s;
+     	-ms-transition-property: -ms-opacity, -ms-transform;
+      	-ms-transition-duration: 0.5s, 0.5s;
+       	-o-transition-property: -o-opacity, -o-transform;
+       	-o-transition-duration: 0.5s, 0.5s;
+        transition-property: opacity, transform;
+        transition-duration: 0.5s, 0.5s;
+  		animation-timing-function:ease-out;
+  		-moz-animation-timing-function:ease-out;
+  		-webkit-animation-timing-function:ease-out;
+  		-o-animation-timing-function:ease-out;
+	}
+
+	.leftcolumn {
+		opacity: 0;
+		-webkit-transform: translate(-3000px);
+     	-moz-transform: translate(-3000px);
+      	-ms-transform: translate(-3000px);
+    	-o-transform: translate(-3000px);
+        transform: translate(-3000px);
+  		-webkit-transition-property: opacity, 
+  		-webkit-transform;
+  		-webkit-transition-duration: 0.5s, 0.5s;
+     	-moz-transition-property: -moz-opacity, -moz-transform;
+     	-moz-transition-duration: 0.5s, 0.5s;
+     	-ms-transition-property: -ms-opacity, -ms-transform;
+      	-ms-transition-duration: 0.5s, 0.5s;
+       	-o-transition-property: -o-opacity, -o-transform;
+       	-o-transition-duration: 0.5s, 0.5s;
+        transition-property: opacity, transform;
+        transition-duration: 0.5s, 0.5s;
+  		animation-timing-function:ease-out;
+  		-moz-animation-timing-function:ease-out;
+  		-webkit-animation-timing-function:ease-out;
+  		-o-animation-timing-function:ease-out;
+	}
+
+
+
+	.platform.current {
+
+		z-index: 999;
+
+		.rightcolumn {
+			opacity: 1;
+			-webkit-transform: translate(0);
+     		-moz-transform: translate(0);
+      		-ms-transform: translate(0);
+       		-o-transform: translate(0);
+          	transform: translate(0);
+		}
+
+		.leftcolumn {
+			opacity: 1;
+			-webkit-transform: translate(0);
+     		-moz-transform: translate(0);
+      		-ms-transform: translate(0);
+       		-o-transform: translate(0);
+          	transform: translate(0);
+		}
+	}
+
+	.device {
+		margin: 0 auto;
+		margin-bottom: 30px;
+		overflow:hidden;
+
+
+		.flexslider {
+			background: none;
+			border: none;
+			position: relative;
+			z-index: 99999;
+			
+		}
+
+	}
+
+
+
+} // #app-showcase-block

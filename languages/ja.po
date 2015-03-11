@@ -1,0 +1,2434 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AppifyWP Pro\n"
+"POT-Creation-Date: 2013-10-03 14:24-0700\n"
+"PO-Revision-Date: 2013-10-03 14:24-0700\n"
+"Last-Translator: Cory Shaw <support@appifywp.com>\n"
+"Language-Team: Cory Shaw <support@appifywp.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/wp-content/themes/AppifyWP_Pro/"
+"languages/\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:15
+msgid "Page Not Found"
+msgstr "ページが見つかりません"
+
+#: ../404.php:16
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr "それは、我々はあなたが探しているものを見つけることができないようです。おそらく、検索、または以下のいずれかのリンク、助けることができます。"
+
+#: ../404.php:31
+msgid "Most Used Categories"
+msgstr "最も使用されるカテゴリ"
+
+#: ../archive-app.php:43 ../functions.php:433 ../functions/options/apps.php:56
+#: ../functions/types/app/register.php:8
+msgid "Apps"
+msgstr "アプリ"
+
+#: ../archive-app.php:149 ../archive-team.php:78 ../template-apps.php:134
+#: ../template-team.php:65 ../platforms/platform_loop_home.php:74
+#: ../platforms/platform_loop_home_carosel.php:74
+msgid "More Info"
+msgstr ""詳細情報""
+
+#: ../archive-team.php:43 ../functions/types/team/register.php:8
+msgid "Team"
+msgstr "チーム"
+
+#: ../archive.php:25 ../archive.php:46
+msgid "Archives"
+msgstr "過去の文書"
+
+#: ../author.php:39
+msgid "Author Archives"
+msgstr "投稿者アーカイブ："
+
+#: ../comments.php:14
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "この投稿はパスワードで保護されています。任意のコメントを表示するには、パスワードを入力してください。"
+
+#: ../functions.php:29
+msgid "Main Menu"
+msgstr "メインメニュー
+(Main menu)"
+
+#: ../functions.php:109
+msgid "Older posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "新しい投稿<span class=\"meta-nav\">→</span>"
+
+#: ../functions.php:113
+msgid "<span class=\"meta-nav\">&larr;</span> Newer posts"
+msgstr "<span class=\"meta-nav\">←</span>古い投稿"
+
+#: ../functions.php:141
+msgid "Pingback:"
+msgstr "ピンバック："
+
+#: ../functions.php:141 ../functions.php:166
+msgid "(Edit)"
+msgstr "EDIT"
+
+#: ../functions.php:154
+#, php-format
+msgid "%s"
+msgstr "％sの"
+
+#: ../functions.php:156
+msgid "Your comment is awaiting moderation."
+msgstr "このコメントは管理者の承認待ちです。"
+
+#: ../functions.php:195
+#, php-format
+msgid ""
+"<span class=\"sep\">Posted on </span><time class=\"entry-date\" datetime="
+"\"%3$s\" pubdate>%4$s</time><span class=\"byline\"> <span class=\"sep\"> by "
+"</span> <span class=\"label author vcard\"><a class=\"url fn n\" href=\"%5$s"
+"\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "<span class=\"sep\">は</スパン> <時間クラス= \ "エントリー日付\"日時= \ "に投稿されました%3$s \ "PUBDATE> %4$s </時刻> <スパンクラス= \ "署名欄\"> <span class=\"sep\">によって</スパン> <span class=\"label筆者vcard\"> <Aクラス= \ "URL FN N \"のhref = \ " %5$s \ "タイトル= \" %6$s \ "REL = \"著者で\ "> %7$s過去</ a> </スパン> </スパン>"
+
+#: ../functions.php:201
+#, php-format
+msgid "View all posts by %s"
+msgstr "%sによる投稿をすべて表示"
+
+#: ../functions.php:359 ../functions/options/content.php:6
+msgid "Page"
+msgstr "================================================== ============= ページ ==================================== ============================="
+
+#: ../functions.php:424 ../functions/custom/config.php:6
+msgid "AppifyWP Pro"
+msgstr "AppifyWPプロ"
+
+#: ../functions.php:429 ../functions/admin/functions/theme-setting.php:6
+msgid "AppifyWP Pro Settings"
+msgstr "AppifyWP Proの設定"
+
+#: ../functions.php:438
+msgid "Team Members"
+msgstr "チームメンバー"
+
+#: ../functions.php:443 ../functions/admin/admin.php:64
+msgid "Documentation"
+msgstr "ドキュメント"
+
+#: ../header.php:28 ../functions/functions/theme-items.php:17
+#, php-format
+msgid "Page %s"
+msgstr "ページ：%s"
+
+#: ../search.php:23
+#, php-format
+msgid "Search Results for: %s"
+msgstr "検索結果：%s"
+
+#: ../search.php:37
+msgid "No Results Found"
+msgstr "検索結果が見つかりません"
+
+#: ../search.php:39
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps you "
+"should try again with a different search term."
+msgstr "それは、我々はあなたが探しているものを見つけることができないようです。おそらく、あなたは別の検索語でもう一度試してみてください。"
+
+#: ../sidebar.php:15
+#, php-format
+msgid ""
+"You can add widget to <strong>\"%s\"</strong> widget area by going to "
+"<strong>Appearance > Widget</strong>"
+msgstr "あなたは\ "の<strong>にウィジェットを追加することもできます%s \ "</ strong>のある[外観に行くことによって、ウィジェットエリア>ウィジェット</ strong>の"
+
+#: ../functions/admin/admin.php:63
+msgid "Settings"
+msgstr "設定"
+
+#: ../functions/admin/functions/file-uploader.php:39
+msgid "Getting content length is not supported."
+msgstr "コンテンツの長さの取得はサポートされていません。"
+
+#: ../functions/admin/functions/file-uploader.php:94
+msgid "increase post_max_size and upload_max_filesize to"
+msgstr "post_max_sizeにとupload_max_filesizeでに増加"
+
+#: ../functions/admin/functions/file-uploader.php:114
+msgid "Server error. Upload directory isn't writable."
+msgstr "サーバーエラー。アップロードディレクトリが書き込み可能ではありません。"
+
+#: ../functions/admin/functions/file-uploader.php:118
+msgid "No files were uploaded."
+msgstr "なしのファイルがアップロードされませんでした。"
+
+#: ../functions/admin/functions/file-uploader.php:124
+msgid "File is empty"
+msgstr "ファイルは空です"
+
+#: ../functions/admin/functions/file-uploader.php:128
+msgid "File is too large"
+msgstr "ファイルが大きすぎる"
+
+#: ../functions/admin/functions/file-uploader.php:138
+msgid "File has an invalid extension, it should be one of "
+msgstr "ファイルに無効な拡張子を持って、それは以下のいずれかでなければなりません"
+
+#: ../functions/admin/functions/file-uploader.php:152
+msgid ""
+"Could not save uploaded file.The upload was cancelled, or server error "
+"encountered"
+msgstr "file.Theアップロードアップロードがキャンセルされた、またはサーバーエラー発生し保存できませんでした"
+
+#: ../functions/admin/functions/theme-document.php:20
+msgid "AppifyWP Documentation"
+msgstr "AppifyWPドキュメント"
+
+#: ../functions/admin/functions/theme-setting.php:45
+msgid "Settings Saved"
+msgstr "設定が保存されました。"
+
+#: ../functions/custom/config.php:25 ../functions/custom/config.php:26
+msgid "Sidebar Widget Area"
+msgstr "サイドバーウィジェットエリア"
+
+#: ../functions/custom/config.php:33
+msgid "Footer 1st Column"
+msgstr "フッター1列"
+
+#: ../functions/custom/config.php:34
+msgid "1st Footer Widget Area"
+msgstr "第フッターウィジェットエリア"
+
+#: ../functions/custom/config.php:40
+msgid "Footer 2nd Column"
+msgstr "フッター2列目"
+
+#: ../functions/custom/config.php:41
+msgid "2nd Footer Widget Area"
+msgstr "第二フッターウィジェットエリア"
+
+#: ../functions/custom/config.php:47
+msgid "Footer 3rd Column"
+msgstr "フッター3列"
+
+#: ../functions/custom/config.php:48
+msgid "3rd Footer Widget Area"
+msgstr "サードフッターウィジェットエリア"
+
+#: ../functions/custom/config.php:54
+msgid "Footer 4th Column"
+msgstr "フッター4列"
+
+#: ../functions/custom/config.php:55
+msgid "4th Footer Widget Area"
+msgstr "第4回フッターウィジェットエリア"
+
+#: ../functions/custom/config.php:77 ../functions/options/appearance.php:210
+#: ../functions/types/portfolio/content.php:99
+msgid "Appearance"
+msgstr "みなり"
+
+#: ../functions/custom/config.php:78 ../functions/options/header.php:117
+msgid "Header"
+msgstr "ヘッダー"
+
+#: ../functions/custom/config.php:79 ../functions/options/footer.php:7
+#: ../functions/options/footer.php:71
+msgid "Footer"
+msgstr "フッター"
+
+#: ../functions/custom/config.php:80
+msgid "Homepage"
+msgstr "ホームページ"
+
+#: ../functions/custom/config.php:81 ../functions/options/apps.php:9
+#: ../functions/types/app/content.php:257
+#: ../functions/types/app/content.php:374
+#: ../functions/types/app/content.php:504
+#: ../functions/types/app/content.php:633
+#: ../functions/types/app/content.php:757
+#: ../functions/types/app/content.php:878
+#: ../functions/types/app/content.php:999
+#: ../functions/types/app/content.php:1105
+#: ../functions/types/app/content.php:1212
+msgid "Slideshow"
+msgstr "スライドショー"
+
+#: ../functions/custom/config.php:82 ../functions/options/blog.php:8
+#: ../functions/options/blog.php:38
+msgid "Blog"
+msgstr "ブログ"
+
+#: ../functions/custom/config.php:83 ../functions/options/advanced.php:98
+msgid "Advanced"
+msgstr "上級"
+
+#: ../functions/custom/config.php:88
+#: ../functions/functions/update-notifier.php:29
+msgid "Update"
+msgstr "更新"
+
+#: ../functions/custom/config.php:89
+msgid "Credits"
+msgstr "謝辞"
+
+#: ../functions/custom/config.php:90
+msgid "Support"
+msgstr "
+サポート"
+
+#: ../functions/custom/custom-hook.php:91
+msgid "This post is password protected. Please fill the password:"
+msgstr "この投稿はパスワードで保護されています。パスワードを入力してください："
+
+#: ../functions/custom/custom-hook.php:93
+msgid "Password"
+msgstr "パスワード"
+
+#: ../functions/functions/resize.php:42 ../functions/functions/resize.php:171
+msgid "No image URL has been entered."
+msgstr "いいえ画像のURLが入力されていない。"
+
+#: ../functions/functions/resize.php:230
+msgid "Failed to get $file_path information using \"@getimagesize\"."
+msgstr "\ "@ getimagesize \"を使用して$ file_pathに情報を取得できませんでした。"
+
+#: ../functions/functions/resize.php:273
+msgid "Resize path invalid (GIF)"
+msgstr "無効なパスのサイズを変更します（GIF）"
+
+#: ../functions/functions/resize.php:277
+msgid "Resize path invalid (PNG)."
+msgstr "無効なパス（PNG）のサイズを変更します。"
+
+#: ../functions/functions/resize.php:285
+msgid "Resize path invalid (JPG)."
+msgstr "無効なパスを（JPG）サイズを変更します。"
+
+#: ../functions/functions/resize.php:300
+msgid "Failed to get $dest_file_name (resized image) info via @getimagesize"
+msgstr "@ getimagesize経由$ dest_file_name（リサイズされた画像）の情報を取得できませんでした"
+
+#: ../functions/functions/theme-ajax.php:21
+msgid "Please insert email address."
+msgstr "メールアドレスを挿入してください。"
+
+#: ../functions/functions/theme-ajax.php:26
+#: ../functions/functions/theme-ajax.php:47
+#: ../functions/functions/theme-ajax.php:57
+#: ../functions/functions/theme-ajax.php:96
+#: ../functions/functions/theme-ajax.php:107
+#: ../functions/functions/theme-ajax.php:120
+#: ../functions/functions/theme-ajax.php:155
+msgid "Failed"
+msgstr "失敗しました。"
+
+#: ../functions/functions/theme-ajax.php:26
+msgid "email address is invalid."
+msgstr "電子メールアドレスが無効です。"
+
+#: ../functions/functions/theme-ajax.php:34
+msgid "Add your MailChimp API at AppifyWP > Settings > Advanced > MailChimp"
+msgstr "AppifyWP> [設定]> [詳細]> [MailChimpであなたMailChimp APIを追加"
+
+#: ../functions/functions/theme-ajax.php:45
+msgid "Success!"
+msgstr "更新成功！"
+
+#: ../functions/functions/theme-ajax.php:45
+msgid "Check your email to confirm sign up."
+msgstr "サインアップを確認するためにあなたの電子メールをチェックしてください。"
+
+#: ../functions/functions/theme-ajax.php:57
+#: ../functions/functions/theme-ajax.php:107
+msgid "Honey Pot!"
+msgstr "ポットハニー！"
+
+#: ../functions/functions/theme-ajax.php:73
+msgid "message from"
+msgstr "からのメッセージ"
+
+#: ../functions/functions/theme-ajax.php:77
+msgid "Form ID"
+msgstr "フォームID"
+
+#: ../functions/functions/theme-ajax.php:78
+#: ../functions/shortcodes/contact.php:43
+#: ../functions/types/custom-sidebar/content.php:17
+#: ../functions/types/custom-sidebar/manage.php:8
+#: ../functions/types/slide/content.php:16
+#: ../functions/types/team/manage.php:8
+msgid "Name"
+msgstr "氏名"
+
+#: ../functions/functions/theme-ajax.php:79
+#: ../functions/shortcodes/contact.php:44
+#: ../functions/widgets/contact-info.php:68
+msgid "Email"
+msgstr "Eメール"
+
+#: ../functions/functions/theme-ajax.php:80
+#: ../functions/shortcodes/contact.php:45
+msgid "Message"
+msgstr "メッセージ"
+
+#: ../functions/functions/theme-ajax.php:85
+#: ../functions/functions/theme-ajax.php:145
+msgid "This message has been sent from"
+msgstr "このメッセージはから送られてきた"
+
+#: ../functions/functions/theme-ajax.php:94
+#: ../functions/functions/theme-ajax.php:153
+msgid "Success"
+msgstr "成功"
+
+#: ../functions/functions/theme-ajax.php:94
+#: ../functions/functions/theme-ajax.php:153
+msgid "your message has been sent."
+msgstr "あなたのメッセージが送信されました"
+
+#: ../functions/functions/theme-ajax.php:96
+#: ../functions/functions/theme-ajax.php:155
+msgid "some issue occur while sending your message"
+msgstr "あなたのメッセージを送信中に、いくつかの問題が発生する可能性が"
+
+#: ../functions/functions/theme-ajax.php:120
+msgid "please fill the message."
+msgstr "メッセージを記入してください。"
+
+#: ../functions/functions/theme-ajax.php:139 ../functions/options/home.php:46
+msgid "Application"
+msgstr "アプリケーション"
+
+#: ../functions/functions/theme-ajax.php:140 ../functions/options/home.php:15
+msgid "Type"
+msgstr "タイプ"
+
+#: ../functions/functions/theme-items.php:61
+msgid "No Comments"
+msgstr "コメントはありません &#187;"
+
+#: ../functions/functions/theme-items.php:61
+msgid "1 Comment"
+msgstr "1件のコメント &#187;"
+
+#: ../functions/functions/theme-items.php:61
+msgid "% Comments"
+msgstr "注釈 "
+
+#: ../functions/functions/theme-items.php:65
+msgid "Tags: "
+msgstr "タグ： "
+
+#: ../functions/options/advanced.php:22
+msgid "Responsive"
+msgstr "対応の早さ"
+
+#: ../functions/options/advanced.php:27
+msgid "Responsive Layout"
+msgstr "レスポンシブレイアウト"
+
+#: ../functions/options/advanced.php:28
+msgid ""
+"Turn off to disable responsive layout (your site will look identical on all "
+"devices)"
+msgstr "（あなたのサイトは、すべてのデバイスで同じになります）応答レイアウトを無効にするためにオフにする"
+
+#: ../functions/options/advanced.php:37
+msgid "Misc"
+msgstr "その他"
+
+#: ../functions/options/advanced.php:43
+msgid "Sticky Sidebar"
+msgstr "スティッキーサイドバー"
+
+#: ../functions/options/advanced.php:44
+msgid ""
+"Turn on and the sidebar on your posts, pages, and apps will scroll with your "
+"visitors"
+msgstr "をオンにして、あなたの投稿、ページ、アプリケーション上のサイドバーには、あなたの訪問者にスクロールします"
+
+#: ../functions/options/advanced.php:52
+msgid "AppifyWP Affiliate ID"
+msgstr "AppifyWPアフィリエイトID"
+
+#: ../functions/options/advanced.php:53
+#, php-format
+msgid ""
+"Make money by refering people to AppifyWP. Earn 30% of all sales referred by "
+"links containing your AppifyWP Affiliate ID<br><a target=\"_blank\" href="
+"\"http://appifywp.com/affiliate-program\">Affiliate Program Signup</a>"
+msgstr "AppifyWPに人々をよく引用することによってお金を稼ぐ。あなたのAppifyWPアフィリエイトID検索<a target=\"_blank\" href=\"http://appifywp.com/affiliate-program\">アフィリエイトプログラム</サインアップ含むリンクによって参照されるすべての売上の30％を稼ぐ>"
+
+#: ../functions/options/advanced.php:66
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#: ../functions/options/advanced.php:80
+msgid "Export Options"
+msgstr "エクスポートオプション"
+
+#: ../functions/options/advanced.php:81
+msgid "copy/paste these string into blank .txt file and save it"
+msgstr "コピー/貼り付け、これらの文字列を空白のtxtファイルにして保存します"
+
+#: ../functions/options/advanced.php:87
+msgid "Import Options"
+msgstr "インポートオプション"
+
+#: ../functions/options/advanced.php:88
+msgid "copy string that you had saved from \"Export Option\" and paste it here"
+msgstr "あなたは\ "エクスポートオプション\"から保存してそれをここに貼り付けたことをコピー文字列"
+
+#: ../functions/options/appearance.php:15
+msgid "Favicon"
+msgstr "{Favicon}"
+
+#: ../functions/options/appearance.php:16
+msgid ""
+"must be \"ico\" file, you can generate it from <a href=\"http://tools."
+"dynamicdrive.com/favicon/\">here</a>"
+msgstr "\ "ICO \"ファイルでなければなりません、あなたは<aからhref=\"http://tool​​s.dynamicdrive.com/favicon/\">ここ</ a>を、それを生成することができます"
+
+#: ../functions/options/appearance.php:21
+msgid "Login Logo"
+msgstr "ログインロゴ"
+
+#: ../functions/options/appearance.php:22
+msgid "Logo to be shown on WP-Admin Login Page instead of the WordPress logo"
+msgstr "WP-Adminのログインページに表示されるロゴの代わりに、ワードプレスのロゴ"
+
+#: ../functions/options/appearance.php:36
+#: ../functions/types/portfolio/content.php:212
+msgid "Background Color"
+msgstr "背景色"
+
+#: ../functions/options/appearance.php:37
+#: ../functions/types/portfolio/content.php:213
+msgid "choose color to use as background"
+msgstr "背景として使用する色を選択"
+
+#: ../functions/options/appearance.php:44
+msgid "Background Texture"
+msgstr "背景テクスチャ"
+
+#: ../functions/options/appearance.php:45
+msgid "Choose texture to overlay on top of the background color"
+msgstr "背景色の上にオーバーレイするテクスチャーを選択する"
+
+#: ../functions/options/appearance.php:48
+#: ../functions/types/app/content.php:78
+#: ../functions/types/portfolio/content.php:224
+#: ../functions/types/portfolio/content.php:333
+msgid "None"
+msgstr "なし"
+
+#: ../functions/options/appearance.php:49
+msgid "Nasty Fabric"
+msgstr "淫乱ファブリック"
+
+#: ../functions/options/appearance.php:50
+msgid "Paper"
+msgstr "ペーパーモード	"
+
+#: ../functions/options/appearance.php:51
+msgid "Rough"
+msgstr "ラフ"
+
+#: ../functions/options/appearance.php:52
+msgid "Horizontal"
+msgstr "水平な"
+
+#: ../functions/options/appearance.php:59
+#: ../functions/types/portfolio/content.php:260
+msgid "Background Image"
+msgstr "背景画像"
+
+#: ../functions/options/appearance.php:60
+#: ../functions/types/portfolio/content.php:261
+msgid "choose image to use as background"
+msgstr "背景として使用するイメージを選択"
+
+#: ../functions/options/appearance.php:90
+msgid "Font Family"
+msgstr "フォント ファミリー:"
+
+#: ../functions/options/appearance.php:91
+msgid "site wide font family"
+msgstr "サイト全体のフォントファミリ"
+
+#: ../functions/options/appearance.php:120 ../functions/options/header.php:49
+#: ../functions/options/header.php:94
+msgid "Font Size"
+msgstr "フォントサイズ"
+
+#: ../functions/options/appearance.php:121
+msgid "site wide font size"
+msgstr "サイト全体のフォントサイズ"
+
+#: ../functions/options/appearance.php:131
+msgid "Line Height"
+msgstr "行の高さ"
+
+#: ../functions/options/appearance.php:132
+msgid "site wide line height"
+msgstr "サイト全体の行の高さ"
+
+#: ../functions/options/appearance.php:142 ../functions/options/header.php:61
+msgid "Font Color"
+msgstr "フォントの色"
+
+#: ../functions/options/appearance.php:149
+msgid "Link Color"
+msgstr "リンクの色"
+
+#: ../functions/options/appearance.php:156
+msgid "Link Hover Color"
+msgstr "リンクホバー色"
+
+#: ../functions/options/appearance.php:164
+msgid "Header Color"
+msgstr "ヘッダーの色"
+
+#: ../functions/options/appearance.php:172
+msgid "Heading Font Family"
+msgstr "見出しのフォントファミリ"
+
+#: ../functions/options/appearance.php:173
+msgid "choose the font face to apply to heading text eg., H1, H2, H3, ..."
+msgstr "テキストなどを見出しに適用するフォントフェースを選択します。、H1、H2、H3、..."
+
+#: ../functions/options/appearance.php:195
+#: ../functions/types/portfolio/content.php:165
+msgid "Custom Google Web Fonts"
+msgstr "カスタムGoogleウェブフォント"
+
+#: ../functions/options/appearance.php:196
+#: ../functions/types/portfolio/content.php:166
+msgid ""
+"Enter a font name if you want to use font that's listed above. You can check "
+"full font list at <a href=\"http://www.google.com/webfonts#HomePlace:home"
+"\">Google Web Fonts</a>."
+msgstr "あなたは上記のフォントを使用したい場合は、フォント名を入力します。あなたがもしでフルフォントリストをチェックすることができますhref=\"http://www.google.com/webfonts#HomePlace:home\"> Googleウェブフォント</ a>を。"
+
+#: ../functions/options/apps.php:18
+msgid "Slideshow Type"
+msgstr "スライドショータイプ"
+
+#: ../functions/options/apps.php:19
+msgid "Choose slide effect"
+msgstr "スライド効果を選択してください"
+
+#: ../functions/options/apps.php:22
+msgid "Fade"
+msgstr "フェード"
+
+#: ../functions/options/apps.php:23
+#: ../functions/types/portfolio/content.php:117
+#: ../functions/types/slide/register.php:9
+#: ../functions/types/slide/register.php:20
+msgid "Slide"
+msgstr "すべり台"
+
+#: ../functions/options/apps.php:31
+msgid "Auto Play Slideshows"
+msgstr "自動再生のスライドショー"
+
+#: ../functions/options/apps.php:32
+msgid "Animate slide shows automatically when the page loads"
+msgstr "自動的にスライドショーをアニメーション化、ページのロード時"
+
+#: ../functions/options/apps.php:39
+msgid "Pause Time"
+msgstr "ポーズ時間"
+
+#: ../functions/options/apps.php:40
+msgid "0.5 - 10 sec"
+msgstr "0.5から10秒"
+
+#: ../functions/options/blog.php:16
+msgid "Show Featured Image"
+msgstr "注目の画像を表示"
+
+#: ../functions/options/blog.php:17
+msgid "Turn on to use a featured image for each blog post"
+msgstr "各ブログの記事に関する特集のイメージを使用するオン"
+
+#: ../functions/options/blog.php:24
+msgid "Read More Text"
+msgstr "複数のテキストを読む"
+
+#: ../functions/options/blog.php:25
+msgid ""
+"string for \"read more\" link.<br />leave blank to disable \"read more\" "
+"link."
+msgstr "\ "続きを読む\"リンクを無効にする\の文字列 "続きを読む\"リンクをクリックします。<br />空白のまま。"
+
+#: ../functions/options/content.php:12
+msgid "Default Layout"
+msgstr "デフォルトのレイアウト"
+
+#: ../functions/options/content.php:13
+msgid "choose page default layout"
+msgstr "ページのデフォルトレイアウトを選択"
+
+#: ../functions/options/content.php:16
+msgid "Full Width"
+msgstr "全幅"
+
+#: ../functions/options/content.php:17
+msgid "Sidebar Left"
+msgstr "サイドバーは、左"
+
+#: ../functions/options/content.php:18
+msgid "Sidebar Right"
+msgstr "右のサイドバー"
+
+#: ../functions/options/content.php:37
+msgid "Content"
+msgstr "目次"
+
+#: ../functions/options/footer.php:14
+msgid "Show Footer Widgets"
+msgstr "フッターウィジェットを表示"
+
+#: ../functions/options/footer.php:15
+msgid ""
+"If you dont want to add any awesome widgets to your footer, set this to \"off"
+"\"."
+msgstr "あなたのフッターに任意の素晴らしいウィジェットを追加したくない場合は、\ "オフ\"に設定します。"
+
+#: ../functions/options/footer.php:23
+msgid "Footer Widget Layout"
+msgstr "フッターウィジェットレイアウト"
+
+#: ../functions/options/footer.php:24
+msgid ""
+"Choose how many widgets you want to appear in your footer. You can modify "
+"the content of these widgets under Appearance > Widgets"
+msgstr "あなたのフッターに表示したいどのように多くのウィジェットを選択します。あなたは、外観>ウィジェットの下でこれらのウィジェットの内容を変更することができます"
+
+#: ../functions/options/footer.php:27
+msgid "1 Col"
+msgstr "1コル"
+
+#: ../functions/options/footer.php:28
+msgid "2 Cols"
+msgstr "2コルズ"
+
+#: ../functions/options/footer.php:29
+msgid "3 Cols"
+msgstr "3コルズ"
+
+#: ../functions/options/footer.php:30
+msgid "4 Cols"
+msgstr "4コルズ"
+
+#: ../functions/options/footer.php:37
+msgid "Footer Background Color"
+msgstr "フッターの背景色"
+
+#: ../functions/options/footer.php:45
+msgid "Footer Text Color"
+msgstr "フッターテキストの色"
+
+#: ../functions/options/footer.php:53
+msgid "Copyright Text"
+msgstr "著作権テキスト"
+
+#: ../functions/options/footer.php:54
+msgid "copyright text you'd like to display in footer"
+msgstr "フッターに表示したいのですが、著作権テキスト"
+
+#: ../functions/options/footer.php:61
+msgid "Show Powered By Link"
+msgstr "リンクするPowered Byショー"
+
+#: ../functions/options/footer.php:62
+msgid ""
+"Help support hard work and love put into this theme by displaying a subtle "
+"link back to AppifyWP in your footer"
+msgstr "あなたのフッターにAppifyWPに戻る微妙なリンクを表示することで、このテーマに入れハードワークと愛を支援しましょう"
+
+#: ../functions/options/header.php:8
+msgid "Header Container"
+msgstr "ヘッダコンテナ"
+
+#: ../functions/options/header.php:14
+msgid "Header BG Color"
+msgstr "ヘッダBGカラー"
+
+#: ../functions/options/header.php:15
+msgid "background color of header section"
+msgstr "ヘッダーセクションの背景色"
+
+#: ../functions/options/header.php:24
+msgid "Logo"
+msgstr "ロゴ"
+
+#: ../functions/options/header.php:31
+msgid "Logo Type"
+msgstr "ロゴタイプ"
+
+#: ../functions/options/header.php:35
+#: ../functions/types/portfolio/content.php:64
+msgid "Text"
+msgstr "SMS"
+
+#: ../functions/options/header.php:36 ../functions/types/slide/content.php:23
+#: ../functions/types/slide/manage.php:9
+msgid "Image"
+msgstr "イメージ"
+
+#: ../functions/options/header.php:50
+msgid "20 - 28 px"
+msgstr "20から28ピクセル"
+
+#: ../functions/options/header.php:72
+msgid "Logo Image"
+msgstr "ロゴ画像"
+
+#: ../functions/options/header.php:73
+msgid "recommended height is 60px"
+msgstr "推奨される高さは60PX​​です"
+
+#: ../functions/options/header.php:79
+msgid "Show Tagline Text"
+msgstr "キャッチフレーズのテキストを表示"
+
+#: ../functions/options/header.php:80
+msgid ""
+"This will display the \"tagline\" text you entered in wp-admin > Settings > "
+"General"
+msgstr "これは\ "キャッチフレーズ\"あなたがWP-adminに入力したテキスト]> [設定]> [全般]を表示します"
+
+#: ../functions/options/header.php:88
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: ../functions/options/header.php:95
+msgid "10 - 18 px"
+msgstr "10から18ピクセル"
+
+#: ../functions/options/header.php:106
+msgid "Primary Navigation Font Color"
+msgstr "プライマリナビゲーションフォントの色"
+
+#: ../functions/options/home.php:8
+msgid "Homepage Type"
+msgstr "ホームページの種類"
+
+#: ../functions/options/home.php:16
+msgid "choose page type to set as home page"
+msgstr "ホームページとして設定するページの種類を選択"
+
+#: ../functions/options/home.php:30
+msgid "Home Page"
+msgstr "ホームページ"
+
+#: ../functions/options/home.php:31 ../functions/options/home.php:47
+msgid "this page will be displayed as a Home Page"
+msgstr "このページはトップページとして表示されます"
+
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:43
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:206
+msgid "&laquo; First"
+msgstr "最初"
+
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:44
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:207
+msgid "Last &raquo;"
+msgstr "最後"
+
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:45
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:208
+msgid "&raquo;"
+msgstr "»"
+
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:46
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:209
+msgid "&laquo;"
+msgstr "«"
+
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:47
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:48
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:210
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:211
+msgid "..."
+msgstr "..."
+
+#: ../functions/plugins/wp-pagenavi/wp-pagenavi.php:203
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "パーセントTOTAL_PAGES％のページ％CURRENT_PAGE％の"
+
+#: ../functions/shortcodes/apps.php:20
+msgid "Available on"
+msgstr "上で利用可能"
+
+#: ../functions/shortcodes/apps.php:125
+msgid "on"
+msgstr "ON"
+
+#: ../functions/shortcodes/apps.php:126
+msgid "stars"
+msgstr "星"
+
+#: ../functions/shortcodes/apps.php:150
+msgid "Comment"
+msgstr "コメント"
+
+#: ../functions/shortcodes/apps.php:151
+msgid "Request"
+msgstr "要求"
+
+#: ../functions/shortcodes/apps.php:152
+msgid "Report Bug"
+msgstr "バグレポート"
+
+#: ../functions/shortcodes/contact.php:46
+msgid "Submit"
+msgstr "送信"
+
+#: ../functions/shortcodes/social.php:15
+#: ../functions/types/team/content.php:52
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: ../functions/shortcodes/social.php:93
+#, php-format
+msgid "about %d seconds ago"
+msgstr "約%d秒前"
+
+#: ../functions/shortcodes/social.php:94
+msgid "about a minute ago"
+msgstr "分程度前"
+
+#: ../functions/shortcodes/social.php:95
+#, php-format
+msgid "about %d minutes ago"
+msgstr "約%d分前"
+
+#: ../functions/shortcodes/social.php:96
+msgid "about an hour ago"
+msgstr "時間ほど前に"
+
+#: ../functions/shortcodes/social.php:97
+#, php-format
+msgid "about %d hours ago"
+msgstr "約%d時間前"
+
+#: ../functions/shortcodes/social.php:98
+msgid "about a day ago"
+msgstr "日ほど前"
+
+#: ../functions/shortcodes/social.php:99
+#, php-format
+msgid "about %d days ago"
+msgstr "約%d日前"
+
+#: ../functions/shortcodes/social.php:100
+msgid "view tweet on twitter"
+msgstr "Twitter上でつぶやきを見る"
+
+#: ../functions/shortcodes/social.php:101
+msgid "loading tweets ..."
+msgstr "つぶやきを読み込んでいます..."
+
+#: ../functions/types/app/content.php:6
+#: ../functions/types/portfolio/content.php:4
+msgid "App Info"
+msgstr "アプリ情報"
+
+#: ../functions/types/app/content.php:19
+msgid "App Icon"
+msgstr "アプリのアイコン(App icon)"
+
+#: ../functions/types/app/content.php:20
+msgid "Your App Icon. "
+msgstr "あなたのアプリのアイコン。"
+
+#: ../functions/types/app/content.php:27
+msgid "Use an image as the title"
+msgstr "タイトルなどの画像を使用して、"
+
+#: ../functions/types/app/content.php:28
+msgid "Turn \"on\" to use an image in place of your app title"
+msgstr "ターン\ "\の"アプリのタイトルの代わりに画像を使用する"
+
+#: ../functions/types/app/content.php:35
+msgid "App Image / Logo"
+msgstr "アプリ画像/ロゴ"
+
+#: ../functions/types/app/content.php:36
+msgid "Choose image to use as your app logo."
+msgstr "アプリのロゴとして使用するイメージを選択してください。"
+
+#: ../functions/types/app/content.php:42
+msgid "Primary App Description"
+msgstr "主要なアプリケーションの説明"
+
+#: ../functions/types/app/content.php:43
+msgid "What does your app do in a sentence?"
+msgstr "あなたのアプリは、文章で何をしますか？"
+
+#: ../functions/types/app/content.php:49
+msgid "Secondary App Description"
+msgstr "二次のApp説明"
+
+#: ../functions/types/app/content.php:50
+msgid "Add a sentance or two of additonal details about your app."
+msgstr "あなたのアプリについてadditonalの細部の一文に含まれるか2つを追加します。"
+
+#: ../functions/types/app/content.php:61
+msgid "App Appearence"
+msgstr "アプリの外観"
+
+#: ../functions/types/app/content.php:74
+msgid "App Showcase Background Image"
+msgstr "アプリのショーケースの背景イメージ"
+
+#: ../functions/types/app/content.php:75
+msgid ""
+"Select a background image that you would like to appear behind your app "
+"screenshots and description"
+msgstr "あなたがあなたのアプリのスクリーンショットや説明の背後に表示したい背景画像を選択する"
+
+#: ../functions/types/app/content.php:79
+msgid "Above Water"
+msgstr "水の上"
+
+#: ../functions/types/app/content.php:80
+msgid "Pink Sunset"
+msgstr "ピンクのサンセット"
+
+#: ../functions/types/app/content.php:81
+msgid "Space"
+msgstr "空間"
+
+#: ../functions/types/app/content.php:82
+msgid "Beach Sunset"
+msgstr "ビーチサンセット"
+
+#: ../functions/types/app/content.php:83
+msgid "Under Water"
+msgstr "水中で"
+
+#: ../functions/types/app/content.php:84
+msgid "Custom  "
+msgstr "カスタム。"
+
+#: ../functions/types/app/content.php:91
+msgid "Custom App Background Image"
+msgstr "カスタムアプリケーションの背景画像"
+
+#: ../functions/types/app/content.php:92
+msgid "Upload a custom image to use behind your app showcase."
+msgstr "アプリのショーケースの後ろに使用するカスタムイメージをアップロードします。"
+
+#: ../functions/types/app/content.php:98
+msgid "App Showcase Background Color"
+msgstr "アプリのショーケースの背景色"
+
+#: ../functions/types/app/content.php:99
+msgid ""
+"If you selected \"none\" or a semi-transparent background image, this color "
+"will show in the background"
+msgstr "を選択した場合は\ "なし\"または半透明の背景画像を、この色はバックグラウンドで表示されます"
+
+#: ../functions/types/app/content.php:106
+msgid "Background Parallax Effect"
+msgstr "背景視差効果"
+
+#: ../functions/types/app/content.php:107
+msgid "Hipster effect that animates the background image as you scroll."
+msgstr "アニメーションでは、背景画像はスクロールすることをヒップスター効果。"
+
+#: ../functions/types/app/content.php:114
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: ../functions/types/app/content.php:115
+msgid ""
+"If set to \"off\", the sidebar will be hidden from this app page and content "
+"will span the entire width."
+msgstr "\ "オフ\"に設定すると、サイドバーには、このアプリのページから隠蔽され、コンテンツが全体の幅が広がります。"
+
+#: ../functions/types/app/content.php:124
+msgid "App Showcase Foreground Contrast"
+msgstr "アプリケーションショーケースフォアグラウンドコントラスト"
+
+#: ../functions/types/app/content.php:125
+msgid ""
+"If your App Showcase background color or image is dark, choose light. If "
+"your App Showcase background color or image is light, choose \"Dark\""
+msgstr "あなたのアプリケーションのショーケースの背景色または画像が暗い場合には、光を選択してください。あなたのアプリケーションのショーケースの背景色またはイメージが軽い場合は、\ "ダーク\"を選択"
+
+#: ../functions/types/app/content.php:128
+msgid "Light"
+msgstr "ライト"
+
+#: ../functions/types/app/content.php:129
+msgid "Dark"
+msgstr "ダーク"
+
+#: ../functions/types/app/content.php:136
+msgid "App Showcase Text Color"
+msgstr "アプリケーションショーケーステキストの色"
+
+#: ../functions/types/app/content.php:137
+msgid ""
+"Customize the text color of the app showcase area. If no color is selected "
+"it will default to using white or black based on the Foreground Contrast "
+"above"
+msgstr "アプリのショーケースの領域のテキストの色をカスタマイズします。何色が選択されていない場合には、上記のフォアグラウンドコントラストに基づいて白または黒の使用がデフォルトになります"
+
+#: ../functions/types/app/content.php:148
+msgid "Platforms"
+msgstr "プラットフォーム"
+
+#: ../functions/types/app/content.php:165
+#: ../functions/types/app/content.php:172
+msgid "iPhone"
+msgstr "iPhone"
+
+#: ../functions/types/app/content.php:181
+msgid "iPhone Orientation"
+msgstr "iPhoneセクシュアリティ"
+
+#: ../functions/types/app/content.php:182
+msgid "Choose the orientation of the iPhone"
+msgstr "iPhoneの向きを選択してください"
+
+#: ../functions/types/app/content.php:185
+#: ../functions/types/app/content.php:305
+#: ../functions/types/app/content.php:424
+#: ../functions/types/app/content.php:553
+#: ../functions/types/app/content.php:688
+#: ../functions/types/app/content.php:809
+#: ../functions/types/app/content.php:930
+msgid "Portrait"
+msgstr "ポートレイト"
+
+#: ../functions/types/app/content.php:186
+#: ../functions/types/app/content.php:306
+#: ../functions/types/app/content.php:425
+#: ../functions/types/app/content.php:554
+#: ../functions/types/app/content.php:689
+#: ../functions/types/app/content.php:810
+#: ../functions/types/app/content.php:931
+msgid "Landscape"
+msgstr "風景"
+
+#: ../functions/types/app/content.php:199
+msgid "Make iPhone the Default Platform?"
+msgstr "デフォルトプラットフォームiPhoneを作る？"
+
+#: ../functions/types/app/content.php:200
+msgid ""
+"Make the iPhone App visible by default when someone visits this app page. If "
+"your visitor is browsing on a device that matches one of your other enabled "
+"platforms, the default platform is ignored."
+msgstr "誰かがこのアプリのページを訪問し、デフォルトでは目に見えるiPhoneアプリを作る。あなたの訪問者があなたの他の対応プラットフォームのいずれかに一致するデバイス上で閲覧されている場合は、デフォルトのプラットフォームは無視されます。"
+
+#: ../functions/types/app/content.php:208
+msgid "iPhone specific description text"
+msgstr "iPhone固有の説明テキスト"
+
+#: ../functions/types/app/content.php:209
+msgid "Add specific description text for the iPhone"
+msgstr "iPhoneのための具体的な説明テキストを追加"
+
+#: ../functions/types/app/content.php:217
+#: ../functions/types/app/content.php:333
+#: ../functions/types/app/content.php:452
+#: ../functions/types/app/content.php:581
+#: ../functions/types/app/content.php:716
+#: ../functions/types/app/content.php:837
+#: ../functions/types/app/content.php:958
+#: ../functions/types/app/content.php:1064
+#: ../functions/types/app/content.php:1171
+msgid "Coming Soon Mode"
+msgstr "すぐにモードを来る"
+
+#: ../functions/types/app/content.php:218
+#: ../functions/types/app/content.php:334
+#: ../functions/types/app/content.php:453
+#: ../functions/types/app/content.php:582
+#: ../functions/types/app/content.php:717
+#: ../functions/types/app/content.php:838
+#: ../functions/types/app/content.php:959
+#: ../functions/types/app/content.php:1065
+#: ../functions/types/app/content.php:1172
+msgid ""
+"If \"ON\", a \"Coming Soon\" button will display in place of the app store "
+"button."
+msgstr "\ "\ ON"場合には、\ "近日発売\"ボタンをクリックするとApp Storeのボタンの代わりに表示されます。"
+
+#: ../functions/types/app/content.php:226
+#: ../functions/types/app/content.php:342
+#: ../functions/types/app/content.php:461
+#: ../functions/types/app/content.php:590
+#: ../functions/types/app/content.php:725
+#: ../functions/types/app/content.php:846
+#: ../functions/types/app/content.php:967
+#: ../functions/types/app/content.php:1073
+#: ../functions/types/app/content.php:1180
+msgid "Coming Soon Text"
+msgstr "テキスト近日"
+
+#: ../functions/types/app/content.php:227
+#: ../functions/types/app/content.php:343
+#: ../functions/types/app/content.php:462
+#: ../functions/types/app/content.php:591
+#: ../functions/types/app/content.php:726
+#: ../functions/types/app/content.php:847
+#: ../functions/types/app/content.php:968
+#: ../functions/types/app/content.php:1074
+#: ../functions/types/app/content.php:1181
+msgid "Text describing that your app is coming soon"
+msgstr "アプリがすぐに来ていることを説明するテキスト"
+
+#: ../functions/types/app/content.php:234
+msgid "iPhone App Store URL"
+msgstr "iPhone App StoreのURL"
+
+#: ../functions/types/app/content.php:235
+msgid ""
+"Enter the URL of your iPhone app in the app store. This will link your "
+"visitors to buy your app. (include http://)\n"
+"\t\t"
+msgstr "App StoreでのiPhoneアプリのURLを入力します。これは、あなたのアプリを購入するためにあなたの訪問者をリンクします。 \ N \ T \ T（http://を含む）"
+
+#: ../functions/types/app/content.php:243
+#: ../functions/types/app/content.php:360
+#: ../functions/types/app/content.php:488
+#: ../functions/types/app/content.php:617
+#: ../functions/types/app/content.php:743
+#: ../functions/types/app/content.php:864
+#: ../functions/types/app/content.php:985
+#: ../functions/types/app/content.php:1091
+#: ../functions/types/app/content.php:1198
+msgid "Price"
+msgstr "価格"
+
+#: ../functions/types/app/content.php:244
+msgid ""
+"Enter the price of your app in the app store (include currency symbol)\n"
+"\t\t"
+msgstr "App Storeでアプリの価格（通貨記号を含む）\ nの\ tの\ tと入力します。"
+
+#: ../functions/types/app/content.php:253
+msgid "iPhone App Showcase Type"
+msgstr "iPhoneアプリのショーケースタイプ"
+
+#: ../functions/types/app/content.php:258
+#: ../functions/types/app/content.php:375
+#: ../functions/types/app/content.php:505
+#: ../functions/types/app/content.php:634
+#: ../functions/types/app/content.php:758
+#: ../functions/types/app/content.php:879
+#: ../functions/types/app/content.php:1000
+#: ../functions/types/app/content.php:1106
+#: ../functions/types/app/content.php:1213
+#: ../functions/types/portfolio/content.php:118
+msgid "Video"
+msgstr "ビデオ"
+
+#: ../functions/types/app/content.php:266
+msgid "Images or screenshots for iPhone slideshow"
+msgstr "iPhoneスライドショーの画像やスクリーンショット"
+
+#: ../functions/types/app/content.php:273
+#: ../functions/types/app/content.php:393
+#: ../functions/types/app/content.php:519
+#: ../functions/types/app/content.php:648
+#: ../functions/types/app/content.php:776
+#: ../functions/types/app/content.php:897
+#: ../functions/types/app/content.php:1018
+#: ../functions/types/app/content.php:1124
+#: ../functions/types/app/content.php:1231
+#: ../functions/types/portfolio/content.php:145
+msgid "Video ID"
+msgstr "ビデオID"
+
+#: ../functions/types/app/content.php:274
+#: ../functions/types/app/content.php:394
+#: ../functions/types/app/content.php:520
+#: ../functions/types/app/content.php:649
+#: ../functions/types/app/content.php:777
+#: ../functions/types/app/content.php:898
+#: ../functions/types/app/content.php:1019
+#: ../functions/types/app/content.php:1125
+#: ../functions/types/app/content.php:1232
+msgid ""
+"YouTube Video ID (the alphanumeric code after \"v=\" in the url) or Vimeo "
+"video ID (numeric code at the end of the url)"
+msgstr "YouTubeのビデオID（URL内の\ "V = \"の後の英数字コード）またはVimeoのビデオID（URLの末尾の数字コード）"
+
+#: ../functions/types/app/content.php:285
+#: ../functions/types/app/content.php:292
+msgid "iPad"
+msgstr "iPad"
+
+#: ../functions/types/app/content.php:301
+msgid "iPad Orientation"
+msgstr "iPadのセクシュアリティ"
+
+#: ../functions/types/app/content.php:302
+msgid "Choose the orientation of the iPad"
+msgstr "、iPadの向きを選択してください"
+
+#: ../functions/types/app/content.php:315
+msgid "Make iPad the Default Platform?"
+msgstr "iPadのデフォルトプラットフォーム作る？"
+
+#: ../functions/types/app/content.php:316
+msgid ""
+"Make the iPad App visible by default when someone visits this app page. If "
+"your visitor is browsing on a device that matches one of your enabled "
+"platforms, the default platform is ignored."
+msgstr "誰かがこのアプリのページを訪問したとき、デフォルトではiPadアプリが表示されるように。あなたの訪問者があなたの対応プラットフォームのいずれかに一致するデバイス上で閲覧されている場合は、デフォルトのプラットフォームは無視されます。"
+
+#: ../functions/types/app/content.php:324
+msgid "iPad specific description text"
+msgstr "iPadの具体的な説明テキスト"
+
+#: ../functions/types/app/content.php:325
+msgid "Add specific description text for the iPad"
+msgstr "iPadのための具体的な説明テキストを追加"
+
+#: ../functions/types/app/content.php:351
+msgid "iPad App Store URL"
+msgstr "iPadのApp StoreのURL"
+
+#: ../functions/types/app/content.php:352
+msgid ""
+"Enter the URL of your iPad app in the app store. This will link your "
+"visitors to buy your app. (include http://)\n"
+"\t"
+msgstr "App Storeで、あなたのiPadアプリのURLを入力します。これは、あなたのアプリを購入するためにあなたの訪問者をリンクします。 \ N \ T（http://を含む）"
+
+#: ../functions/types/app/content.php:361
+#: ../functions/types/app/content.php:489
+#: ../functions/types/app/content.php:618
+#: ../functions/types/app/content.php:744
+#: ../functions/types/app/content.php:865
+#: ../functions/types/app/content.php:986
+#: ../functions/types/app/content.php:1092
+#: ../functions/types/app/content.php:1199
+msgid ""
+"Enter the price of your app in the app store (include currency symbol)\n"
+"\t"
+msgstr "App Storeでアプリの価格を入力します（通貨記号を含む）には、\ nを\トン"
+
+#: ../functions/types/app/content.php:370
+msgid "iPad App Showcase Type"
+msgstr "iPadアプリショーケースタイプ"
+
+#: ../functions/types/app/content.php:386
+msgid "Images or screenshots for iPad slideshow"
+msgstr "iPadのスライドショーの画像やスクリーンショット"
+
+#: ../functions/types/app/content.php:404
+#: ../functions/types/app/content.php:411
+msgid "Android Phone"
+msgstr "Android携帯電話"
+
+#: ../functions/types/app/content.php:420
+msgid "Android Phone Orientation"
+msgstr "Android携帯の向き"
+
+#: ../functions/types/app/content.php:421
+msgid "Choose the orientation of the Android phone"
+msgstr "Android携帯電話の向きを選択してください"
+
+#: ../functions/types/app/content.php:434
+msgid "Make Android phone the Default Platform?"
+msgstr "Androidの携帯電話のデフォルトプラットフォーム作る？"
+
+#: ../functions/types/app/content.php:435
+msgid ""
+"Make the Android phone app visible by default when someone visits this app "
+"page. If your visitor is browsing on a device that matches one of your other "
+"enabled platforms, the default platform is ignored."
+msgstr "誰かがこのアプリのページを訪問したとき、デフォルトではAndroid携帯電話アプリが見えるよう。あなたの訪問者があなたの他の対応プラットフォームのいずれかに一致するデバイス上で閲覧されている場合は、デフォルトのプラットフォームは無視されます。"
+
+#: ../functions/types/app/content.php:443
+msgid "Android Phone App Description"
+msgstr "Android携帯電話アプリケーションの説明"
+
+#: ../functions/types/app/content.php:444
+#: ../functions/types/app/content.php:573
+msgid ""
+"What does your app do in a couple of sentences or less? TIP: HTML is "
+"supported."
+msgstr "あなたのアプリは、文章以下のカップルで何をしますか？ヒント：HTMLがサポートされています。"
+
+#: ../functions/types/app/content.php:470
+msgid "Android Phone Google Play Store URL"
+msgstr "Android携帯のGoogleプレイストアURL"
+
+#: ../functions/types/app/content.php:471
+msgid ""
+"Enter the URL of your Android phone app in the Google Play app store. This "
+"will link your visitors to get your app. (include http://)\n"
+"\t"
+msgstr "グーグルプレイApp StoreであなたのAndroid携帯電話アプリのURLを入力します。これは、あなたのアプリを取得するためにあなたの訪問者をリンクします。 \ N \ T（http://を含む）"
+
+#: ../functions/types/app/content.php:479
+msgid "Android Phone Kindle App Store URL"
+msgstr "Android携帯のKindle App StoreのURL"
+
+#: ../functions/types/app/content.php:480
+msgid ""
+"Enter the URL of your Android phone app in the Kindle app store. This will "
+"link your visitors to get your app for. (include http://)\n"
+"\t"
+msgstr "KindleのアプリストアにあなたのAndroid携帯電話アプリのURLを入力します。これはのためにアプリを得るためにあなたの訪問者をリンクします。 \ N \ T（http://を含む）"
+
+#: ../functions/types/app/content.php:500
+msgid "Android Phone App Showcase Type"
+msgstr "Android携帯電話アプリケーションショーケースタイプ"
+
+#: ../functions/types/app/content.php:512
+msgid "Images or screenshots for Android phone slideshow"
+msgstr "Androidの携帯電話のスライドショー用の画像やスクリーンショット"
+
+#: ../functions/types/app/content.php:533
+#: ../functions/types/app/content.php:540
+msgid "Android Tablet"
+msgstr "アンドロイドタブレット"
+
+#: ../functions/types/app/content.php:549
+msgid "Android Tablet Orientation"
+msgstr "アンドロイドタブレットセクシュアリティ"
+
+#: ../functions/types/app/content.php:550
+msgid "Choose the orientation of the Android Tablet"
+msgstr "タブレットの向きを選択してください"
+
+#: ../functions/types/app/content.php:563
+msgid "Make Android Tablet the Default Platform?"
+msgstr "アンドロイドタブレットデフォルトプラットフォーム作る？"
+
+#: ../functions/types/app/content.php:564
+msgid ""
+"Make the Android Tablet app visible by default when someone visits this app "
+"page. If your visitor is browsing on a device that matches one of your other "
+"enabled platforms, the default platform is ignored."
+msgstr "誰かがこのアプリのページを訪問したとき、デフォルトではタブレットアプリが見えるように。あなたの訪問者があなたの他の対応プラットフォームのいずれかに一致するデバイス上で閲覧されている場合は、デフォルトのプラットフォームは無視されます。"
+
+#: ../functions/types/app/content.php:572
+msgid "Android Tablet App Description"
+msgstr "アンドロイドタブレットのApp説明"
+
+#: ../functions/types/app/content.php:599
+msgid "Android Tablet Google Play Store URL"
+msgstr "アンドロイドタブレットグーグルプレイストアURL"
+
+#: ../functions/types/app/content.php:600
+msgid ""
+"Enter the URL of your Android Tablet app in the Google Play app store. This "
+"will link your visitors to get your app. (include http://)\n"
+"\t"
+msgstr "グーグルプレイApp StoreであなたのAndroidタブレットのアプリのURLを入力します。これは、あなたのアプリを取得するためにあなたの訪問者をリンクします。 \ N \ T（http://を含む）"
+
+#: ../functions/types/app/content.php:608
+msgid "Android Tablet Kindle App Store URL"
+msgstr "アンドロイドタブレットKindleのApp StoreのURL"
+
+#: ../functions/types/app/content.php:609
+msgid ""
+"Enter the URL of your Android Tablet app in the Kindle app store. This will "
+"link your visitors to get your app for. (include http://)\n"
+"\t"
+msgstr "KindleのApp StoreであなたのAndroidタブレットのアプリのURLを入力します。これはのためにアプリを得るためにあなたの訪問者をリンクします。 \ N \ T（http://を含む）"
+
+#: ../functions/types/app/content.php:629
+msgid "Android Tablet App Showcase Type"
+msgstr "アンドロイドタブレットアプリケーションショーケースタイプ"
+
+#: ../functions/types/app/content.php:641
+msgid "Images or screenshots for Android Tablet slideshow"
+msgstr "アンドロイドタブレットのスライドショーの画像やスクリーンショット"
+
+#: ../functions/types/app/content.php:668
+#: ../functions/types/app/content.php:675
+msgid "Windows Phone"
+msgstr "Windowsの携帯電話"
+
+#: ../functions/types/app/content.php:684
+msgid "Windows Phone Orientation"
+msgstr "Windowsの携帯電話のためのオリエンテーション"
+
+#: ../functions/types/app/content.php:685
+msgid "Choose the orientation of the Windows Phone"
+msgstr "Windowsの携帯電話の向きを選択してください"
+
+#: ../functions/types/app/content.php:698
+msgid "Make Windows Phone the Default Platform?"
+msgstr "Windows Phoneのデフォルトプラットフォーム作る？"
+
+#: ../functions/types/app/content.php:699
+msgid ""
+"Make the Windows Phone App visible by default when someone visits this app "
+"page. If your visitor is browsing on a device that matches one of your "
+"enabled platforms, the default platform is ignored."
+msgstr "誰かがこのアプリのページを訪問したとき、デフォルトではWindows Phoneのアプリが表示されるように。あなたの訪問者があなたの対応プラットフォームのいずれかに一致するデバイス上で閲覧されている場合は、デフォルトのプラットフォームは無視されます。"
+
+#: ../functions/types/app/content.php:707
+msgid "Windows Phone specific description text"
+msgstr "Windows Phoneの特定の​​説明テキスト"
+
+#: ../functions/types/app/content.php:708
+msgid "Add specific description text for the Windows Phone"
+msgstr "Windows Phoneの具体的な説明テキストを追加"
+
+#: ../functions/types/app/content.php:734
+msgid "Windows Phone App Store URL"
+msgstr "Windows PhoneのApp StoreのURL"
+
+#: ../functions/types/app/content.php:735
+msgid ""
+"Enter the URL of your Windows Phone app in the app store. This will link "
+"your visitors to buy your app. (include http://)\n"
+"\t"
+msgstr "App StoreであなたのWindows PhoneアプリのURLを入力します。これは、あなたのアプリを購入するためにあなたの訪問者をリンクします。 \ N \ T（http://を含む）"
+
+#: ../functions/types/app/content.php:753
+msgid "Windows Phone App Showcase Type"
+msgstr "のWindows Phoneアプリケーションショーケースタイプ"
+
+#: ../functions/types/app/content.php:769
+msgid "Images or screenshots for Windows Phone slideshow"
+msgstr "Windowsの携帯電話のスライドショー用の画像やスクリーンショット"
+
+#: ../functions/types/app/content.php:789
+#: ../functions/types/app/content.php:796
+msgid "Windows Tablet"
+msgstr "Windowsのタブレット"
+
+#: ../functions/types/app/content.php:805
+msgid "Windows Tablet Orientation"
+msgstr "Windowsのタブレットの向き"
+
+#: ../functions/types/app/content.php:806
+msgid "Choose the orientation of the Windows Tablet"
+msgstr "Windowsのタブレットの向きを選択してください"
+
+#: ../functions/types/app/content.php:819
+msgid "Make Windows Tablet the Default Platform?"
+msgstr "Windowsのタブレットデフォルトプラットフォーム作る？"
+
+#: ../functions/types/app/content.php:820
+msgid ""
+"Make the Windows Tablet App visible by default when someone visits this app "
+"page. If your visitor is browsing on a device that matches one of your "
+"enabled platforms, the default platform is ignored."
+msgstr "誰かがこのアプリのページを訪問したとき、デフォルトではWindowsのタブレットのアプリが表示されるように。あなたの訪問者があなたの対応プラットフォームのいずれかに一致するデバイス上で閲覧されている場合は、デフォルトのプラットフォームは無視されます。"
+
+#: ../functions/types/app/content.php:828
+msgid "Windows Tablet specific description text"
+msgstr "Windowsのタブレットの具体的な説明テキスト"
+
+#: ../functions/types/app/content.php:829
+msgid "Add specific description text for the Windows Tablet"
+msgstr "Windowsのタブレットのための具体的な説明テキストを追加"
+
+#: ../functions/types/app/content.php:855
+msgid "Windows Tablet App Store URL"
+msgstr "WindowsのタブレットApp StoreのURL"
+
+#: ../functions/types/app/content.php:856
+msgid ""
+"Enter the URL of your Windows Tablet app in the app store. This will link "
+"your visitors to buy your app. (include http://)\n"
+"\t"
+msgstr "App StoreでのWindowsタブレットアプリのURLを入力します。これは、あなたのアプリを購入するためにあなたの訪問者をリンクします。 \ N \ T（http://を含む）"
+
+#: ../functions/types/app/content.php:874
+msgid "Windows Tablet App Showcase Type"
+msgstr "Windowsのタブレットアプリケーションショーケースタイプ"
+
+#: ../functions/types/app/content.php:890
+msgid "Images or screenshots for Windows Tablet slideshow"
+msgstr "Windowsのタブレットのスライドショーの画像やスクリーンショット"
+
+#: ../functions/types/app/content.php:910
+#: ../functions/types/app/content.php:917
+msgid "BlackBerry"
+msgstr "BlackBerry"
+
+#: ../functions/types/app/content.php:926
+msgid "BlackBerry Orientation"
+msgstr "BlackBerryのセクシュアリティ"
+
+#: ../functions/types/app/content.php:927
+msgid "Choose the orientation of the BlackBerry"
+msgstr "ブラックベリーの向きを選択してください"
+
+#: ../functions/types/app/content.php:940
+msgid "Make BlackBerry the Default Platform?"
+msgstr "BlackBerryのデフォルトプラットフォーム作る？"
+
+#: ../functions/types/app/content.php:941
+msgid ""
+"Make the BlackBerry App visible by default when someone visits this app "
+"page. If your visitor is browsing on a device that matches one of your "
+"enabled platforms, the default platform is ignored."
+msgstr "誰かがこのアプリのページを訪問したとき、デフォルトではBlackBerryのアプリが表示されるように。あなたの訪問者があなたの対応プラットフォームのいずれかに一致するデバイス上で閲覧されている場合は、デフォルトのプラットフォームは無視されます。"
+
+#: ../functions/types/app/content.php:949
+msgid "BlackBerry specific description text"
+msgstr "BlackBerryの具体的な説明テキスト"
+
+#: ../functions/types/app/content.php:950
+msgid "Add specific description text for the BlackBerry"
+msgstr "ブラックベリーのための具体的な説明テキストを追加"
+
+#: ../functions/types/app/content.php:976
+msgid "BlackBerry App Store URL"
+msgstr "BlackBerryのApp StoreのURL"
+
+#: ../functions/types/app/content.php:977
+msgid ""
+"Enter the URL of your BlackBerry app in the app store. This will link your "
+"visitors to buy your app. (include http://)\n"
+"\t"
+msgstr "App StoreでのBlackBerryアプリのURLを入力します。これは、あなたのアプリを購入するためにあなたの訪問者をリンクします。 \ N \ T（http://を含む）"
+
+#: ../functions/types/app/content.php:995
+msgid "BlackBerry App Showcase Type"
+msgstr "BlackBerryのアプリケーションショーケースタイプ"
+
+#: ../functions/types/app/content.php:1011
+msgid "Images or screenshots for BlackBerry slideshow"
+msgstr "ブラックベリースライドショーの画像やスクリーンショット"
+
+#: ../functions/types/app/content.php:1029
+#: ../functions/types/app/content.php:1036
+msgid "Mac Desktop"
+msgstr "マックのデスクトップ"
+
+#: ../functions/types/app/content.php:1046
+msgid "Make Mac Desktop the Default Platform?"
+msgstr "マックデスクトップのデフォルト·プラットフォーム作る？"
+
+#: ../functions/types/app/content.php:1047
+msgid ""
+"Make the Mac Desktop App visible by default when someone visits this app "
+"page. If your visitor is browsing on a device that matches one of your "
+"enabled platforms, the default platform is ignored."
+msgstr "誰かがこのアプリのページを訪問したとき、デフォルトでMacのデスクトップアプリが表示されるように。あなたの訪問者があなたの対応プラットフォームのいずれかに一致するデバイス上で閲覧されている場合は、デフォルトのプラットフォームは無視されます。"
+
+#: ../functions/types/app/content.php:1055
+msgid "Mac Desktop specific description text"
+msgstr "マックのデスクトップ固有の説明テキスト"
+
+#: ../functions/types/app/content.php:1056
+msgid "Add specific description text for the Mac Desktop"
+msgstr "Macのデスクトップ用の具体的な説明テキストを追加"
+
+#: ../functions/types/app/content.php:1082
+msgid "Mac Desktop URL"
+msgstr "マックデスクトップURL"
+
+#: ../functions/types/app/content.php:1083
+msgid ""
+"Enter the URL of your Mac Desktop app in the app store. This will link your "
+"visitors to buy your app. (include http://)\n"
+"\t"
+msgstr "App Storeでお使いのMacのデスクトップアプリのURLを入力します。これは、あなたのアプリを購入するためにあなたの訪問者をリンクします。 \ N \ T（http://を含む）"
+
+#: ../functions/types/app/content.php:1101
+msgid "Mac Desktop Showcase Type"
+msgstr "マックデスクトップショーケースタイプ"
+
+#: ../functions/types/app/content.php:1117
+msgid "Images or screenshots for Mac Desktop slideshow"
+msgstr "マックデスクトップスライドショーの画像やスクリーンショット"
+
+#: ../functions/types/app/content.php:1136
+#: ../functions/types/app/content.php:1143
+msgid "Windows Desktop"
+msgstr "Windowsデスクトップ"
+
+#: ../functions/types/app/content.php:1153
+msgid "Make Windows Desktop the Default Platform?"
+msgstr "Windowsデスクトップのデフォルト·プラットフォーム作る？"
+
+#: ../functions/types/app/content.php:1154
+msgid ""
+"Make the Windows Desktop App visible by default when someone visits this app "
+"page. If your visitor is browsing on a device that matches one of your "
+"enabled platforms, the default platform is ignored."
+msgstr "誰かがこのアプリのページを訪問したとき、デフォルトでWindowsデスクトップアプリが見えるよう。あなたの訪問者があなたの対応プラットフォームのいずれかに一致するデバイス上で閲覧されている場合は、デフォルトのプラットフォームは無視されます。"
+
+#: ../functions/types/app/content.php:1162
+msgid "Windows Desktop specific description text"
+msgstr "Windowsデスクトップの特定の説明テキスト"
+
+#: ../functions/types/app/content.php:1163
+msgid "Add specific description text for the Windows Desktop"
+msgstr "Windowsデスクトップのための具体的な説明テキストを追加"
+
+#: ../functions/types/app/content.php:1189
+msgid "Windows Desktop Download URL"
+msgstr "WindowsデスクトップのダウンロードURL"
+
+#: ../functions/types/app/content.php:1190
+msgid ""
+"Enter the URL of your Windows Desktop app in the app store. This will link "
+"your visitors to buy your app. (include http://)\n"
+"\t"
+msgstr "App StoreであなたのWindowsデスクトップアプリのURLを入力します。これは、あなたのアプリを購入するためにあなたの訪問者をリンクします。 \ N \ T（http://を含む）"
+
+#: ../functions/types/app/content.php:1208
+msgid "Windows Desktop Showcase Type"
+msgstr "Windowsデスクトップショーケースタイプ"
+
+#: ../functions/types/app/content.php:1224
+msgid "Images or screenshots for Windows Desktop slideshow"
+msgstr "Windowsデスクトップスライドショーの画像やスクリーンショット"
+
+#: ../functions/types/app/manage.php:7
+#: ../functions/types/custom-sidebar/manage.php:7
+#: ../functions/types/portfolio/manage.php:7
+#: ../functions/types/slide/manage.php:7 ../functions/types/team/manage.php:7
+msgid "Reorder"
+msgstr "順番の変更"
+
+#: ../functions/types/app/manage.php:8
+msgid "Icon"
+msgstr "アイコン"
+
+#: ../functions/types/app/manage.php:9
+#: ../functions/types/portfolio/manage.php:9
+#: ../functions/types/slide/manage.php:8
+#: ../functions/types/team/content.php:24 ../functions/types/team/manage.php:9
+#: ../functions/widgets/contact-form.php:46
+#: ../functions/widgets/contact-info.php:59
+#: ../functions/widgets/social.php:110 ../functions/widgets/twitter.php:46
+msgid "Title"
+msgstr "タイトル　"
+
+#: ../functions/types/app/manage.php:10
+#: ../functions/types/portfolio/manage.php:11
+#: ../functions/types/slide/manage.php:11
+#: ../functions/types/team/manage.php:11
+msgid "Date"
+msgstr "日付"
+
+#: ../functions/types/app/register.php:9
+#: ../functions/types/app/register.php:20
+msgid "App"
+msgstr "App"
+
+#: ../functions/types/app/register.php:10
+#: ../functions/types/custom-sidebar/register.php:10
+#: ../functions/types/portfolio/register.php:10
+#: ../functions/types/slide/register.php:10
+#: ../functions/types/team/register.php:10
+msgid "Add New"
+msgstr "Add New "
+
+#: ../functions/types/app/register.php:11
+msgid "Add New App"
+msgstr "新しいアプリケーションを追加"
+
+#: ../functions/types/app/register.php:12
+msgid "Edit App"
+msgstr "編集アプリケーション"
+
+#: ../functions/types/app/register.php:13
+msgid "New App"
+msgstr "新しいアプリケーション"
+
+#: ../functions/types/app/register.php:14
+msgid "View App"
+msgstr "ビューのApp"
+
+#: ../functions/types/app/register.php:15
+msgid "Search Apps"
+msgstr "検索アプリ"
+
+#: ../functions/types/app/register.php:16
+msgid "No App found"
+msgstr "いいえアプリケーションが見つかりませんでした"
+
+#: ../functions/types/app/register.php:17
+msgid "No App found in Trash"
+msgstr "ゴミ箱にアプリ見つかりません"
+
+#: ../functions/types/custom-sidebar/content.php:4
+msgid "Sidebar Info"
+msgstr "サイドバーの情報"
+
+#: ../functions/types/custom-sidebar/content.php:18
+msgid "Sidebar's name"
+msgstr "サイドバーの名前"
+
+#: ../functions/types/custom-sidebar/content.php:24
+#: ../functions/types/custom-sidebar/manage.php:9
+msgid "Description"
+msgstr "概要"
+
+#: ../functions/types/custom-sidebar/content.php:25
+msgid "Sidebar's short description"
+msgstr "サイドバーの短い説明"
+
+#: ../functions/types/custom-sidebar/register.php:8
+msgid "Custom Sidebars"
+msgstr "カスタムサイドバー"
+
+#: ../functions/types/custom-sidebar/register.php:9
+#: ../functions/types/custom-sidebar/register.php:20
+msgid "Custom Sidebar"
+msgstr "カスタムサイドバー"
+
+#: ../functions/types/custom-sidebar/register.php:11
+msgid "Add New Sidebar"
+msgstr "新しいサイドバーを追加"
+
+#: ../functions/types/custom-sidebar/register.php:12
+msgid "Edit Custom Sidebar"
+msgstr "カスタムサイドバーの編集"
+
+#: ../functions/types/custom-sidebar/register.php:13
+msgid "New Custom Sidebar"
+msgstr "新しいカスタムサイドバー"
+
+#: ../functions/types/custom-sidebar/register.php:14
+msgid "View Custom Sidebar"
+msgstr "カスタムサイドバーの表示"
+
+#: ../functions/types/custom-sidebar/register.php:15
+msgid "Search Custom Sidebars"
+msgstr "検索カスタムサイドバー"
+
+#: ../functions/types/custom-sidebar/register.php:16
+msgid "No Custom Sidebars found"
+msgstr "いいえカスタムサイドバーが見つかりませんでした"
+
+#: ../functions/types/custom-sidebar/register.php:17
+msgid "No Custom Sidebars found in Trash"
+msgstr "ゴミ箱で見つかったんカスタムサイドバーん"
+
+#: ../functions/types/portfolio/content.php:17
+msgid "Short Description"
+msgstr "簡単な説明"
+
+#: ../functions/types/portfolio/content.php:18
+msgid "Recommend 100 - 120 Alphabet"
+msgstr "100がおすすめ -  120アルファベット"
+
+#: ../functions/types/portfolio/content.php:24
+msgid "Customer"
+msgstr "顧客"
+
+#: ../functions/types/portfolio/content.php:25
+#: ../functions/types/portfolio/content.php:32
+#: ../functions/types/portfolio/content.php:39
+msgid "Leave it blank to disable this option."
+msgstr "このオプションを無効にすることは空白のままにします。"
+
+#: ../functions/types/portfolio/content.php:31
+msgid "Budget"
+msgstr "Budget"
+
+#: ../functions/types/portfolio/content.php:38
+msgid "Create Date"
+msgstr "追加された日付"
+
+#: ../functions/types/portfolio/content.php:48
+msgid "Button #1"
+msgstr "ボタン＃1"
+
+#: ../functions/types/portfolio/content.php:56
+msgid "Link URL"
+msgstr "リンク先の URL"
+
+#: ../functions/types/portfolio/content.php:72
+msgid "Sub Text"
+msgstr "サブテキスト"
+
+#: ../functions/types/portfolio/content.php:80
+#: ../functions/widgets/contact-form.php:52
+msgid "Button Color"
+msgstr "ボタン色"
+
+#: ../functions/types/portfolio/content.php:113
+msgid "Effect"
+msgstr "{0}effect{/0} "
+
+#: ../functions/types/portfolio/content.php:119
+msgid "Magnify"
+msgstr "拡大する"
+
+#: ../functions/types/portfolio/content.php:131
+msgid "Image for Slide"
+msgstr "スライド用の画像"
+
+#: ../functions/types/portfolio/content.php:138
+msgid "Image for Retina Zoom"
+msgstr "網膜ズーム用の画像"
+
+#: ../functions/types/portfolio/content.php:139
+msgid "2X dimension image is recommended"
+msgstr "2X次元画像を推奨します"
+
+#: ../functions/types/portfolio/content.php:146
+msgid "Video ID of \"YouTube\" or \"Vimeo\""
+msgstr "\ "YouTubeの\"または\ "Vimeoの\"のビデオID"
+
+#: ../functions/types/portfolio/content.php:151
+msgid "Title & Text"
+msgstr "タイトル＆テキスト"
+
+#: ../functions/types/portfolio/content.php:173
+msgid "Use image as title"
+msgstr "タイトルとして画像を使用してください"
+
+#: ../functions/types/portfolio/content.php:174
+msgid "turn \"on\" to use image as title"
+msgstr "ターン\ "\の"タイトルとしてのイメージを使用する"
+
+#: ../functions/types/portfolio/content.php:180
+msgid "Title Image"
+msgstr "タイトルイメージ"
+
+#: ../functions/types/portfolio/content.php:181
+msgid "Choose image to use as title."
+msgstr "タイトルとして使用するイメージを選択してください。"
+
+#: ../functions/types/portfolio/content.php:186
+msgid "Frame"
+msgstr "フレーム"
+
+#: ../functions/types/portfolio/content.php:191
+msgid "Frame Border Color"
+msgstr "枠線の色"
+
+#: ../functions/types/portfolio/content.php:192
+msgid "choose color for frame border"
+msgstr "枠線の色を選択"
+
+#: ../functions/types/portfolio/content.php:204
+msgid "Override \"Background\" Global Settings"
+msgstr "\ "背景\"グローバル設定を上書きする"
+
+#: ../functions/types/portfolio/content.php:205
+msgid "Switch on to override global \"Background\" appearance setting."
+msgstr "グローバル\ "背景\"外観の設定を上書きすることで切り替えます。"
+
+#: ../functions/types/portfolio/content.php:220
+msgid "Background Pattern"
+msgstr "背景パターン"
+
+#: ../functions/types/portfolio/content.php:221
+msgid "choose pattern to overlay the background color"
+msgstr "背景色をオーバーレイするパターンを選択する"
+
+#: ../functions/types/portfolio/content.php:225
+#: ../functions/types/portfolio/content.php:335
+msgid "Grain"
+msgstr "穀物"
+
+#: ../functions/types/portfolio/content.php:226
+msgid "Diagonal #1"
+msgstr "＃1対角線"
+
+#: ../functions/types/portfolio/content.php:227
+msgid "Diagonal #2"
+msgstr "＃2対角線"
+
+#: ../functions/types/portfolio/content.php:228
+msgid "Mosaic"
+msgstr "モザイク"
+
+#: ../functions/types/portfolio/content.php:229
+msgid "Pixcel"
+msgstr "Pixcel"
+
+#: ../functions/types/portfolio/content.php:230
+msgid "Grid Black #1"
+msgstr "グリッドブラック＃1"
+
+#: ../functions/types/portfolio/content.php:231
+msgid "Grid Black #2"
+msgstr "グリッドブラック＃2"
+
+#: ../functions/types/portfolio/content.php:232
+msgid "Grid Black #3"
+msgstr "グリッドブラック＃3"
+
+#: ../functions/types/portfolio/content.php:233
+msgid "Grid Black #4"
+msgstr "グリッドブラック＃4"
+
+#: ../functions/types/portfolio/content.php:234
+msgid "Grid White #1"
+msgstr "グリッドホワイト＃1"
+
+#: ../functions/types/portfolio/content.php:235
+msgid "Grid White #2"
+msgstr "グリッドホワイト＃2"
+
+#: ../functions/types/portfolio/content.php:236
+msgid "Grid White #3"
+msgstr "グリッドホワイト＃3"
+
+#: ../functions/types/portfolio/content.php:237
+msgid "Grid White #4"
+msgstr "グリッドホワイト＃4"
+
+#: ../functions/types/portfolio/content.php:297
+msgid "Board & Mat"
+msgstr "ボード＆マット"
+
+#: ../functions/types/portfolio/content.php:303
+msgid "Override \"Layout\" Global Settings"
+msgstr "\ "レイアウト\"グローバル設定を上書きする"
+
+#: ../functions/types/portfolio/content.php:304
+msgid "Switch on to override global \"Layout\" appearance setting."
+msgstr "グローバル\ "レイアウト\"外観の設定を上書きすることで切り替えます。"
+
+#: ../functions/types/portfolio/content.php:313
+msgid "Show Board"
+msgstr "ショー会"
+
+#: ../functions/types/portfolio/content.php:314
+msgid "switch off to hide the board"
+msgstr "ボードを非表示にするにはスイッチを切る"
+
+#: ../functions/types/portfolio/content.php:321
+msgid "Board Color"
+msgstr "ボードの色"
+
+#: ../functions/types/portfolio/content.php:322
+msgid "choose board color"
+msgstr "ボードの色を選択"
+
+#: ../functions/types/portfolio/content.php:334
+msgid "Wood"
+msgstr "ウッド"
+
+#: ../functions/types/portfolio/content.php:336
+msgid "Grunge"
+msgstr "グランジ"
+
+#: ../functions/types/portfolio/content.php:337
+msgid "Grass"
+msgstr "草"
+
+#: ../functions/types/portfolio/content.php:354
+msgid "Show Mat"
+msgstr "マットを表示"
+
+#: ../functions/types/portfolio/content.php:355
+msgid "switch off to hide the mat"
+msgstr "マットを隠すためにオフに"
+
+#: ../functions/types/portfolio/content.php:362
+msgid "Mat Color"
+msgstr "マットの色"
+
+#: ../functions/types/portfolio/content.php:363
+msgid "choose color of mat"
+msgstr "マットの色を選択"
+
+#: ../functions/types/portfolio/content.php:372
+msgid "Portfolio Info"
+msgstr "ポートフォリオ情報"
+
+#: ../functions/types/portfolio/content.php:385
+#: ../functions/types/portfolio/manage.php:8
+msgid "Featured"
+msgstr "おすすめ"
+
+#: ../functions/types/portfolio/content.php:386
+msgid "featured app will be shown on the app slide dock"
+msgstr "注目のアプリは、アプリのスライドドックに表示されます"
+
+#: ../functions/types/portfolio/manage.php:10
+#: ../functions/types/portfolio/register.php:42
+#: ../functions/types/portfolio/register.php:55
+msgid "Category"
+msgstr " カテゴリ"
+
+#: ../functions/types/portfolio/register.php:8
+msgid "Portfolios"
+msgstr "ポートフォリオ"
+
+#: ../functions/types/portfolio/register.php:9
+#: ../functions/types/portfolio/register.php:20
+msgid "Portfolio"
+msgstr "ポートフォリオ"
+
+#: ../functions/types/portfolio/register.php:11
+msgid "Add New Portfolio"
+msgstr "新しいポートフォリオを追加"
+
+#: ../functions/types/portfolio/register.php:12
+msgid "Edit Portfolio"
+msgstr "ポートフォリオを編集"
+
+#: ../functions/types/portfolio/register.php:13
+msgid "New Portfolio"
+msgstr "新しいポートフォリオ"
+
+#: ../functions/types/portfolio/register.php:14
+msgid "View Portfolio"
+msgstr "ポートフォリオを見る"
+
+#: ../functions/types/portfolio/register.php:15
+msgid "Search Portfolio"
+msgstr "検索ポートフォリオ"
+
+#: ../functions/types/portfolio/register.php:16
+msgid "No Portfolio found"
+msgstr "いいえポートフォリオが見つかりませんでした"
+
+#: ../functions/types/portfolio/register.php:17
+msgid "No Portfolio found in Trash"
+msgstr "ゴミ箱にポートフォリオを見つかりません"
+
+#: ../functions/types/portfolio/register.php:41
+msgid "Portfolio Category"
+msgstr "ポートフォリオのカテゴリ"
+
+#: ../functions/types/portfolio/register.php:43
+msgid "Search Category"
+msgstr "検索カテゴリ"
+
+#: ../functions/types/portfolio/register.php:44
+msgid "Popular Category"
+msgstr "人気のカテゴリ"
+
+#: ../functions/types/portfolio/register.php:45
+msgid "All Category"
+msgstr "すべてのカテゴリ"
+
+#: ../functions/types/portfolio/register.php:48
+msgid "Edit Category"
+msgstr "カテゴリーを編集:"
+
+#: ../functions/types/portfolio/register.php:49
+msgid "Update Category"
+msgstr "カテゴリーを更新"
+
+#: ../functions/types/portfolio/register.php:50
+msgid "Add New Category"
+msgstr "新規カテゴリーを追加"
+
+#: ../functions/types/portfolio/register.php:51
+msgid "New Category Name"
+msgstr "新しいカテゴリ名"
+
+#: ../functions/types/portfolio/register.php:52
+msgid "Separate Category with commas"
+msgstr "カンマで区切ってカテゴリ"
+
+#: ../functions/types/portfolio/register.php:53
+msgid "Add or remove Category"
+msgstr "カテゴリの追加または削除"
+
+#: ../functions/types/portfolio/register.php:54
+msgid "Choose from the most used Category"
+msgstr "最も使用されるカテゴリから選ぶ"
+
+#: ../functions/types/slide/content.php:4
+msgid "Slide Info"
+msgstr "スライド情報"
+
+#: ../functions/types/slide/content.php:17
+msgid "Name to use in slide manage page"
+msgstr "ページを管理し、スライドで使用する名前"
+
+#: ../functions/types/slide/content.php:24
+msgid "The slide frame's width is 950px. The height is depend on your setting."
+msgstr "スライドフレームの幅は950pxです。高さは、あなたの設定に依存しています。"
+
+#: ../functions/types/slide/content.php:29
+msgid "Caption Title"
+msgstr "キャプションタイトル"
+
+#: ../functions/types/slide/content.php:30
+#: ../functions/types/slide/content.php:53
+msgid "Leave blank to disable."
+msgstr "無効にするには空白のままにします。"
+
+#: ../functions/types/slide/content.php:52
+msgid "Caption Text"
+msgstr "キャプションテキスト"
+
+#: ../functions/types/slide/content.php:59
+msgid "Caption Position"
+msgstr "キャプション位置"
+
+#: ../functions/types/slide/content.php:60
+msgid "Position to place the caption."
+msgstr "キャプションを配置する位置。"
+
+#: ../functions/types/slide/content.php:70
+#: ../functions/types/slide/manage.php:10
+msgid "Link"
+msgstr "リンク"
+
+#: ../functions/types/slide/content.php:71
+msgid "Define url you want user to navigate to after click on the slide"
+msgstr "ユーザーが後にスライドをクリックして移動先のURLを定義"
+
+#: ../functions/types/slide/register.php:8
+msgid "Slides"
+msgstr "スライド"
+
+#: ../functions/types/slide/register.php:11
+msgid "Add New Slide"
+msgstr "新しいスライドを追加"
+
+#: ../functions/types/slide/register.php:12
+msgid "Edit Slide"
+msgstr "スライドの編集"
+
+#: ../functions/types/slide/register.php:13
+msgid "New Slide"
+msgstr "新しいスライド"
+
+#: ../functions/types/slide/register.php:14
+msgid "View Slide"
+msgstr "スライドを見る"
+
+#: ../functions/types/slide/register.php:15
+msgid "Search Slides"
+msgstr "検索スライド"
+
+#: ../functions/types/slide/register.php:16
+msgid "No Slides found"
+msgstr "いいえスライドが見つかりませんでした"
+
+#: ../functions/types/slide/register.php:17
+msgid "No slides found in Trash"
+msgstr "ゴミ箱に見つかりませんスライド"
+
+#: ../functions/types/team/content.php:4
+msgid "Team Member Info"
+msgstr "チームメンバー情報"
+
+#: ../functions/types/team/content.php:16
+msgid "Mug Shot"
+msgstr "マグショット"
+
+#: ../functions/types/team/content.php:17
+msgid "Upload an image of this team member."
+msgstr "このチームメンバーのイメージをアップロードします。"
+
+#: ../functions/types/team/content.php:25
+msgid "What is this team member's job title?"
+msgstr "このチームのメンバーの役職は何ですか？"
+
+#: ../functions/types/team/content.php:32
+#: ../functions/widgets/contact-info.php:65
+msgid "Location"
+msgstr "位置"
+
+#: ../functions/types/team/content.php:33
+msgid "Be as broad or specific as you want."
+msgstr "あなたが望む限り幅広いまたは特定される。"
+
+#: ../functions/types/team/content.php:39
+msgid "Short Bio"
+msgstr "短いバイオ"
+
+#: ../functions/types/team/content.php:40
+msgid ""
+"List what this person does or has done in a sentence or two. This text will "
+"display on the team member list page."
+msgstr "この人が何かの文章や2年で何をしたか一覧表示します。このテキストは、チームメンバーのリストページに表示されます。"
+
+#: ../functions/types/team/content.php:53
+msgid "Entering an email address will display it publicly on the site."
+msgstr "メールアドレスを入力すると、サイト上で公にそれが表示されます。"
+
+#: ../functions/types/team/content.php:59
+msgid "Phone Number"
+msgstr "電話番号"
+
+#: ../functions/types/team/content.php:60
+msgid "Entering a phone number will display it publicly on the site."
+msgstr "電話番号を入力すると、サイト上で公にそれが表示されます。"
+
+#: ../functions/types/team/content.php:66
+msgid "Personal Website"
+msgstr "個人的なウェブサイト"
+
+#: ../functions/types/team/content.php:67
+msgid "Add a URL to a personal website for this team member"
+msgstr "このチームのメンバーの個人的なウェブサイトにURLを追加"
+
+#: ../functions/types/team/content.php:79
+msgid "Twitter Profile URL"
+msgstr "TwitterのプロフィールURL"
+
+#: ../functions/types/team/content.php:80
+msgid "This will add a link to their twitter profile (include http://)."
+msgstr "これは彼らのtwitterのプロフィール（http://を含む）へのリンクを追加します。"
+
+#: ../functions/types/team/content.php:87
+msgid "Facebook Profile URL"
+msgstr "FacebookのプロフィールURL"
+
+#: ../functions/types/team/content.php:88
+msgid "This will add a link to their Facebook profile (include http://)."
+msgstr "これは、自分のFacebookのプロフィール（http://を含む）へのリンクを追加します。"
+
+#: ../functions/types/team/content.php:95
+msgid "LinkedIn Profile URL"
+msgstr "LinkedInのプロフィールURL"
+
+#: ../functions/types/team/content.php:96
+msgid "This will add a link to their LinkedIn profile (include http://)."
+msgstr "これは彼らのLinkedInのプロフィール（http://を含む）へのリンクを追加します。"
+
+#: ../functions/types/team/manage.php:10
+msgid "Mug"
+msgstr "マグカップ"
+
+#: ../functions/types/team/register.php:9
+#: ../functions/types/team/register.php:20
+msgid "Team Member"
+msgstr "チームメンバー"
+
+#: ../functions/types/team/register.php:11
+msgid "Add New Team Member"
+msgstr "新しいチームメンバーを追加"
+
+#: ../functions/types/team/register.php:12
+msgid "Edit Team Member"
+msgstr "チームメンバーを編集"
+
+#: ../functions/types/team/register.php:13
+msgid "New Team Member"
+msgstr "新しいチームメンバー"
+
+#: ../functions/types/team/register.php:14
+msgid "View Team Member"
+msgstr "チームメンバーを見る"
+
+#: ../functions/types/team/register.php:15
+msgid "Search Team"
+msgstr "検索チーム"
+
+#: ../functions/types/team/register.php:16
+msgid "No Team Member Found"
+msgstr "チームメンバーが見つかりませんでした"
+
+#: ../functions/types/team/register.php:17
+msgid "No team member found in Trash"
+msgstr "いいえチームメンバーがゴミ箱に見つからない"
+
+#: ../functions/widgets/contact-form.php:6
+msgid "Displays a email contact form."
+msgstr "電子メールの連絡先フォームが表示されます。"
+
+#: ../functions/widgets/contact-form.php:7
+msgid "Contact Form"
+msgstr "お問い合わせフォーム"
+
+#: ../functions/widgets/contact-form.php:21
+#: ../functions/widgets/contact-info.php:21
+msgid "Email Us"
+msgstr "私達に電子メールを送る"
+
+#: ../functions/widgets/contact-form.php:49
+msgid "Your Email"
+msgstr "お客様のメールアドレス:"
+
+#: ../functions/widgets/contact-info.php:6
+msgid "Displays contact infos."
+msgstr "接触に関する情報を表示します。"
+
+#: ../functions/widgets/contact-info.php:7
+msgid "Contact Info"
+msgstr "連絡先情報"
+
+#: ../functions/widgets/contact-info.php:62
+msgid "Info"
+msgstr "情報"
+
+#: ../functions/widgets/contact-info.php:71
+msgid "Telephone"
+msgstr "電話"
+
+#: ../functions/widgets/contact-info.php:74
+msgid "Mobile"
+msgstr "モバイル"
+
+#: ../functions/widgets/contact-info.php:77
+msgid "Fax"
+msgstr "ファックス"
+
+#: ../functions/widgets/social.php:28
+msgid "Displays a list of Social Icon icons"
+msgstr "社会アイコンのアイコンの一覧を表示します"
+
+#: ../functions/widgets/social.php:29
+msgid "Social"
+msgstr "ソーシャル"
+
+#: ../functions/widgets/social.php:113
+msgid "Icon Package"
+msgstr "アイコンパッケージ"
+
+#: ../functions/widgets/social.php:122
+msgid "Enable Social Icon"
+msgstr "ソーシャル·アイコンを有効にする"
+
+#: ../functions/widgets/social.php:131
+msgid ""
+"Note: Please input FULL URL <br/>(e.g. <code>http://www.example.com</code>)"
+msgstr "注：完全なURLがあったら入力して下さい（例の<code> http://www.example.com </コード>）"
+
+#: ../functions/widgets/social.php:137
+msgid "URL"
+msgstr "URL"
+
+#: ../functions/widgets/twitter.php:6
+msgid "Displays a list of twitter feeds"
+msgstr "Twitterのフィードのリストを表示します"
+
+#: ../functions/widgets/twitter.php:7
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../functions/widgets/twitter.php:22
+msgid "Recent Tweets"
+msgstr "最近のツイート"
+
+#: ../functions/widgets/twitter.php:49
+msgid "Username"
+msgstr "ユーザー名"
+
+#: ../functions/widgets/twitter.php:52
+msgid "How many tweets to display?"
+msgstr "表示するには、どのように多くのつぶやき？"
+
+#: ../platforms/platform_loop.php:77 ../platforms/platform_loop_home.php:106
+#: ../platforms/platform_loop_home_carosel.php:106
+msgid "No Screenshots"
+msgstr "いいえスクリーンん"
+
+#: ../platforms/platform_loop_home.php:38
+#: ../platforms/platform_loop_home_carosel.php:38
+msgid "Available For"
+msgstr "のために利用できる"
+
