@@ -1,7 +1,7 @@
 # AppifyWP Pro
 AppifyWP Pro is a WordPress theme for creating app landing pages that supports multiple apps, team members, and more.
 
-Visit [appifywp.com](www.appifywp.com) for demos, info, and support forums.
+Visit [appifywp.com](http://www.appifywp.com) for demos, info, and support forums.
 
 If you'd like to contribute, feel free to send a pull request.
  
