@@ -394,7 +394,320 @@ array(
 	'description' 	=> __('YouTube Video ID (the alphanumeric code after "v=" in the url) or Vimeo video ID (numeric code at the end of the url)', 'theme_admin')
 ),
 
+
+
+
+// AppleTV
+
+array(
+	'type' 	=> 'separator',
+	'title' => __('appleTV', 'theme_admin')
+),
+
+array(
+	'type' 			=> 'on_off',
+	'id' 			=> 'appletv',
+	'toggle' 		=> 'appletv-group',
+	'title'		 	=> __('AppleTV', 'theme_admin'),
+	'description' 	=> '',
+	'default' 		=> array(),
+),
+
+array(
+	'type' 			=> 'checkbox',
+	'id' 			=> 'appletv_default',
+	'classgroup'	=>  'isdefaultplatform',
+	'toggle_group'  => 'appletv-group',
+	'title'		 	=> __('Make AppleTV the Default Platform?', 'theme_admin'),
+	'description' 	=> __('Make the AppleTV App visible by default when someone visits this app page.', 'theme_admin'),
+	'default' 		=> 'unchecked',
+),
+
+array(
+	'type' 			=> 'textarea',
+	'id' 			=> 'appletv_description',
+	'toggle_group' => 'appletv-group',
+	'title'		 	=> __('AppleTV specific description text', 'theme_admin'),
+	'description' 	=> __('Add specific description text for the AppleTV', 'theme_admin'),
+),
 	
+array(
+	'type' 			=> 'on_off',
+	'id' 			=> 'appletv_coming_soon',
+	'toggle'		=>  'appletv-comingsoon',
+	'toggle_group' => 'appletv-group',
+	'title'		 	=> __('Coming Soon Mode', 'theme_admin'),
+	'description' 	=> __('If "ON", a "Coming Soon" button will display in place of the app store button.', 'theme_admin'),
+	'default' 		=> 'unchecked',
+),
+
+	array(
+		'type' 			=> 'text',
+		'toggle_group'	=> 'appletv-group appletv-comingsoon',
+		'id' 			=> 'appletv_coming_soon_text',
+		'title'		 	=> __('Coming Soon Text', 'theme_admin'),
+		'description' 	=> __('Text describing that your app is coming soon', 'theme_admin'),
+		'default' 		=> 'Coming Soon',
+	),
+
+array(
+	'type' 			=> 'text',
+	'id' 			=> 'appletv_appstore_url',
+	'toggle_group'  => 'appletv-group',
+	'title'		 	=> __('AppleTV Download URL', 'theme_admin'),
+	'description' 	=> __('Enter the URL of your AppleTV app in the app store. This will link your visitors to buy your app. (include http://)
+	', 'theme_admin'),
+),
+
+array(
+	'type' 			=> 'text',
+	'toggle_group'	=> 'appletv-group',
+	'id' 			=> 'appletv_price',
+	'title'		 	=> __('Price', 'theme_admin'),
+	'description' 	=> __('Enter the price of your app in the app store (include currency symbol)
+	', 'theme_admin'),
+),
+
+array(
+	'type' 			=> 'radio_img',
+	'id' 			=> 'appletv_effect',
+	'toggle' 		=> 'toggle-effect-appletv',
+	'toggle_group'  => 'appletv-group',
+	'title' 		=> __('AppleTV Showcase Type', 'theme_admin'),
+	'description' 	=> 'Select how you would like to showcase your AppleTV app',
+	'default' 		=> 'slideshow',
+	'options' 		=> array(
+		'slideshow' 	=> __('Slideshow', 'theme_admin'),
+		'video' 	=> __('Video', 'theme_admin'),
+	),
+	'images' => array(
+		'slideshow' 	=> 'slideshow.png',
+		'video' 	=> 'video.png',
+	)
+),
+array(
+	'type' 			=> 'images',
+	'id' 			=> 'appletv_slideshow_images',
+	'toggle_group' 	=> 'toggle-effect-appletv toggle-effect-appletv-slideshow appletv-group',
+	'title' 		=> __('Images or screenshots for AppleTV slideshow', 'theme_admin'),
+	'description' 	=> ''
+),
+array(
+	'type' 			=> 'text',
+	'id' 			=> 'appletv_video_id',
+	'toggle_group' 	=> 'toggle-effect-appletv toggle-effect-appletv-video appletv-group',
+	'title' 		=> __('Video ID', 'theme_admin'),
+	'description' 	=> __('YouTube Video ID (the alphanumeric code after "v=" in the url) or Vimeo video ID (numeric code at the end of the url)', 'theme_admin')
+),
+
+
+// AppleWatch
+
+array(
+	'type' 	=> 'separator',
+	'title' => __('Apple Watch', 'theme_admin')
+),
+
+array(
+	'type' 			=> 'on_off',
+	'id' 			=> 'applewatch',
+	'toggle' 		=> 'applewatch-group',
+	'title'		 	=> __('Apple Watch', 'theme_admin'),
+	'description' 	=> '',
+	'default' 		=> array(),
+),
+
+array(
+	'type' 			=> 'checkbox',
+	'id' 			=> 'applewatch_default',
+	'classgroup'	=>  'isdefaultplatform',
+	'toggle_group'  => 'applewatch-group',
+	'title'		 	=> __('Make Apple Watch the Default Platform?', 'theme_admin'),
+	'description' 	=> __('Make the Apple Watch App visible by default when someone visits this app page.', 'theme_admin'),
+	'default' 		=> 'unchecked',
+),
+
+array(
+	'type' 			=> 'textarea',
+	'id' 			=> 'applewatch_description',
+	'toggle_group' => 'applewatch-group',
+	'title'		 	=> __('Apple Watch specific description text', 'theme_admin'),
+	'description' 	=> __('Add specific description text for the Apple Watch', 'theme_admin'),
+),
+	
+array(
+	'type' 			=> 'on_off',
+	'id' 			=> 'applewatch_coming_soon',
+	'toggle'		=>  'applewatch-comingsoon',
+	'toggle_group' => 'applewatch-group',
+	'title'		 	=> __('Coming Soon Mode', 'theme_admin'),
+	'description' 	=> __('If "ON", a "Coming Soon" button will display in place of the app store button.', 'theme_admin'),
+	'default' 		=> 'unchecked',
+),
+
+	array(
+		'type' 			=> 'text',
+		'toggle_group'	=> 'applewatch-group desktopmac-comingsoon',
+		'id' 			=> 'applewatch_coming_soon_text',
+		'title'		 	=> __('Coming Soon Text', 'theme_admin'),
+		'description' 	=> __('Text describing that your app is coming soon', 'theme_admin'),
+		'default' 		=> 'Coming Soon',
+	),
+
+array(
+	'type' 			=> 'text',
+	'id' 			=> 'applewatch_appstore_url',
+	'toggle_group'  => 'applewatch-group',
+	'title'		 	=> __('Apple Watch URL', 'theme_admin'),
+	'description' 	=> __('Enter the URL of your Apple Watch app in the app store. This will link your visitors to buy your app. (include http://)
+	', 'theme_admin'),
+),
+
+array(
+	'type' 			=> 'text',
+	'toggle_group'	=> 'applewatch-group',
+	'id' 			=> 'applewatch_price',
+	'title'		 	=> __('Price', 'theme_admin'),
+	'description' 	=> __('Enter the price of your app in the app store (include currency symbol)
+	', 'theme_admin'),
+),
+
+array(
+	'type' 			=> 'radio_img',
+	'id' 			=> 'applewatch_effect',
+	'toggle' 		=> 'toggle-effect-applewatch',
+	'toggle_group'  => 'applewatch-group',
+	'title' 		=> __('Apple Watch Showcase Type', 'theme_admin'),
+	'description' 	=> 'Select how you would like to showcase your Apple Watch app',
+	'default' 		=> 'slideshow',
+	'options' 		=> array(
+		'slideshow' 	=> __('Slideshow', 'theme_admin'),
+		'video' 	=> __('Video', 'theme_admin'),
+	),
+	'images' => array(
+		'slideshow' 	=> 'slideshow.png',
+		'video' 	=> 'video.png',
+	)
+),
+array(
+	'type' 			=> 'images',
+	'id' 			=> 'applewatch_slideshow_images',
+	'toggle_group' 	=> 'toggle-effect-applewatch toggle-effect-applewatch-slideshow applewatch-group',
+	'title' 		=> __('Images or screenshots for Apple Watch slideshow', 'theme_admin'),
+	'description' 	=> ''
+),
+array(
+	'type' 			=> 'text',
+	'id' 			=> 'applewatch_video_id',
+	'toggle_group' 	=> 'toggle-effect-applewatch toggle-effect-applewatch-video applewatch-group',
+	'title' 		=> __('Video ID', 'theme_admin'),
+	'description' 	=> __('YouTube Video ID (the alphanumeric code after "v=" in the url) or Vimeo video ID (numeric code at the end of the url)', 'theme_admin')
+),
+
+
+// Mac Desktop
+
+array(
+	'type' 	=> 'separator',
+	'title' => __('Mac Desktop', 'theme_admin')
+),
+
+array(
+	'type' 			=> 'on_off',
+	'id' 			=> 'desktopmac',
+	'toggle' 		=> 'desktopmac-group',
+	'title'		 	=> __('Mac Desktop', 'theme_admin'),
+	'description' 	=> '',
+	'default' 		=> array(),
+),
+
+array(
+	'type' 			=> 'checkbox',
+	'id' 			=> 'desktopmac_default',
+	'classgroup'	=>  'isdefaultplatform',
+	'toggle_group'  => 'desktopmac-group',
+	'title'		 	=> __('Make Mac Desktop the Default Platform?', 'theme_admin'),
+	'description' 	=> __('Make the Mac Desktop App visible by default when someone visits this app page. If your visitor is browsing on a device that matches one of your enabled platforms, the default platform is ignored.', 'theme_admin'),
+	'default' 		=> 'unchecked',
+),
+
+array(
+	'type' 			=> 'textarea',
+	'id' 			=> 'desktopmac_description',
+	'toggle_group' => 'desktopmac-group',
+	'title'		 	=> __('Mac Desktop specific description text', 'theme_admin'),
+	'description' 	=> __('Add specific description text for the Mac Desktop', 'theme_admin'),
+),
+	
+array(
+	'type' 			=> 'on_off',
+	'id' 			=> 'desktopmac_coming_soon',
+	'toggle'		=>  'desktopmac-comingsoon',
+	'toggle_group' => 'desktopmac-group',
+	'title'		 	=> __('Coming Soon Mode', 'theme_admin'),
+	'description' 	=> __('If "ON", a "Coming Soon" button will display in place of the app store button.', 'theme_admin'),
+	'default' 		=> 'unchecked',
+),
+
+	array(
+		'type' 			=> 'text',
+		'toggle_group'	=> 'desktopmac-group desktopmac-comingsoon',
+		'id' 			=> 'desktopmac_coming_soon_text',
+		'title'		 	=> __('Coming Soon Text', 'theme_admin'),
+		'description' 	=> __('Text describing that your app is coming soon', 'theme_admin'),
+		'default' 		=> 'Coming Soon',
+	),
+
+array(
+	'type' 			=> 'text',
+	'id' 			=> 'desktopmac_appstore_url',
+	'toggle_group'  => 'desktopmac-group',
+	'title'		 	=> __('Mac Desktop URL', 'theme_admin'),
+	'description' 	=> __('Enter the URL of your Mac Desktop app in the app store. This will link your visitors to buy your app. (include http://)
+	', 'theme_admin'),
+),
+
+array(
+	'type' 			=> 'text',
+	'toggle_group'	=> 'desktopmac-group',
+	'id' 			=> 'desktopmac_price',
+	'title'		 	=> __('Price', 'theme_admin'),
+	'description' 	=> __('Enter the price of your app in the app store (include currency symbol)
+	', 'theme_admin'),
+),
+
+array(
+	'type' 			=> 'radio_img',
+	'id' 			=> 'desktopmac_effect',
+	'toggle' 		=> 'toggle-effect-desktopmac',
+	'toggle_group'  => 'desktopmac-group',
+	'title' 		=> __('Mac Desktop Showcase Type', 'theme_admin'),
+	'description' 	=> 'Select how you would like to showcase your Mac Desktop app',
+	'default' 		=> 'slideshow',
+	'options' 		=> array(
+		'slideshow' 	=> __('Slideshow', 'theme_admin'),
+		'video' 	=> __('Video', 'theme_admin'),
+	),
+	'images' => array(
+		'slideshow' 	=> 'slideshow.png',
+		'video' 	=> 'video.png',
+	)
+),
+array(
+	'type' 			=> 'images',
+	'id' 			=> 'desktopmac_slideshow_images',
+	'toggle_group' 	=> 'toggle-effect-desktopmac toggle-effect-desktopmac-slideshow desktopmac-group',
+	'title' 		=> __('Images or screenshots for Mac Desktop slideshow', 'theme_admin'),
+	'description' 	=> ''
+),
+array(
+	'type' 			=> 'text',
+	'id' 			=> 'desktopmac_video_id',
+	'toggle_group' 	=> 'toggle-effect-desktopmac toggle-effect-desktopmac-video desktopmac-group',
+	'title' 		=> __('Video ID', 'theme_admin'),
+	'description' 	=> __('YouTube Video ID (the alphanumeric code after "v=" in the url) or Vimeo video ID (numeric code at the end of the url)', 'theme_admin')
+),
+
 
 
 // Android Phone
@@ -900,6 +1213,110 @@ array(
 
 
 
+// Windows Desktop
+
+array(
+	'type' 	=> 'separator',
+	'title' => __('Windows Desktop', 'theme_admin')
+),
+
+array(
+	'type' 			=> 'on_off',
+	'id' 			=> 'desktoppc',
+	'toggle' 		=> 'desktoppc-group',
+	'title'		 	=> __('Windows Desktop', 'theme_admin'),
+	'description' 	=> '',
+	'default' 		=> array(),
+),
+
+array(
+	'type' 			=> 'checkbox',
+	'id' 			=> 'desktoppc_default',
+	'classgroup'	=>  'isdefaultplatform',
+	'toggle_group'  => 'desktoppc-group',
+	'title'		 	=> __('Make Windows Desktop the Default Platform?', 'theme_admin'),
+	'description' 	=> __('Make the Windows Desktop App visible by default when someone visits this app page. If your visitor is browsing on a device that matches one of your enabled platforms, the default platform is ignored.', 'theme_admin'),
+	'default' 		=> 'unchecked',
+),
+
+array(
+	'type' 			=> 'textarea',
+	'id' 			=> 'desktoppc_description',
+	'toggle_group' => 'desktoppc-group',
+	'title'		 	=> __('Windows Desktop specific description text', 'theme_admin'),
+	'description' 	=> __('Add specific description text for the Windows Desktop', 'theme_admin'),
+),
+	
+array(
+	'type' 			=> 'on_off',
+	'id' 			=> 'desktoppc_coming_soon',
+	'toggle'		=>  'desktoppc-comingsoon',
+	'toggle_group' => 'desktoppc-group',
+	'title'		 	=> __('Coming Soon Mode', 'theme_admin'),
+	'description' 	=> __('If "ON", a "Coming Soon" button will display in place of the app store button.', 'theme_admin'),
+	'default' 		=> 'unchecked',
+),
+
+	array(
+		'type' 			=> 'text',
+		'toggle_group'	=> 'desktoppc-group desktoppc-comingsoon',
+		'id' 			=> 'desktoppc_coming_soon_text',
+		'title'		 	=> __('Coming Soon Text', 'theme_admin'),
+		'description' 	=> __('Text describing that your app is coming soon', 'theme_admin'),
+		'default' 		=> 'Coming Soon',
+	),
+
+array(
+	'type' 			=> 'text',
+	'id' 			=> 'desktoppc_appstore_url',
+	'toggle_group'  => 'desktoppc-group',
+	'title'		 	=> __('Windows Desktop Download URL', 'theme_admin'),
+	'description' 	=> __('Enter the URL of your Windows Desktop app in the app store. This will link your visitors to buy your app. (include http://)
+	', 'theme_admin'),
+),
+
+array(
+	'type' 			=> 'text',
+	'toggle_group'	=> 'desktoppc-group',
+	'id' 			=> 'desktoppc_price',
+	'title'		 	=> __('Price', 'theme_admin'),
+	'description' 	=> __('Enter the price of your app in the app store (include currency symbol)
+	', 'theme_admin'),
+),
+
+array(
+	'type' 			=> 'radio_img',
+	'id' 			=> 'desktoppc_effect',
+	'toggle' 		=> 'toggle-effect-desktoppc',
+	'toggle_group'  => 'desktoppc-group',
+	'title' 		=> __('Windows Desktop Showcase Type', 'theme_admin'),
+	'description' 	=> 'Select how you would like to showcase your Windows Desktop app',
+	'default' 		=> 'slideshow',
+	'options' 		=> array(
+		'slideshow' 	=> __('Slideshow', 'theme_admin'),
+		'video' 	=> __('Video', 'theme_admin'),
+	),
+	'images' => array(
+		'slideshow' 	=> 'slideshow.png',
+		'video' 	=> 'video.png',
+	)
+),
+array(
+	'type' 			=> 'images',
+	'id' 			=> 'desktoppc_slideshow_images',
+	'toggle_group' 	=> 'toggle-effect-desktoppc toggle-effect-desktoppc-slideshow desktoppc-group',
+	'title' 		=> __('Images or screenshots for Windows Desktop slideshow', 'theme_admin'),
+	'description' 	=> ''
+),
+array(
+	'type' 			=> 'text',
+	'id' 			=> 'desktoppc_video_id',
+	'toggle_group' 	=> 'toggle-effect-desktoppc toggle-effect-desktoppc-video desktoppc-group',
+	'title' 		=> __('Video ID', 'theme_admin'),
+	'description' 	=> __('YouTube Video ID (the alphanumeric code after "v=" in the url) or Vimeo video ID (numeric code at the end of the url)', 'theme_admin')
+),
+
+
 
 
 
@@ -1022,218 +1439,12 @@ array(
 
 
 
-// Mac Desktop
-
-array(
-	'type' 	=> 'separator',
-	'title' => __('Mac Desktop', 'theme_admin')
-),
-
-array(
-	'type' 			=> 'on_off',
-	'id' 			=> 'desktopmac',
-	'toggle' 		=> 'desktopmac-group',
-	'title'		 	=> __('Mac Desktop', 'theme_admin'),
-	'description' 	=> '',
-	'default' 		=> array(),
-),
-
-array(
-	'type' 			=> 'checkbox',
-	'id' 			=> 'desktopmac_default',
-	'classgroup'	=>  'isdefaultplatform',
-	'toggle_group'  => 'desktopmac-group',
-	'title'		 	=> __('Make Mac Desktop the Default Platform?', 'theme_admin'),
-	'description' 	=> __('Make the Mac Desktop App visible by default when someone visits this app page. If your visitor is browsing on a device that matches one of your enabled platforms, the default platform is ignored.', 'theme_admin'),
-	'default' 		=> 'unchecked',
-),
-
-array(
-	'type' 			=> 'textarea',
-	'id' 			=> 'desktopmac_description',
-	'toggle_group' => 'desktopmac-group',
-	'title'		 	=> __('Mac Desktop specific description text', 'theme_admin'),
-	'description' 	=> __('Add specific description text for the Mac Desktop', 'theme_admin'),
-),
-	
-array(
-	'type' 			=> 'on_off',
-	'id' 			=> 'desktopmac_coming_soon',
-	'toggle'		=>  'desktopmac-comingsoon',
-	'toggle_group' => 'desktopmac-group',
-	'title'		 	=> __('Coming Soon Mode', 'theme_admin'),
-	'description' 	=> __('If "ON", a "Coming Soon" button will display in place of the app store button.', 'theme_admin'),
-	'default' 		=> 'unchecked',
-),
-
-	array(
-		'type' 			=> 'text',
-		'toggle_group'	=> 'desktopmac-group desktopmac-comingsoon',
-		'id' 			=> 'desktopmac_coming_soon_text',
-		'title'		 	=> __('Coming Soon Text', 'theme_admin'),
-		'description' 	=> __('Text describing that your app is coming soon', 'theme_admin'),
-		'default' 		=> 'Coming Soon',
-	),
-
-array(
-	'type' 			=> 'text',
-	'id' 			=> 'desktopmac_appstore_url',
-	'toggle_group'  => 'desktopmac-group',
-	'title'		 	=> __('Mac Desktop URL', 'theme_admin'),
-	'description' 	=> __('Enter the URL of your Mac Desktop app in the app store. This will link your visitors to buy your app. (include http://)
-	', 'theme_admin'),
-),
-
-array(
-	'type' 			=> 'text',
-	'toggle_group'	=> 'desktopmac-group',
-	'id' 			=> 'desktopmac_price',
-	'title'		 	=> __('Price', 'theme_admin'),
-	'description' 	=> __('Enter the price of your app in the app store (include currency symbol)
-	', 'theme_admin'),
-),
-
-array(
-	'type' 			=> 'radio_img',
-	'id' 			=> 'desktopmac_effect',
-	'toggle' 		=> 'toggle-effect-desktopmac',
-	'toggle_group'  => 'desktopmac-group',
-	'title' 		=> __('Mac Desktop Showcase Type', 'theme_admin'),
-	'description' 	=> 'Select how you would like to showcase your Mac Desktop app',
-	'default' 		=> 'slideshow',
-	'options' 		=> array(
-		'slideshow' 	=> __('Slideshow', 'theme_admin'),
-		'video' 	=> __('Video', 'theme_admin'),
-	),
-	'images' => array(
-		'slideshow' 	=> 'slideshow.png',
-		'video' 	=> 'video.png',
-	)
-),
-array(
-	'type' 			=> 'images',
-	'id' 			=> 'desktopmac_slideshow_images',
-	'toggle_group' 	=> 'toggle-effect-desktopmac toggle-effect-desktopmac-slideshow desktopmac-group',
-	'title' 		=> __('Images or screenshots for Mac Desktop slideshow', 'theme_admin'),
-	'description' 	=> ''
-),
-array(
-	'type' 			=> 'text',
-	'id' 			=> 'desktopmac_video_id',
-	'toggle_group' 	=> 'toggle-effect-desktopmac toggle-effect-desktopmac-video desktopmac-group',
-	'title' 		=> __('Video ID', 'theme_admin'),
-	'description' 	=> __('YouTube Video ID (the alphanumeric code after "v=" in the url) or Vimeo video ID (numeric code at the end of the url)', 'theme_admin')
-),
 
 
 
 
 
-// Windows Desktop
 
-array(
-	'type' 	=> 'separator',
-	'title' => __('Windows Desktop', 'theme_admin')
-),
-
-array(
-	'type' 			=> 'on_off',
-	'id' 			=> 'desktoppc',
-	'toggle' 		=> 'desktoppc-group',
-	'title'		 	=> __('Windows Desktop', 'theme_admin'),
-	'description' 	=> '',
-	'default' 		=> array(),
-),
-
-array(
-	'type' 			=> 'checkbox',
-	'id' 			=> 'desktoppc_default',
-	'classgroup'	=>  'isdefaultplatform',
-	'toggle_group'  => 'desktoppc-group',
-	'title'		 	=> __('Make Windows Desktop the Default Platform?', 'theme_admin'),
-	'description' 	=> __('Make the Windows Desktop App visible by default when someone visits this app page. If your visitor is browsing on a device that matches one of your enabled platforms, the default platform is ignored.', 'theme_admin'),
-	'default' 		=> 'unchecked',
-),
-
-array(
-	'type' 			=> 'textarea',
-	'id' 			=> 'desktoppc_description',
-	'toggle_group' => 'desktoppc-group',
-	'title'		 	=> __('Windows Desktop specific description text', 'theme_admin'),
-	'description' 	=> __('Add specific description text for the Windows Desktop', 'theme_admin'),
-),
-	
-array(
-	'type' 			=> 'on_off',
-	'id' 			=> 'desktoppc_coming_soon',
-	'toggle'		=>  'desktoppc-comingsoon',
-	'toggle_group' => 'desktoppc-group',
-	'title'		 	=> __('Coming Soon Mode', 'theme_admin'),
-	'description' 	=> __('If "ON", a "Coming Soon" button will display in place of the app store button.', 'theme_admin'),
-	'default' 		=> 'unchecked',
-),
-
-	array(
-		'type' 			=> 'text',
-		'toggle_group'	=> 'desktoppc-group desktoppc-comingsoon',
-		'id' 			=> 'desktoppc_coming_soon_text',
-		'title'		 	=> __('Coming Soon Text', 'theme_admin'),
-		'description' 	=> __('Text describing that your app is coming soon', 'theme_admin'),
-		'default' 		=> 'Coming Soon',
-	),
-
-array(
-	'type' 			=> 'text',
-	'id' 			=> 'desktoppc_appstore_url',
-	'toggle_group'  => 'desktoppc-group',
-	'title'		 	=> __('Windows Desktop Download URL', 'theme_admin'),
-	'description' 	=> __('Enter the URL of your Windows Desktop app in the app store. This will link your visitors to buy your app. (include http://)
-	', 'theme_admin'),
-),
-
-array(
-	'type' 			=> 'text',
-	'toggle_group'	=> 'desktoppc-group',
-	'id' 			=> 'desktoppc_price',
-	'title'		 	=> __('Price', 'theme_admin'),
-	'description' 	=> __('Enter the price of your app in the app store (include currency symbol)
-	', 'theme_admin'),
-),
-
-array(
-	'type' 			=> 'radio_img',
-	'id' 			=> 'desktoppc_effect',
-	'toggle' 		=> 'toggle-effect-desktoppc',
-	'toggle_group'  => 'desktoppc-group',
-	'title' 		=> __('Windows Desktop Showcase Type', 'theme_admin'),
-	'description' 	=> 'Select how you would like to showcase your Windows Desktop app',
-	'default' 		=> 'slideshow',
-	'options' 		=> array(
-		'slideshow' 	=> __('Slideshow', 'theme_admin'),
-		'video' 	=> __('Video', 'theme_admin'),
-	),
-	'images' => array(
-		'slideshow' 	=> 'slideshow.png',
-		'video' 	=> 'video.png',
-	)
-),
-array(
-	'type' 			=> 'images',
-	'id' 			=> 'desktoppc_slideshow_images',
-	'toggle_group' 	=> 'toggle-effect-desktoppc toggle-effect-desktoppc-slideshow desktoppc-group',
-	'title' 		=> __('Images or screenshots for Windows Desktop slideshow', 'theme_admin'),
-	'description' 	=> ''
-),
-array(
-	'type' 			=> 'text',
-	'id' 			=> 'desktoppc_video_id',
-	'toggle_group' 	=> 'toggle-effect-desktoppc toggle-effect-desktoppc-video desktoppc-group',
-	'title' 		=> __('Video ID', 'theme_admin'),
-	'description' 	=> __('YouTube Video ID (the alphanumeric code after "v=" in the url) or Vimeo video ID (numeric code at the end of the url)', 'theme_admin')
-),
-	
-		
-	
 );
 new metaboxes_tool($config,$options);
 

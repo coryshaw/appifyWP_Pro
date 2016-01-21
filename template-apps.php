@@ -49,6 +49,8 @@ if (have_posts() ) ;?>
 
 			$iphone = get_post_meta($post->ID, 'platforms_iphone', true);
 			$ipad = get_post_meta($post->ID, 'platforms_ipad', true);
+			$appletv = get_post_meta($post->ID, 'platforms_appletv', true);
+			$applewatch = get_post_meta($post->ID, 'platforms_applewatch', true);
 			$androidPhone = get_post_meta($post->ID, 'platforms_android_phone', true);
 			$androidTablet = get_post_meta($post->ID, 'platforms_android_tablet', true);
 			$windowspPhone = get_post_meta($post->ID, 'platforms_windowsphone', true);
@@ -93,6 +95,14 @@ if (have_posts() ) ;?>
 				"desktoppc"=> array(
 					'name'	=>	'Windows Desktop',
 					'value'	=>	$desktoppc
+				),
+				"applewatch"	=> array(
+					'name'	=>	'Apple Watch',
+					'value'	=>	$applewatch
+				),
+				"appletv"	=> array(
+					'name'	=>	'Apple TV',
+					'value'	=>	$appletv
 				),
 
 			);

@@ -79,12 +79,14 @@
 
 	$iphone = get_post_meta($post->ID, 'platforms_iphone', true);
 	$ipad = get_post_meta($post->ID, 'platforms_ipad', true);
+	$desktopmac = get_post_meta($post->ID, 'platforms_desktopmac', true);
+	$appletv = get_post_meta($post->ID, 'platforms_appletv', true);
+	$applewatch = get_post_meta($post->ID, 'platforms_applewatch', true);
 	$androidPhone = get_post_meta($post->ID, 'platforms_android_phone', true);
 	$androidTablet = get_post_meta($post->ID, 'platforms_android_tablet', true);
 	$windowspPhone = get_post_meta($post->ID, 'platforms_windowsphone', true);
 	$windowspTablet = get_post_meta($post->ID, 'platforms_windowstablet', true);
 	$blackberry = get_post_meta($post->ID, 'platforms_blackberry', true);
-	$desktopmac = get_post_meta($post->ID, 'platforms_desktopmac', true);
 	$desktoppc = get_post_meta($post->ID, 'platforms_desktoppc', true);
 	
 	$platforms = array(
@@ -95,6 +97,14 @@
 		"ipad"	=> array(
 			'name'	=>	'iPad',
 			'value'	=>	$ipad
+		),
+		"applewatch"	=> array(
+			'name'	=>	'Apple Watch',
+			'value'	=>	$applewatch
+		),
+		"appletv"	=> array(
+			'name'	=>	'Apple TV',
+			'value'	=>	$appletv
 		),
 		"android_phone"	=> array(
 			'name'	=>	'Android Phone',

@@ -1222,7 +1222,7 @@ a.caldisabled {
 label[for=platforms-iphone], label[for=platforms-blackberry] {
   min-width: 100px;
   height: 45px;
-  padding-top: 25px;
+  padding-top: 10px;
   font-size: 15px;
 
   &:before {
@@ -1234,14 +1234,18 @@ label[for=platforms-iphone], label[for=platforms-blackberry] {
 	width: 50px;
 	text-align: center;
 	font-weight: normal;
+	position: relative;
+	top: 15px;
+	padding-bottom: 10px;
   }
 }
 
 label[for=platforms-ipad] {
-  min-width: 100px;
-  height: 45px;
-  padding-top: 25px;
-  font-size: 15px;
+    min-width: 100px;
+    height: 45px;
+    padding-top: 14px;
+    font-size: 15px;
+    padding-bottom: 9px;
 
   &:before {
   	font-family: FontAwesome;
@@ -1252,13 +1256,15 @@ label[for=platforms-ipad] {
 	width: 50px;
 	text-align: center;
 	font-weight: normal;
+	position: relative;
+	top: 17px;
   }
 }
 
 label[for=platforms-android_tablet], label[for=platforms-android_phone] {
   min-width: 100px;
   height: 45px;
-  padding-top: 25px;
+  padding-top: 15px;
   font-size: 15px;
 
   &:before {
@@ -1269,6 +1275,8 @@ label[for=platforms-android_tablet], label[for=platforms-android_phone] {
 	font-weight: normal;
 	text-align: center;
 	width: 50px;
+	position: relative;
+	top: 11px;
 	}
 }
 
@@ -1276,7 +1284,7 @@ label[for=platforms-android_tablet], label[for=platforms-android_phone] {
 label[for=platforms-windowsphone], label[for=platforms-windowstablet], label[for=platforms-desktoppc] {
   min-width: 100px;
   height: 45px;
-  padding-top: 25px;
+  padding-top: 15px;
   font-size: 15px;
 
   &:before {
@@ -1287,6 +1295,8 @@ label[for=platforms-windowsphone], label[for=platforms-windowstablet], label[for
 	width: 50px;
 	text-align: center;
 	font-weight: normal;
+	position: relative;
+	top: 7px;
   }
 }
 
@@ -1294,23 +1304,24 @@ label[for=platforms-desktoppc] {
 	font-size: 13px;
 }
 
-label[for=platforms-desktopmac] {
-  min-width: 100px;
-  height: 45px;
-  padding-top: 25px;
-  font-size: 15px;
+label[for=platforms-desktopmac], label[for=platforms-appletv], label[for=platforms-applewatch] {
+	min-width: 100px;
+	height: 45px;
+	padding-top: 19px;
+	font-size: 15px;
 
-  &:before {
-  	font-family: FontAwesome;
-	font-size: 2.5em;
-	display: inline-block;
-	content: "\F179";
-	width: 50px;
-	text-align: center;
-	font-weight: normal;
-  }
+	&:before {
+		font-family: FontAwesome;
+		font-size: 2.5em;
+		display: inline-block;
+		content: "\F179";
+		width: 50px;
+		text-align: center;
+		font-weight: normal;
+		top: 7px;
+    	position: relative;
+	}
 }
-
 
 
 .iPhoneCheckContainer {

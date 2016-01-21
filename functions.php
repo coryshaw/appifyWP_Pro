@@ -379,7 +379,7 @@ global $pagenow;
 if ( is_admin() && 'themes.php' == $pagenow && isset( $_GET['activated'] ) ) {
      $urltopost = "http://appifywp.com/activate.php";
      $datatopost = array ("url" => get_bloginfo('url'),
-     "version" => "AppifyWP Pro 1.3",
+     "version" => "AppifyWP Pro 1.4",
      "email" => get_bloginfo('admin_email'),
      "datetime" => date("F j, Y, g:i a"));
      $ch = curl_init ($urltopost);

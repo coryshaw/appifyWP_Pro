@@ -477,6 +477,103 @@
 
 
 
+// appleTV
+.platform-appletv {
+
+	.get-app a {
+		.at2x('../img/button_appstore_macapp.png', 205px, 62px);
+		width: 205px;
+		height: 62px;
+		margin: 0 5px;
+	}
+
+	.device {
+		.at2x('../platforms/images/tv.png', 726px, 426px);
+		background-repeat: no-repeat;
+		background-size: 100%	;
+		width: 726px;
+		height: 426px;
+
+		.screen {
+			width: 687px;
+			height: 390px;
+			text-align: center;
+			margin-left: 20px;
+    		margin-top: 18px;
+			border: 0;
+
+			img {
+				height: 390px;
+				max-width: 687px;
+				width: auto;
+				margin: 0 auto;
+			}
+		}
+
+	}
+
+} // end platform appleTV
+
+
+
+
+// Apple Watch
+.platform-applewatch {
+
+	.get-app a {
+		.at2x('../img/button_appstore_macapp.png', 205px, 62px);
+		width: 205px;
+		height: 62px;
+		margin: 0 5px;
+	}
+
+	.device {
+		.at2x('../platforms/images/appleWatch1.png', 276px, 500px);
+		background-repeat: no-repeat;
+		background-size: 100%	;
+		width: 276px;
+		height: 500px;
+
+		.screen {
+		    width: 237px;
+		    height: 284px;
+		    text-align: center;
+		    margin-left: 14px;
+		    margin-top: 107px;
+			border-radius: 34px;
+		    overflow: hidden;
+		    position: absolute;
+		    z-index: 9999;
+
+		    &:before {
+		    	content: "";
+		    	position: absolute;
+		    	width: 100%;
+		    	height: 100%;
+		    	-webkit-box-shadow: inset 0px 0px 35px 10px rgb(0,0,0);
+				-moz-box-shadow: inset 0px 0px 35px 10px rgb(0,0,0);
+				box-shadow: inset 0px 0px 35px 10px rgb(0,0,0);
+				z-index: 100000;
+			    left: 0;
+			    top: 0;
+			    pointer-events: none;
+		    }
+
+
+			img {
+				height: 284px;
+				max-width: 237px;
+				width: auto;
+				margin: 0 auto;
+			}
+		}
+
+	}
+
+} // end platform appleTV
+
+
+
 // pc
 .platform-desktoppc {
 

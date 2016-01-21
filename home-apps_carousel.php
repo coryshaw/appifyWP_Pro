@@ -112,6 +112,8 @@ $detect = new Mobile_Detect();
 			$blackberry = get_post_meta($post->ID, 'platforms_blackberry', true);
 			$desktopmac = get_post_meta($post->ID, 'platforms_desktopmac', true);
 			$desktoppc = get_post_meta($post->ID, 'platforms_desktoppc', true);
+			$appletv = get_post_meta($post->ID, 'platforms_appletv', true);
+			$applewatch = get_post_meta($post->ID, 'platforms_applewatch', true);
 			
 			$platforms = array(
 				"iphone"	=>	array(
@@ -149,6 +151,14 @@ $detect = new Mobile_Detect();
 				"desktoppc"=> array(
 					'name'	=>	'Windows Desktop',
 					'value'	=>	$desktoppc
+				),
+				"applewatch"	=> array(
+					'name'	=>	'appleWatch',
+					'value'	=>	$applewatch
+				),
+				"appleTv"	=> array(
+					'name'	=>	'appleTv',
+					'value'	=>	$appletv
 				),
 
 			);
